@@ -1,2 +1,13 @@
 #where all model weights are located
-checkpoint/*
+checkpoint/gloss_bert/config.json
+checkpoint/gloss_bert/pytorch_model.bin
+checkpoint/gloss_bert/Sent_CLS_WS.zip
+checkpoint/gloss_bert/vocab.txt
+
+checkpoint/similarity_new_bert/0_Transformer/*
+checkpoint/similarity_new_bert/1_Pooling/*
+checkpoint/similarity_new_bert/config.json
+checkpoint/similarity_new_bert/download.sh
+checkpoint/similarity_new_bert/modules.json
+checkpoint/similarity_new_bert/similarity_new_bert4.tar.xz
+
