@@ -126,6 +126,7 @@ if __name__ == "__main__":
     else:
         proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
         proposal.get_possible_words()
+        proposal.get_possible_multitoken_words()
         proposal_flag = False
     if proposal_flag and args.proposed_score:
         proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
@@ -181,7 +182,6 @@ if __name__ == "__main__":
     final2 = {}
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
-            print(f"instance {instance} en cours")
             for context in reader.words_candidate[main_word][instance]:
 
                 change_word = context[0]
@@ -225,6 +225,21 @@ if __name__ == "__main__":
                             if len(synonyms) == 0:
                                 # 91- do not have wordnet synonyms in LS14
                                 noise_type = "GAUSSIAN"
+                            
+                        score_dict = proposal.compute_multitoken_candidates_proposal_score_dict(original_text, change_word, int(index_word),
+                                                                      noise_type=args.noise_type, synonyms=synonyms,
+                                                                      proposed_words_temp=proposed_words, top_k=30)
+                        
+                        import matplotlib.pyplot as plt
+                        import numpy as np
+                        plt.subplot(1,3,1)
+                        plt.hist(np.log10(list(score_dict[2].values())),bins=30)
+                        plt.subplot(1,3,2)
+                        plt.hist(np.log10(list(score_dict[4].values())),bins=30)
+                        plt.subplot(1,3,3)
+                        plt.hist(np.log10(list(score_dict[5].values())),bins=30)
+                        plt.show()
+                        input("next")
 
                         proposed_words = proposal.proposed_candidates(original_text, change_word, int(index_word),
                                                                       noise_type=args.noise_type, synonyms=synonyms,
