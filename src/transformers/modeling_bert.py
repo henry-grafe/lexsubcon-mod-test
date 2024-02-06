@@ -172,14 +172,14 @@ class BertEmbeddings(nn.Module):
         self.LayerNorm = BertLayerNorm(config.hidden_size, eps=config.layer_norm_eps)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
 
-        self.dropout_embedding = nn.Dropout(0.3)
+        self. dropout_embedding = nn.Dropout(0.3)
 
         self.noise = AddGaussianNoise()
         self.embedding_dropout_layer = nn.Dropout(p=0.3)
 
     def forward(self, input_ids=None, word_index=None, token_type_ids=None, position_ids=None, noise_type=None,
                 inputs_embeds=None,
-                input_ids_synonyms=None, lambda_variable=0.25):
+                input_ids_synonyms=None, lambda_variable=0.25, target_word_ids=None):
         if input_ids is not None:
             input_shape = input_ids.size()
         else:
@@ -196,9 +196,11 @@ class BertEmbeddings(nn.Module):
         inputs_embeds_synonyms = None
         if inputs_embeds is None:
             inputs_embeds = self.word_embeddings(input_ids)
-            if noise_type == "GAUSSIAN":
+            if noise_type == "GAUSSIAN" or noise_type == "PRUNE-GAUSSIAN":
                 inputs_embeds[0][word_index] = self.noise(inputs_embeds[0][word_index])
-            elif noise_type == "GLOSS":
+            elif noise_type == "GLOSS" or noise_type == "PRUNE-GLOSS":
+                print("we are in GLOSS embeddings of BERT")
+                print(input_ids_synonyms)
                 if input_ids_synonyms is not None:
                     if len(input_ids_synonyms) > 0:
                         for index_id in range(0, len(input_ids_synonyms)):
@@ -218,7 +220,7 @@ class BertEmbeddings(nn.Module):
                     else:
                         print("synonyms not found")
                         exit(5)
-            elif noise_type == "DROPOUT":
+            elif noise_type == "DROPOUT" or noise_type == "PRUNE-DROPOUT":
                 if not self.dropout_embedding.training:
                     self.dropout_embedding.train()
                 inputs_embeds[0][word_index] = self.dropout_embedding(inputs_embeds[0][word_index])
@@ -709,7 +711,8 @@ class BertModel(BertPreTrainedModel):
             output_attentions=None,
             input_ids_synonyms=None,
             word_index=None,
-            noise_type=None
+            noise_type=None,
+            target_word_ids=None
     ):
         r"""
     Return:
@@ -794,7 +797,8 @@ class BertModel(BertPreTrainedModel):
         embedding_output = self.embeddings(
             input_ids=input_ids, position_ids=position_ids, token_type_ids=token_type_ids, noise_type=noise_type,
             inputs_embeds=inputs_embeds,
-            input_ids_synonyms=input_ids_synonyms, word_index=word_index
+            input_ids_synonyms=input_ids_synonyms, word_index=word_index, 
+            target_word_ids=target_word_ids
         )
         encoder_outputs = self.encoder(
             embedding_output,
@@ -1072,6 +1076,7 @@ class BertForMaskedLM(BertPreTrainedModel):
             output_attentions=None,
             input_ids_synonyms=None,
             word_index=None,
+            target_word_ids=None,
             **kwargs
     ):
         r"""
@@ -1137,6 +1142,7 @@ class BertForMaskedLM(BertPreTrainedModel):
             output_attentions=output_attentions,
             word_index=word_index,
             noise_type=noise_type,
+            target_word_ids=target_word_ids
         )
 
         sequence_output = outputs[0]

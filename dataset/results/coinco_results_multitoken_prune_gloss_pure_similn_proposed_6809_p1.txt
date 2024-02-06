@@ -1,0 +1,564 @@
+RESULT	disgruntled.J 70	discontent
+RESULT	erode.V 75	erosion
+RESULT	e commerce.J 125	trade
+RESULT	e commerce.J 4226	business
+RESULT	e commerce.J 5138	international
+RESULT	e commerce.J 12334	trade
+RESULT	tender.V 306	proffer
+RESULT	wiretap.N 456	call
+RESULT	wiretap.N 1671	call
+RESULT	wiretap.N 11662	surveillance
+RESULT	wiretap.N 12114	media
+RESULT	curtail.V 496	limited
+RESULT	concede.V 601	admit
+RESULT	groundswell.N 610	backing
+RESULT	groundswell.N 11346	any
+RESULT	knowledgeable.J 664	versed
+RESULT	knowledgeable.J 765	intelligent
+RESULT	complement.V 681	compliment
+RESULT	victimize.V 698	victimise
+RESULT	nonmedically.R 724	un
+RESULT	nonmedically.R 3666	un
+RESULT	prescriber.N 728	user
+RESULT	prescriber.N 3670	administration
+RESULT	prescriber.N 13007	practitioner
+RESULT	seabass.N 759	navy
+RESULT	seabass.N 817	seaside
+RESULT	seabass.N 850	bay
+RESULT	seabass.N 1695	bay
+RESULT	seabass.N 1771	bay
+RESULT	seabass.N 2189	marine
+RESULT	seabass.N 2956	crab
+RESULT	seabass.N 3564	bay
+RESULT	seabass.N 4018	aqua
+RESULT	seabass.N 6129	ocean
+RESULT	seabass.N 10684	navy
+RESULT	seabass.N 10707	atlantic
+RESULT	seabass.N 11186	marine
+RESULT	seabass.N 11693	marine
+RESULT	seabass.N 12374	bay
+RESULT	seabass.N 14583	marine
+RESULT	noncommittal.J 859	blank
+RESULT	mmm mm.J 860	och
+RESULT	mmm mm.J 2557	um
+RESULT	scapegoat.N 881	victim
+RESULT	unfairly.R 885	wrongly
+RESULT	contend.V 895	challenge
+RESULT	revolutionize.V 1026	revolutionise
+RESULT	billboard.N 1048	poster
+RESULT	billboard.N 2034	poster
+RESULT	environmentalist.N 1075	environmentally
+RESULT	environmentalist.N 14428	environmentally
+RESULT	dollop.N 1089	handful
+RESULT	dollop.N 8518	stick
+RESULT	dollop.N 15161	glass
+RESULT	caviar.N 1090	sake
+RESULT	caviar.N 5616	rice
+RESULT	overfish.V 1329	about
+RESULT	overfish.V 8653	about
+RESULT	unsuspecting.J 1389	unsuspicious
+RESULT	coverall.N 1402	coat
+RESULT	fabricate.V 1450	make up
+RESULT	cyclical.J 1653	cyclic
+RESULT	innovate.V 1658	create
+RESULT	innovate.V 7354	create
+RESULT	Co conspirator.J 1698	partner
+RESULT	Co conspirator.J 5187	con
+RESULT	Co conspirator.J 11495	group
+RESULT	Co conspirator.J 14777	group
+RESULT	legwork.N 1701	apparatus
+RESULT	legwork.N 5190	trip
+RESULT	overfishing.V 1715	predatory
+RESULT	motivational.N 1721	activation
+RESULT	motivational.N 11019	inspirational
+RESULT	bloodthirsty.N 1741	blooded
+RESULT	bloodthirsty.N 14293	blooded
+RESULT	swordfish.N 1769	spear
+RESULT	swordfish.N 4130	fish
+RESULT	swordfish.N 10705	spear
+RESULT	roughy.N 1773	coarse
+RESULT	roughy.N 10709	pollock
+RESULT	marlin.N 1774	marine
+RESULT	marlin.N 10710	marine
+RESULT	fab.N 1799	the
+RESULT	fab.N 2913	the
+RESULT	web.N 1876	network
+RESULT	erroneous.J 1891	ill
+RESULT	miscalculate.V 1993	misjudge
+RESULT	depreciation.N 2000	aspersion
+RESULT	medicalization.N 2053	medicine
+RESULT	mobster.N 2109	gangster
+RESULT	mobster.N 2618	gangster
+RESULT	mobster.N 3769	gangster
+RESULT	mobster.N 9349	gangster
+RESULT	mobster.N 12120	gangster
+RESULT	mobster.N 13263	gangster
+RESULT	mobster.N 13794	gangster
+RESULT	vindicate.N 2163	supporting
+RESULT	vindicate.N 8592	support
+RESULT	seafood.N 2295	saltwater fish
+RESULT	seafood.N 10021	saltwater fish
+RESULT	reinstal.V 2301	back
+RESULT	reinstal.V 10508	returned
+RESULT	renew.V 2324	refresh
+RESULT	renew.V 2325	refresh
+RESULT	expire.V 2330	run out
+RESULT	expire.V 2331	run out
+RESULT	rig.V 2410	manipulate
+RESULT	obscurity.N 2430	obscureness
+RESULT	monstrosity.N 2439	miscreation
+RESULT	vein.J 2445	colored
+RESULT	blue lit.J 2483	open
+RESULT	light catch.J 2486	bright
+RESULT	who know what.J 2488	what
+RESULT	rough hew.J 2491	ragged
+RESULT	gangly.R 2500	cop
+RESULT	windowsill.N 2503	sill
+RESULT	distort.V 2511	garble
+RESULT	engulf.N 2540	swamp
+RESULT	dial.V 2541	calling
+RESULT	lag.N 2555	fall
+RESULT	tablecloth.N 2560	table linen
+RESULT	prescribe.V 2589	administer
+RESULT	prescribe.V 4582	administer
+RESULT	prescribe.V 8914	legal
+RESULT	psychotropic.J 2590	psychoactive
+RESULT	psychotropic.J 4583	psychological
+RESULT	pharmacology.N 2598	posology
+RESULT	elegantly.R 2611	elegance
+RESULT	mannered.J 2612	spoken
+RESULT	strobe.N 2642	flash
+RESULT	strobe.N 8873	stroboscope
+RESULT	strobe.N 9036	stroboscope
+RESULT	strobe.N 12969	stroboscope
+RESULT	nonwaiver.N 2683	un
+RESULT	wade.V 2688	dipping
+RESULT	panel.J 2698	walled
+RESULT	recant.V 2735	retract
+RESULT	encrypt.V 2816	encipher
+RESULT	eavesdropping.N 2853	influence
+RESULT	<UNK>.N 2871	th
+RESULT	rib.J 2873	full
+RESULT	intestine.N 2874	bowel
+RESULT	unsettlingly.R 2879	too
+RESULT	sickly.R 2886	sickness
+RESULT	pallor.N 2887	pallidness
+RESULT	pallor.N 5461	pallidness
+RESULT	heartbeat strong.J 2888	round
+RESULT	kindred.J 2948	companion
+RESULT	bookkeeper.N 2980	clerk
+RESULT	murmur.V 3079	whispering
+RESULT	soil.V 3189	dirty
+RESULT	fringe.N 3261	periphery
+RESULT	crispy.N 3265	spicy
+RESULT	pancetta.N 3266	bread
+RESULT	candid.J 3293	frank
+RESULT	lawmaker.N 3299	legislator
+RESULT	hardship.N 3314	difficulty
+RESULT	hardship.N 7212	adversity
+RESULT	covering.N 3367	vesture
+RESULT	pickle.J 3410	picked
+RESULT	savory.N 3414	savoury
+RESULT	condiment.N 3415	spread
+RESULT	complicity.N 3427	participate
+RESULT	extort.V 3429	extract
+RESULT	spokeswoman.N 3575	spokesperson
+RESULT	flexibly.R 3583	around
+RESULT	invest.V 3595	expend
+RESULT	tweak.N 3699	transforming
+RESULT	salade.N 3700	sallet
+RESULT	mousse.N 3703	sac
+RESULT	mousse.N 10771	ice
+RESULT	chocolat.N 3705	pat
+RESULT	pecan.N 3710	de
+RESULT	pecan.N 10767	pi
+RESULT	pecan.N 10774	pea
+RESULT	marjolaine.N 3711	sauce
+RESULT	marjolaine.N 10768	cream
+RESULT	cyst.N 3724	follicle
+RESULT	miraculously.R 3727	amazingly
+RESULT	socialite.N 3771	society
+RESULT	Co found.V 3774	founder
+RESULT	Co found.V 14480	works
+RESULT	fester.J 3807	persist
+RESULT	cryptographer.N 3834	cryptologist
+RESULT	reliever.N 3846	relief pitcher
+RESULT	bullpen.N 3847	bench
+RESULT	melon.N 3854	cucumis melo
+RESULT	melon.N 5774	cucumis melo
+RESULT	melon.N 7335	cucumis melo
+RESULT	melon.N 9639	cucumis melo
+RESULT	melon.N 13288	cucumis melo
+RESULT	melon.N 14362	cucumis melo
+RESULT	enshrine.J 3897	be
+RESULT	skirt.V 3920	circumvent
+RESULT	pancake.N 3957	batter
+RESULT	naan.N 3961	nan
+RESULT	curry.N 3963	dish
+RESULT	overfish.J 4019	had
+RESULT	nicoise.J 4022	time
+RESULT	diner.N 4127	eatery
+RESULT	e trade.J 4220	enterprise
+RESULT	oil for food.J 4257	refinery
+RESULT	wrangle.N 4294	wrangling
+RESULT	all day.J 4373	world
+RESULT	revisionist.N 4544	restoration
+RESULT	antidepressant.N 4586	medication
+RESULT	unkillable.J 4642	just
+RESULT	blanch.J 4680	glazed
+RESULT	blanch.J 13000	blanc
+RESULT	salt.V 4681	mixed
+RESULT	macerate.N 4683	be
+RESULT	rinse.J 4686	scrubbed
+RESULT	turntable.N 4736	loop
+RESULT	impenetrable.J 4740	tight
+RESULT	nick.V 4803	hit
+RESULT	then.N 4809	the
+RESULT	oilman.N 4813	oil rigger
+RESULT	egoless.J 4883	amount
+RESULT	malnutrition.N 4972	deficiency
+RESULT	malnutrition.N 7208	starvation
+RESULT	favor trading.J 4983	con
+RESULT	yearof.N 5047	season
+RESULT	wasover.N 5051	gone
+RESULT	no one.J 5135	nobody
+RESULT	no one.J 6373	nobody
+RESULT	off balance.J 5257	spinning
+RESULT	pew.N 5275	bench
+RESULT	pew.N 6155	seating
+RESULT	pew.N 6574	bench
+RESULT	pew.N 7060	seating
+RESULT	pew.N 13630	pulpit
+RESULT	undo.V 5299	untie
+RESULT	antiquary.N 5321	antiquarian
+RESULT	sleazy.J 5323	sordid
+RESULT	black market.N 5324	eastern
+RESULT	silk.N 5344	satin
+RESULT	silk.N 9748	satin
+RESULT	femininity.N 5389	womanliness
+RESULT	adjective.N 5411	epithet
+RESULT	hoopla.N 5421	ball
+RESULT	standpoint.N 5472	perspective
+RESULT	outfielder.N 5477	fielder
+RESULT	outfielder.N 7549	amino
+RESULT	helping.N 5613	serving
+RESULT	vichyssoise.N 5615	wine
+RESULT	vichyssoise.N 12933	char
+RESULT	hunchback.N 5617	ra
+RESULT	hunchback.N 11200	spinal curvature
+RESULT	hunchback.N 13380	ho
+RESULT	hunchback.N 13563	ta
+RESULT	hunchback.N 15779	ho
+RESULT	scribble.V 5621	scrawl
+RESULT	fingernail.N 5623	nail
+RESULT	disaffected.J 5630	ill affected
+RESULT	rung.N 5637	tier
+RESULT	splinter.N 5713	fleck
+RESULT	throaty.N 5817	tone
+RESULT	airtight.N 5856	vacuum
+RESULT	constrict.V 5861	constringe
+RESULT	daunting.J 5873	intimidating
+RESULT	woozy.N 5916	dizzy
+RESULT	woozy.N 14200	ping
+RESULT	woozy.N 15607	dizzy
+RESULT	doubtless.R 5932	likely
+RESULT	blearily.R 6008	be
+RESULT	splash.V 6088	splosh
+RESULT	crease.N 6089	creese
+RESULT	platter.J 6151	tray
+RESULT	autograph.N 6184	signature
+RESULT	autograph.N 13355	signature
+RESULT	pint.N 6277	per
+RESULT	pint.N 6283	pip
+RESULT	pint.N 14992	vial
+RESULT	pint.N 15909	peg
+RESULT	doorframe.N 6320	doorcase
+RESULT	doorframe.N 11764	doorcase
+RESULT	soften.V 6326	mellow
+RESULT	chop.V 6419	slicing
+RESULT	dryad.N 6437	nymph
+RESULT	dryad.N 15069	were
+RESULT	boon.N 6506	blessing
+RESULT	fuck.N 6558	an
+RESULT	fuck.N 15348	th
+RESULT	grasshopper.N 6576	orthopterous insect
+RESULT	midair.N 6580	air
+RESULT	midair.N 14235	air
+RESULT	corpulent.N 6634	human
+RESULT	batrachian.N 6635	alytes cisternasi
+RESULT	smog.N 6648	air pollution
+RESULT	smog.N 7453	ing
+RESULT	leech.V 6649	phlebotomize
+RESULT	dimness.N 6651	darkness
+RESULT	disbelieve.J 6659	true
+RESULT	skitter.J 6711	went
+RESULT	garlicky.N 6731	sage
+RESULT	coolly.R 6740	coldly
+RESULT	quarter pint.J 6796	quarters
+RESULT	quarter pint.J 15675	quarters
+RESULT	leech.N 6800	sponger
+RESULT	leech.N 15538	parasite
+RESULT	leech.N 15608	parasite
+RESULT	flail.V 6863	slapping
+RESULT	powdery.N 6943	smooth
+RESULT	dam.J 6990	hurt
+RESULT	dam.J 13420	flooded
+RESULT	thrash.N 7016	writhing
+RESULT	throes.N 7017	throe
+RESULT	trip.V 7020	stumble
+RESULT	half heart.J 7032	small
+RESULT	sergeant.N 7088	serjeant
+RESULT	baserunner.N 7106	average
+RESULT	free.J 7122	loose
+RESULT	calc.N 7137	cad
+RESULT	insulate.V 7165	shielded
+RESULT	falloff.N 7166	falling off
+RESULT	extradition.N 7172	passport
+RESULT	nymph.N 7176	sterope
+RESULT	blame.V 7206	attribute
+RESULT	embargo.N 7207	are
+RESULT	geometrical.J 7235	geometric
+RESULT	thrive.V 7308	delight
+RESULT	chapati.N 7333	chapatti
+RESULT	parboil.J 7340	sliced
+RESULT	bumper.N 7447	steering
+RESULT	affidavit.N 7505	article
+RESULT	affidavit.N 7509	article
+RESULT	affidavit.N 11897	statement
+RESULT	incontestably.R 7529	the
+RESULT	homer.N 7571	home run
+RESULT	homer.N 9298	home run
+RESULT	homer.N 9524	home run
+RESULT	springtime.N 7601	spring
+RESULT	dais.N 7611	pedestal
+RESULT	fur.N 7614	lapin
+RESULT	fur.N 15399	pelt
+RESULT	prescriptive.J 7652	pro
+RESULT	prescriptive.J 8667	cognitive
+RESULT	coalesce.J 7687	formed
+RESULT	industry government.J 7709	industrial
+RESULT	luster.N 7716	shininess
+RESULT	seasoning.V 7722	spice
+RESULT	mainframe.N 7765	physical
+RESULT	haunch.N 7819	hindquarters
+RESULT	fume.N 7858	smoke
+RESULT	Co author.J 7919	creator
+RESULT	notable.N 7948	noteworthy
+RESULT	penny size.J 7991	inch
+RESULT	ripple.V 8018	ruffle
+RESULT	ratty.N 8023	greasy
+RESULT	earwax.N 8064	auditory
+RESULT	taunt.N 8108	teasing
+RESULT	subscribe.V 8130	took
+RESULT	diet.N 8150	fare
+RESULT	spade.N 8151	all
+RESULT	halibut.N 8153	holibut
+RESULT	flavor.J 8154	flavour
+RESULT	butter.N 8155	sauce
+RESULT	troopship.N 8189	battleship
+RESULT	unshakable.J 8195	unassailable
+RESULT	cajole.V 8277	inveigle
+RESULT	invoice.N 8294	money
+RESULT	lazily.R 8328	idly
+RESULT	seaweed.J 8329	swell
+RESULT	sheath.J 8403	slung
+RESULT	sheath.J 11317	wrapped
+RESULT	scabbard.N 8404	sheath
+RESULT	belt.J 8406	strapped
+RESULT	admonish.J 8473	warning
+RESULT	seep.N 8674	creep
+RESULT	seep.N 12169	trickle
+RESULT	wrinkle.N 8810	crinkle
+RESULT	wrinkle.N 15746	crinkle
+RESULT	clack.N 8937	click
+RESULT	uplift.J 8958	elevated
+RESULT	handcuff.V 8961	chained
+RESULT	awaken.N 8978	wake
+RESULT	tarragon.N 9044	estragon
+RESULT	appraise.V 9083	evaluate
+RESULT	appraise.V 15883	judge
+RESULT	appraise.V 15921	evaluation
+RESULT	computer security.J 9126	digital
+RESULT	openness.N 9133	transparency
+RESULT	snack.V 9136	eat
+RESULT	snotty.J 9199	snot nosed
+RESULT	gritty.J 9205	granular
+RESULT	ambience.N 9206	ambiance
+RESULT	conspire.V 9281	conspiracy
+RESULT	exasperation.N 9339	frustration
+RESULT	matted.J 9407	damp
+RESULT	matted.J 14340	the
+RESULT	cataloge.J 9474	catalogue
+RESULT	clout.N 9489	influence
+RESULT	psychopharmacology.N 9582	pharmacology
+RESULT	prescription.N 9592	medication
+RESULT	felony.N 9602	crime
+RESULT	cuisine.N 9643	cooking
+RESULT	infiltrate.V 9713	enter
+RESULT	infiltrate.V 11113	penetration
+RESULT	usher.V 9729	escort
+RESULT	unimportant.J 9740	worthless
+RESULT	browse.V 9744	window shop
+RESULT	browse.V 15771	shop
+RESULT	tribesman.N 9756	men
+RESULT	reverberate.V 9850	resound
+RESULT	stain glass.N 9853	tinted
+RESULT	compel.V 9929	force
+RESULT	gourd.N 9984	do
+RESULT	gourd.N 11025	momordica charantia
+RESULT	ripen.V 9985	bloom
+RESULT	ripen.V 14456	maturate
+RESULT	fleck.J 9994	tinged
+RESULT	after tax.J 10158	at
+RESULT	pleather.N 10182	ad
+RESULT	snug.N 10189	th
+RESULT	sucker mouth.J 10305	mouth
+RESULT	mosaic.N 10323	tile
+RESULT	tunic.N 10326	shirt
+RESULT	bulge.J 10412	swelled
+RESULT	gut.J 10415	raw
+RESULT	ebullient.J 10432	exuberant
+RESULT	retell.N 10518	chronicle
+RESULT	sow.N 10522	set
+RESULT	state of the art.J 10539	high
+RESULT	hitech.N 10554	and
+RESULT	counterclockwise.N 10655	around
+RESULT	counterclockwise.N 14075	center
+RESULT	counterclockwise.N 15305	side
+RESULT	honoree.N 10698	recipient
+RESULT	honoree.N 13296	author
+RESULT	meringue.N 10773	chip
+RESULT	sorbet.N 10777	rice
+RESULT	unresolved.J 10797	closed
+RESULT	caterpillar.N 10816	looper
+RESULT	caterpillar.N 10824	looper
+RESULT	opium dream.J 10818	drunk
+RESULT	computer maintenance.N 10890	graphics
+RESULT	bylichka.N 10918	how
+RESULT	thats.N 10953	it
+RESULT	botanically.R 11026	botanist
+RESULT	toad.N 11029	amphibian
+RESULT	dissipate.V 11120	disperse
+RESULT	outlay.N 11160	spend
+RESULT	reminisce.J 11224	returned
+RESULT	reunion.N 11227	reunite
+RESULT	staffer.N 11251	employee
+RESULT	deluge.V 11255	flood out
+RESULT	inoculation.N 11257	vaccination
+RESULT	wafer.N 11289	scales
+RESULT	wafer.N 13330	wan
+RESULT	shuttle.V 11293	transported
+RESULT	squash.N 11388	veggie
+RESULT	boast.V 11396	enjoy
+RESULT	cronyism.N 11480	corruption
+RESULT	swap.N 11482	interchange
+RESULT	certify.V 11500	declare
+RESULT	malnourishment.N 11523	undernourishment
+RESULT	conspirator.N 11532	plotter
+RESULT	skate.J 11534	skating
+RESULT	hairless.J 11754	naked
+RESULT	itch.V 11836	scratching
+RESULT	pirate.V 11916	stolen
+RESULT	eyeless.J 11950	unseeing
+RESULT	pneumatic.J 11958	portable
+RESULT	coincide.V 12021	correspond
+RESULT	crease.J 12172	wrinkled
+RESULT	diseased.J 12187	infected
+RESULT	sapling.V 12188	shrub
+RESULT	rasp.N 12267	dialect
+RESULT	fully own.J 12345	the
+RESULT	crucifix.N 12483	cross
+RESULT	bead.N 12555	drop
+RESULT	candleflame.N 12566	flame
+RESULT	plank.J 12679	framed
+RESULT	condominium.N 12710	condo
+RESULT	clove.N 12905	sticks
+RESULT	many shoulder.J 12921	several
+RESULT	soup.N 12930	potage
+RESULT	dash.V 12972	dart
+RESULT	pane.N 12981	filter
+RESULT	psychiatrist.N 13009	psychiatric
+RESULT	empirically.R 13078	through empirical observation
+RESULT	psychotherapeutic.J 13088	therapy
+RESULT	psychosocial.J 13090	behavioral
+RESULT	wrench.J 13123	stripping
+RESULT	lidded.J 13228	little
+RESULT	crabmeat.N 13284	crab
+RESULT	thumb.J 13292	skimmed
+RESULT	fundamental.N 13309	criteria
+RESULT	donut.N 13360	doughnut
+RESULT	donut.N 14634	doughnut
+RESULT	detonation.N 13406	explosion
+RESULT	reek.N 13448	stench
+RESULT	good know.J 13577	top
+RESULT	confessional.N 13622	pulpit
+RESULT	beat up.J 13624	battered
+RESULT	testify.V 13634	attest
+RESULT	anti aircraft.J 13658	air
+RESULT	e mail.J 13687	er
+RESULT	maudlin.N 13779	all
+RESULT	congressman.N 13886	mister
+RESULT	halve.V 13913	chopped
+RESULT	lengthwise.N 13914	width
+RESULT	fibrous.J 13916	sinewy
+RESULT	crescent.N 13921	they
+RESULT	telex.N 13930	ai
+RESULT	immanent.N 14066	id
+RESULT	widdersh.N 14074	wa
+RESULT	widdersh.N 15304	wa
+RESULT	bash.J 14105	hit
+RESULT	bookcase.N 14149	bookstore
+RESULT	toolkit.N 14188	kit
+RESULT	hunchbacked.J 14296	humped
+RESULT	hunchbacked.J 14317	humped
+RESULT	scraggly.R 14299	small
+RESULT	alleyway.N 14307	alley
+RESULT	jubilant.J 14339	gleeful
+RESULT	mixture.N 14366	premix
+RESULT	cellophane.N 14372	wan
+RESULT	braise.J 14375	sa
+RESULT	set up.J 14392	setup
+RESULT	red light.J 14447	it
+RESULT	alley.N 14455	back street
+RESULT	quinine.N 14462	chi
+RESULT	observance.N 14465	ceremonial occasion
+RESULT	spear.V 14555	spike
+RESULT	plum sized.J 14566	purple
+RESULT	slummy.N 14586	poor
+RESULT	storefront.N 14588	retail
+RESULT	decay.J 14590	degraded
+RESULT	fad.N 14610	craze
+RESULT	fluke.N 14710	serendipity
+RESULT	converge.V 14740	settling
+RESULT	pure.N 14766	finer
+RESULT	kimono.N 14792	shift
+RESULT	valiantly.R 14822	valorously
+RESULT	incredulously.R 14857	unbelievingly
+RESULT	celery.N 14970	veggie
+RESULT	pixie.N 14982	pixy
+RESULT	inlay.N 15013	patterned
+RESULT	lapis.N 15014	satin
+RESULT	exhaust.J 15052	consuming
+RESULT	wishful.J 15088	aspirant
+RESULT	think.N 15115	th
+RESULT	brick window.J 15232	stucco
+RESULT	alluring.J 15247	enticing
+RESULT	alarming.J 15248	alarmed
+RESULT	half pint.J 15322	partial
+RESULT	ethnically.R 15359	nationality
+RESULT	reconnect.J 15395	re
+RESULT	slither.V 15398	rolling
+RESULT	confidence inspiring.J 15422	inspiring
+RESULT	drape.V 15506	covering
+RESULT	apologetically.R 15572	apology
+RESULT	unnerved.V 15605	nervous
+RESULT	rave.V 15652	lounge
+RESULT	genie.N 15729	gnome
+RESULT	indenture.J 15730	or
+RESULT	sorcerer.N 15731	sorceress
+RESULT	golem.N 15733	genie
+RESULT	quotidian.N 15740	this
+RESULT	refill.N 15821	stimulate
+RESULT	hide out.J 15858	hidden
+RESULT	unnerve.V 15862	alarmed
+RESULT	ninny.N 15888	ne

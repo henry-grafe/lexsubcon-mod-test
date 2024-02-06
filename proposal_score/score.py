@@ -192,7 +192,17 @@ class Cmasked:
         text = ' '.join(text_a_tokenized)
         word_index = target_word_start_index
 
-        return text, word_index, target_word_end_index, features
+        target_word_ids = features['input_ids'][0,target_word_start_index:(target_word_end_index+1)]
+        
+        tokens_in_target_word = len(target_word_ids)
+        if noise_type not in ["MASKED", "GLOSS", "GAUSSIAN", "DROPOUT", "KEEP"]:
+            features["input_ids"][0, (target_word_start_index+1):(128-(target_word_end_index-target_word_start_index))] = features["input_ids"].clone()[0, (target_word_end_index+1):]
+            features["attention_mask"][0, (target_word_start_index+1):(128-(target_word_end_index-target_word_start_index))] = features["attention_mask"].clone()[0, (target_word_end_index+1):]
+            features["token_type_ids"][0, (target_word_start_index+1):(128-(target_word_end_index-target_word_start_index))] = features["token_type_ids"].clone()[0, (target_word_end_index+1):]
+            target_word_end_index = target_word_start_index
+            print("we entered here...")
+
+        return text, word_index, target_word_end_index, features, target_word_ids
 
     def pre_processed_text_multitoken(self, line, masked_id, noise_type, num_of_mask_token):
         #assert noise_type == "MASKED"
@@ -312,9 +322,10 @@ class Cmasked:
                             proposed_words_temp=None):
         proposed_words = {}
 
-        text, target_word_start_index, target_word_end_index, features = self.pre_processed_text(sentences, word_id,
+        text, target_word_start_index, target_word_end_index, features, target_word_ids = self.pre_processed_text(sentences, word_id,
                                                                                                  noise_type)
-        
+
+
         if noise_type == "MASKED":
             text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
                 sentences, word_id,
@@ -338,6 +349,8 @@ class Cmasked:
         segment_ids = segment_ids.to(self.device)
 
         synonyms_id = []
+        print(f"synonyms for {word}")
+        print(synonyms)
         for word in synonyms:
             token_list = self.tokenizer.tokenize(word)
             if len(token_list) == 1 and token_list[0] != '[UNK]':
@@ -348,7 +361,8 @@ class Cmasked:
 
         with torch.no_grad():
             output = self.model(input_ids=input_ids, token_type_ids=segment_ids, attention_mask=input_mask,
-                                noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id)
+                                noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id, 
+                                target_word_ids=target_word_ids)
         
         possible_index = self.possible_index[:]
         # not the same word
@@ -508,7 +522,7 @@ class Cmasked:
     def predictions(self, sentences, word, main_word, word_id, proposed_words, noise_type, synonyms=[]):
 
         proposed_words_temp = {}
-        text, target_word_start_index, target_word_end_index, features = self.pre_processed_text(sentences, word_id,
+        text, target_word_start_index, target_word_end_index, features, target_word_ids = self.pre_processed_text(sentences, word_id,
                                                                                                  noise_type)
 
         if noise_type == "MASKED":
@@ -544,7 +558,8 @@ class Cmasked:
         
         with torch.no_grad():
             output = self.model(input_ids=input_ids, token_type_ids=segment_ids, attention_mask=input_mask,
-                                noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id)
+                                noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id,
+                                target_word_ids=target_word_ids)
 
         possible_index, multiple_word = self.get_index_from_possible_words(proposed_words)
 

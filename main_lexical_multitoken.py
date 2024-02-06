@@ -211,7 +211,7 @@ if __name__ == "__main__":
                         pass
 
                     else:
-                        if args.noise_type == "GLOSS":
+                        if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS":
                             """
                             find the probable gloss of each word
                             """
@@ -230,12 +230,8 @@ if __name__ == "__main__":
 
                             if len(synonyms) == 0:
                                 # 91- do not have wordnet synonyms in LS14
-                                noise_type = "GAUSSIAN"
+                                noise_type = "PRUNE-GAUSSIAN" if args.noise_type == "PRUNE-GLOSS" else "GAUSSIAN"
                         proposed_words = proposal.proposed_candidates(original_text, change_word, int(index_word),
-                                                                      noise_type=args.noise_type, synonyms=synonyms,
-                                                                      proposed_words_temp=proposed_words, top_k=30)
-                        
-                        multitoken_score_dict = proposal.compute_multitoken_candidates_proposal_score_dict(original_text, change_word, int(index_word),
                                                                       noise_type=args.noise_type, synonyms=synonyms,
                                                                       proposed_words_temp=proposed_words, top_k=30)
                         
@@ -245,7 +241,8 @@ if __name__ == "__main__":
                     """
                     add noise to input
                     """
-                    if args.noise_type == "GLOSS":
+                    print("we are in the proposed score !")
+                    if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS":
                         """
                         find the probable gloss of each word
                         """
@@ -259,7 +256,7 @@ if __name__ == "__main__":
                                                                 main_word.split('.')[-1])
                         if len(synonyms) == 0:
                             # 91- do not have wordnet synonyms in LS14
-                            noise_type = "GAUSSIAN"
+                            noise_type = "PRUNE-GAUSSIAN" if args.noise_type == "PRUNE-GLOSS" else "GAUSSIAN"
 
                     """
                     add noise gloss noise mix-up noise/gaussian  noise /dropout embedding/mask/initial word
@@ -277,6 +274,7 @@ if __name__ == "__main__":
                     """
                     get the similarity sentence similarity
                     """
+                    print("we are in the sentence similarity score !")
                     text_similarities = []
                     similirity_sentence_new.post_tag_target(main_word)
 
@@ -291,6 +289,7 @@ if __name__ == "__main__":
                                                                                                   text_update)
 
                         proposed_words[word] = proposed_words[word] + bita * similarity_score
+                    print(proposed_words)
                 # -------------------------------------------------------------------------------------
                 if args.validation_score:
                     """
@@ -310,7 +309,7 @@ if __name__ == "__main__":
                     """
                     get the gloss score for each word
                     """
-
+                    print("we are in the gloss score !")
                     # every main word has lemma
                     finding_gloss.main_gloss_embedding = None
                     if main_word.split('.')[0] == "":
@@ -366,6 +365,7 @@ if __name__ == "__main__":
                                 if word_temp not in not_found:
                                     not_found[word_temp] = {}
                                 not_found[word_temp][word] = {}
+                        print(proposed_words)
                 if args.gap:
                     evaluation_metric.write_results(args.output_results + args.fna + "_" + str(seed) + "_gap.txt",
                                                     main_word, instance,
