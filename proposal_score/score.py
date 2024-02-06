@@ -347,6 +347,8 @@ class Cmasked:
         input_ids = input_ids.to(self.device)
         input_mask = input_mask.to(self.device)
         segment_ids = segment_ids.to(self.device)
+        target_word_ids = target_word_ids.to(self.device)
+
 
         synonyms_id = []
         print(f"synonyms for {word}")
@@ -542,6 +544,7 @@ class Cmasked:
         input_ids = input_ids.to(self.device)
         input_mask = input_mask.to(self.device)
         segment_ids = segment_ids.to(self.device)
+        target_word_ids = target_word_ids.to(self.device)
 
         synonyms_id = []
 

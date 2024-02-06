@@ -211,7 +211,7 @@ if __name__ == "__main__":
                         pass
 
                     else:
-                        if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS":
+                        if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS" or args.noise_type == "AVERAGE-GLOSS":
                             """
                             find the probable gloss of each word
                             """
@@ -231,6 +231,9 @@ if __name__ == "__main__":
                             if len(synonyms) == 0:
                                 # 91- do not have wordnet synonyms in LS14
                                 noise_type = "PRUNE-GAUSSIAN" if args.noise_type == "PRUNE-GLOSS" else "GAUSSIAN"
+                                if args.noise_type == "AVERAGE-GLOSS":
+                                    noise_type = "AVERAGE-GAUSSIAN"
+                                
                         proposed_words = proposal.proposed_candidates(original_text, change_word, int(index_word),
                                                                       noise_type=args.noise_type, synonyms=synonyms,
                                                                       proposed_words_temp=proposed_words, top_k=30)

@@ -196,9 +196,15 @@ class BertEmbeddings(nn.Module):
         inputs_embeds_synonyms = None
         if inputs_embeds is None:
             inputs_embeds = self.word_embeddings(input_ids)
-            if noise_type == "GAUSSIAN" or noise_type == "PRUNE-GAUSSIAN":
+
+            if noise_type.split("-")[0] == "AVERAGE":
+                print("we are in the average BERT embeddings part !")
+                embs = self.word_embeddings(target_word_ids).mean(dim=0)
+                inputs_embeds[0][word_index] = embs
+            
+            if noise_type == "GAUSSIAN" or noise_type == "PRUNE-GAUSSIAN" or noise_type == "AVERAGE-GAUSSIAN":
                 inputs_embeds[0][word_index] = self.noise(inputs_embeds[0][word_index])
-            elif noise_type == "GLOSS" or noise_type == "PRUNE-GLOSS":
+            elif noise_type == "GLOSS" or noise_type == "PRUNE-GLOSS" or noise_type == "AVERAGE-GLOSS":
                 print("we are in GLOSS embeddings of BERT")
                 print(input_ids_synonyms)
                 if input_ids_synonyms is not None:
@@ -220,11 +226,13 @@ class BertEmbeddings(nn.Module):
                     else:
                         print("synonyms not found")
                         exit(5)
-            elif noise_type == "DROPOUT" or noise_type == "PRUNE-DROPOUT":
+            elif noise_type == "DROPOUT" or noise_type == "PRUNE-DROPOUT" or noise_type == "AVERAGE-DROPOUT":
+                print("we are in DROPOUT embeddings of BERT")
                 if not self.dropout_embedding.training:
                     self.dropout_embedding.train()
                 inputs_embeds[0][word_index] = self.dropout_embedding(inputs_embeds[0][word_index])
             else:
+                print("we are in KEEP or MASK embeddings of BERT")
                 pass
         position_embeddings = self.position_embeddings(position_ids)
         token_type_embeddings = self.token_type_embeddings(token_type_ids)
