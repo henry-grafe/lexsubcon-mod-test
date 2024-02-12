@@ -184,7 +184,8 @@ if __name__ == "__main__":
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
             for context in reader.words_candidate[main_word][instance]:
-
+                print(context)
+                input("next")
                 change_word = context[0]
                 text = context[1]
                 original_text = text
