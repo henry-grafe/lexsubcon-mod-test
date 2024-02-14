@@ -181,11 +181,13 @@ if __name__ == "__main__":
     count_gloss = 0
     iter_index = 0
     not_found = {}
+    dd={}
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
             for context in reader.words_candidate[main_word][instance]:
                 print(context)
-                input("next")
+                print(main_word)
+                #input("next")
                 change_word = context[0]
                 text = context[1]
                 original_text = text
@@ -206,6 +208,7 @@ if __name__ == "__main__":
                         word_temp = main_word.split('.')[0]
                     proposed_words = noise_gloss.created_proposed_list(word_temp, wordnet_gloss,
                                                                        main_word.split('.')[-1])
+                    dd[main_word.split('.')[-1]] = 0
 
                     # =============================================
                     if len(proposed_words) > 30:
@@ -402,3 +405,4 @@ if __name__ == "__main__":
     evaluation_metric.calculation_p1(args.test_golden_file,
                                      args.output_results + args.fna + "_" + str(seed) + "_p1.txt",
                                      args.results_file + args.fna + "_" + str(seed) + "_p1.txt")
+    print(dd)
