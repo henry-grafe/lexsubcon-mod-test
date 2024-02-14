@@ -1,0 +1,47 @@
+{
+  "swords_dev_1113": {
+    "fp_rel": "raw/data/swords/dev-20201114T013807Z-001.zip",
+    "checksum": "821fc4e8ed17177133df1638385ce17680691797e671b8930f45a771ab7db723",
+    "private": true
+  },
+  "swords_test_1113": {
+    "fp_rel": "raw/data/swords/test-20201114T013923Z-001.zip",
+    "checksum": "d39a006949b58e58cc9574875235467ba4c5625bdd8a1b0511f1d549701c95bc",
+    "private": true
+  },
+  "swords_step3_1117": {
+    "fp_rel": "raw/data/swords/step3-20201118T053019Z-001.zip",
+    "checksum": "519f30975e4321f25e5f67215846d370175dd6bc736f7004259973045581659a",
+    "private": true
+  },
+  "swords_human_1119": {
+    "fp_rel": "raw/data/swords/superhuman-20201119T220851Z-001.zip",
+    "checksum": "f9f05b3cc20186a75771fb312815cd51c84a24980c5cdb2c03ac938a0dc10e5b",
+    "private": true
+  },
+  "swords_0524": {
+    "fp_rel": "raw/data/swords/step1_tmp.pkl",
+    "checksum": "26653e22b47a0075e9488d49390a4b4724e7d596fa5ade30f052e8b2b93bbfbe",
+    "private": true
+  },
+  "swords_0526": {
+    "fp_rel": "raw/data/swords/filtered_swords_data.pkl",
+    "checksum": "835b6defaf12c33e99af2f432bc7e06c0f01113d144888e7d74371e402bc4045",
+    "private": true
+  },
+  "swords_human_0526": {
+    "fp_rel": "raw/data/swords/filtered_human_baseline_data.pkl",
+    "checksum": "e29bfac5790e6340ce6d2bc1fff5b71139d2cc544193f487f696a96dcdb93de5",
+    "private": true
+  },
+  "swords_0607": {
+    "fp_rel": "raw/data/swords/swords_repaired_wprimes_with_false_implicit_coinco.pkl",
+    "checksum": "f97b9862ae91fe0286bfe94ad7fb06a5493a6afab22de8e3c42ae260fac5db9e",
+    "private": true
+  },
+  "swords_human_0607": {
+    "fp_rel": "raw/data/swords/human_baseline_data_repaired_wprimes_with_false_implicit_coinco.pkl",
+    "checksum": "abbff3d1595ffb77c73fb0e488fcd4c140bef2be53d286474d2a6c1aa309abf2",
+    "private": true
+  }
+}
