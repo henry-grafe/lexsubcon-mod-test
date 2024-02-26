@@ -102,7 +102,7 @@ def generate(
     #print(cleaned_context)
     #print(target_word)
     synonyms=[]
-    noise_type = "GLOSS"
+    noise_type = "DROPOUT"
     if target_word=="":
         word_temp="."
         synonyms = noise_gloss.adding_noise(target_word, wordnet_gloss, target_pos)
@@ -134,7 +134,7 @@ def generate(
     for word in proposed_words:
         proposed_words[word] = proposed_words[word] + alpha * scores[word]
     
-    
+    """
     validation.get_contextual_weights_original(cleaned_context, target, target_index, main_word)
     for word in proposed_words:
         text_list = cleaned_context.split(" ")
@@ -143,7 +143,7 @@ def generate(
         validation.get_contextual_weights_update(text_update, word, int(target_index), main_word)
         similarity = validation.get_val_score(word)
         proposed_words[word] = proposed_words[word] + gamma * similarity
-    
+    """
     words = []
     scores = []
     for word, score in proposed_words.items():
@@ -172,5 +172,5 @@ for tid, target in tqdm(swords['targets'].items()):
         target['offset'],
         target_pos=target.get('pos'))
 
-with open('dataset/SWORDS/test/swords-v1.1_test_proposal_score_val.lsr.json', 'w') as f:
+with open('dataset/SWORDS/test/swords-v1.1_test_proposal_score_dropout.lsr.json', 'w') as f:
     f.write(json.dumps(result))
