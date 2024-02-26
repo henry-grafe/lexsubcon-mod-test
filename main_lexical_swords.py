@@ -37,7 +37,7 @@ translate_pos_dict = {"VERB":"V", "NOUN":"N", "ADJ":"J","ADV":"R"}
 proposal = Cmasked(128, False, pre_trained="bert-large-uncased")
 proposal.get_possible_words()
 proposal.get_possible_multitoken_words()
-validation = ValidationScore(128, False, pre_trained="bert-large-uncased")
+#validation = ValidationScore(128, False, pre_trained="bert-large-uncased")
 alpha = 0.05
 gamma = 0.5
 def clean_context(context, target, target_offset):
@@ -105,11 +105,13 @@ def generate(
     noise_type = "DROPOUT"
     if target_word=="":
         word_temp="."
-        synonyms = noise_gloss.adding_noise(target_word, wordnet_gloss, target_pos)
-        try:
-            synonyms.remove(target_word)
-        except:
-            pass
+    else:
+        word_temp = target_word
+    synonyms = noise_gloss.adding_noise(word_temp, wordnet_gloss, target_pos)
+    try:
+        synonyms.remove(target_word)
+    except:
+        pass
     
     if len(synonyms)==0 and noise_type == "GLOSS":
         noise_type = "GAUSSIAN"
