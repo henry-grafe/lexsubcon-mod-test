@@ -89,96 +89,20 @@ def clean_context(context, target, target_offset):
     
     return returned_context, new_returned_target_offset, returned_target_index
 
-def generate(
-    context,
-    target,
-    target_offset,
-    target_pos=None):
-    
-    cleaned_context, new_target_offset, target_index = clean_context(context, target, target_offset)
-    target_pos = translate_pos_dict[target_pos]
-    target_word = cleaned_context.split(" ")[target_index]
-    
-    proposed_words = noise_gloss.created_proposed_list(target_word, wordnet_gloss,
-                                                                       target_pos)
-    #print(cleaned_context)
-    #print(target_word)
-    synonyms=[]
-    noise_type = "PRUNE-DROPOUT"
-    if target_word=="":
-        word_temp="."
-    else:
-        word_temp = target_word
-    synonyms = noise_gloss.adding_noise(word_temp, wordnet_gloss, target_pos)
-    try:
-        synonyms.remove(target_word)
-    except:
-        pass
-    
-    if len(synonyms)==0 and noise_type == "GLOSS":
-        noise_type = "GAUSSIAN"
-    print(proposed_words)
-    input("next")
-    proposed_words = {}
-    if len(proposed_words) > 50:
-        pass
-    else:
-        proposed_words = proposal.proposed_candidates(cleaned_context, target_word, int(target_index), 
-                                                      noise_type=noise_type, synonyms=synonyms,
-                                                      proposed_words_temp=proposed_words, top_k=50)
-        
-    lemmatized_word = lemmatizer.lemmatize(target, to_wordnet_pos[target_pos])
-    
-    try:
-        proposed_words.pop(lemmatized_word)
-    except:
-        pass
-    
-    main_word = target_word+"."+target_pos
-    scores = proposal.predictions(cleaned_context, target_word, main_word, int(target_index),
-                                  proposed_words,
-                                  noise_type=noise_type, synonyms=synonyms)
-    for word in proposed_words:
-        proposed_words[word] = proposed_words[word] + alpha * scores[word]
-    
-    """
-    validation.get_contextual_weights_original(cleaned_context, target, target_index, main_word)
-    for word in proposed_words:
-        text_list = cleaned_context.split(" ")
-        text_list[int(target_index)] = word
-        text_update = " ".join(text_list)
-        validation.get_contextual_weights_update(text_update, word, int(target_index), main_word)
-        similarity = validation.get_val_score(word)
-        proposed_words[word] = proposed_words[word] + gamma * similarity
-    """
-    words = []
-    scores = []
-    for word, score in proposed_words.items():
-        words = words + [word]
-        scores = scores + [score]
-    indexes = np.flip(np.argsort(np.array(scores)))
-    top_ten = {}
-    for i in range(len(indexes)):
-        top_ten[words[indexes[i]]] = scores[indexes[i]]
-    #print("top ten words : ")
-    #print(top_ten)
-    """       
-    substitutes = ['be', 'have', 'do', 'say', 'getting', 'make', 'go', 'know', 'take', 'see']
-    scores = [random.random() for _ in substitutes]
-    """
-    substitutes = list(top_ten.keys())
-    scores = list(top_ten.values())
-    return list(zip(substitutes, scores))
+generator = BertInfillingGenerator(target_corruption='mask', dropout_p=0.3, top_k=50)
 
 result = {'substitutes_lemmatized': True, 'substitutes': {}}
 for tid, target in tqdm(swords['targets'].items()):
     context = swords['contexts'][target['context_id']]
-    result['substitutes'][tid] = generate(
+    result['substitutes'][tid] = generator.generate(
         context['context'],
         target['target'],
         target['offset'],
         target_pos=target.get('pos'))
     print(len(result['substitutes'][tid]))
+    for i in range(len(result['substitutes'][tid])):
+        result['substitutes'][tid][i] = (result['substitutes'][tid][i][0],float(result['substitutes'][tid][i][1]))
+print(result)
 
-with open('dataset/SWORDS/test/swords-v1.1_test_proposal_score_prune_dropout_long_list_top50_DUMMY.lsr.json', 'w') as f:
+with open('dataset/SWORDS/test/swords-v1.1_test_original_bert_mask.lsr.json', 'w') as f:
     f.write(json.dumps(result))
