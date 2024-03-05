@@ -89,7 +89,7 @@ def clean_context(context, target, target_offset):
     
     return returned_context, new_returned_target_offset, returned_target_index
 
-generator = BertInfillingGenerator(target_corruption='mask', dropout_p=0.3, top_k=50)
+generator = BertInfillingGenerator(target_corruption='dropout', dropout_p=0., top_k=50)
 
 result = {'substitutes_lemmatized': True, 'substitutes': {}}
 for tid, target in tqdm(swords['targets'].items()):
@@ -99,10 +99,10 @@ for tid, target in tqdm(swords['targets'].items()):
         target['target'],
         target['offset'],
         target_pos=target.get('pos'))
-    print(len(result['substitutes'][tid]))
+    #print(len(result['substitutes'][tid]))
     for i in range(len(result['substitutes'][tid])):
         result['substitutes'][tid][i] = (result['substitutes'][tid][i][0],float(result['substitutes'][tid][i][1]))
-print(result)
+#print(result)
 
-with open('dataset/SWORDS/test/swords-v1.1_test_original_bert_mask.lsr.json', 'w') as f:
+with open('dataset/SWORDS/test/swords-v1.1_test_original_bert_keep.lsr.json', 'w') as f:
     f.write(json.dumps(result))

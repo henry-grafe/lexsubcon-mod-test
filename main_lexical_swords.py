@@ -39,7 +39,7 @@ translate_pos_dict = {"VERB":"V", "NOUN":"N", "ADJ":"J","ADV":"R"}
 proposal = Cmasked(128, False, pre_trained="bert-large-uncased")
 proposal.get_possible_words()
 proposal.get_possible_multitoken_words()
-#validation = ValidationScore(128, False, pre_trained="bert-large-uncased")
+validation = ValidationScore(128, False, pre_trained="bert-large-uncased")
 alpha = 0.05
 gamma = 0.5
 def clean_context(context, target, target_offset):
@@ -104,7 +104,7 @@ def generate(
     #print(cleaned_context)
     #print(target_word)
     synonyms=[]
-    noise_type = "PRUNE-DROPOUT"
+    noise_type = "DROPOUT"
     if target_word=="":
         word_temp="."
     else:
@@ -117,8 +117,7 @@ def generate(
     
     if len(synonyms)==0 and noise_type == "GLOSS":
         noise_type = "GAUSSIAN"
-    print(proposed_words)
-    input("next")
+    
     proposed_words = {}
     if len(proposed_words) > 50:
         pass
@@ -135,13 +134,14 @@ def generate(
         pass
     
     main_word = target_word+"."+target_pos
+    """
     scores = proposal.predictions(cleaned_context, target_word, main_word, int(target_index),
                                   proposed_words,
                                   noise_type=noise_type, synonyms=synonyms)
     for word in proposed_words:
         proposed_words[word] = proposed_words[word] + alpha * scores[word]
+    """ 
     
-    """
     validation.get_contextual_weights_original(cleaned_context, target, target_index, main_word)
     for word in proposed_words:
         text_list = cleaned_context.split(" ")
@@ -150,7 +150,7 @@ def generate(
         validation.get_contextual_weights_update(text_update, word, int(target_index), main_word)
         similarity = validation.get_val_score(word)
         proposed_words[word] = proposed_words[word] + gamma * similarity
-    """
+    
     words = []
     scores = []
     for word, score in proposed_words.items():
@@ -180,5 +180,5 @@ for tid, target in tqdm(swords['targets'].items()):
         target_pos=target.get('pos'))
     print(len(result['substitutes'][tid]))
 
-with open('dataset/SWORDS/test/swords-v1.1_test_proposal_score_prune_dropout_long_list_top50_DUMMY.lsr.json', 'w') as f:
+with open('dataset/SWORDS/test/swords-v1.1_test_pure_validation_score_dropout_long_list_top50.lsr.json', 'w') as f:
     f.write(json.dumps(result))
