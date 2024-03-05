@@ -204,9 +204,12 @@ class BertEmbeddings(nn.Module):
             
             if noise_type == "GAUSSIAN" or noise_type == "PRUNE-GAUSSIAN" or noise_type == "AVERAGE-GAUSSIAN":
                 inputs_embeds[0][word_index] = self.noise(inputs_embeds[0][word_index])
-            elif noise_type == "GLOSS" or noise_type == "PRUNE-GLOSS" or noise_type == "AVERAGE-GLOSS":
+            elif noise_type == "GLOSS" or noise_type == "PRUNE-GLOSS" or noise_type == "AVERAGE-GLOSS" or noise_type == "PURE-GLOSS":
                 print("we are in GLOSS embeddings of BERT")
                 print(input_ids_synonyms)
+                if noise_type =="PURE-GLOSS":
+                    lambda_variable = 0
+                
                 if input_ids_synonyms is not None:
                     if len(input_ids_synonyms) > 0:
                         for index_id in range(0, len(input_ids_synonyms)):

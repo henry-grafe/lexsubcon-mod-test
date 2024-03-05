@@ -18,6 +18,8 @@ from gloss_score.wordnet import Wordnet
 
 from similarity_score_new_weight.similarity_new_predict import Similarity_new
 
+import open_clip
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     #
@@ -62,6 +64,8 @@ if __name__ == "__main__":
                         default=0.5)
     parser.add_argument("-de", "--delta", type=float, help="delta variable for gloss score",
                         default=0.05)
+    parser.add_argument("-et", "--eta", type=float, help="eta variable for clip score",
+                        default=1.)
 
     # ---------signals
     parser.add_argument("-val", "--validation_score", type=bool, help="whether we use validation score",
@@ -73,6 +77,9 @@ if __name__ == "__main__":
                         default=False)
     parser.add_argument("-similn", "--similarity_sentence_new", type=bool,
                         help="whether we use similarity sentence score new",
+                        default=False)
+    parser.add_argument("-clip", "--similarity_sentence_clip", type=bool,
+                        help="whether we use similarity sentence score CLIP",
                         default=False)
     parser.add_argument("-fna", "--fna", type=str, help="name to seperate write file",
                         default='proposed')
@@ -144,11 +151,16 @@ if __name__ == "__main__":
 
     if args.validation_score:
         validation = ValidationScore(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
-
+    
+    if args.similarity_sentence_clip:
+        model, _, preprocess = open_clip.create_model_and_transforms('ViT-B-32', pretrained='laion2b_s34b_b79k')
+        tokenizer = open_clip.get_tokenizer('ViT-B-32')
+    
     alpha = args.alpha
     bita = args.bita
     gamma = args.gamma
     delta = args.delta
+    eta = args.eta
 
     "======================================================================================================"
     start_time = time.time()
@@ -215,7 +227,7 @@ if __name__ == "__main__":
                         pass
 
                     else:
-                        if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS" or args.noise_type == "AVERAGE-GLOSS":
+                        if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS" or args.noise_type == "AVERAGE-GLOSS" or args.noise_type == "PURE-GLOSS":
                             """
                             find the probable gloss of each word
                             """
@@ -237,6 +249,8 @@ if __name__ == "__main__":
                                 noise_type = "PRUNE-GAUSSIAN" if args.noise_type == "PRUNE-GLOSS" else "GAUSSIAN"
                                 if args.noise_type == "AVERAGE-GLOSS":
                                     noise_type = "AVERAGE-GAUSSIAN"
+                                if args.noise_type == "PURE-GLOSS":
+                                    noise_type = "PRUNE-GAUSSIAN"
                                 
                         proposed_words = proposal.proposed_candidates(original_text, change_word, int(index_word),
                                                                       noise_type=args.noise_type, synonyms=synonyms,
@@ -249,7 +263,7 @@ if __name__ == "__main__":
                     add noise to input
                     """
                     print("we are in the proposed score !")
-                    if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS":
+                    if args.noise_type == "GLOSS" or args.noise_type == "PRUNE-GLOSS" or args.noise_type == "PURE-GLOSS":
                         """
                         find the probable gloss of each word
                         """
@@ -264,6 +278,10 @@ if __name__ == "__main__":
                         if len(synonyms) == 0:
                             # 91- do not have wordnet synonyms in LS14
                             noise_type = "PRUNE-GAUSSIAN" if args.noise_type == "PRUNE-GLOSS" else "GAUSSIAN"
+                            if args.noise_type == "AVERAGE-GLOSS":
+                                noise_type = "AVERAGE-GAUSSIAN"
+                            if args.noise_type == "PURE-GLOSS":
+                                noise_type = "PRUNE-GAUSSIAN"
 
                     """
                     add noise gloss noise mix-up noise/gaussian  noise /dropout embedding/mask/initial word
@@ -297,6 +315,27 @@ if __name__ == "__main__":
 
                         proposed_words[word] = proposed_words[word] + bita * similarity_score
                     print(proposed_words)
+                # -------------------------------------------------------------------------------------
+                if args.similarity_sentence_clip:
+                    """
+                    get the similarity sentence similarity
+                    """
+                    text_similarities = []
+                    with torch.no_grad(), torch.cuda.amp.autocast():
+                        target_text = tokenizer(text)
+                        target_sentence_emb = model.encode_text(target_text)
+                        target_sentence_emb /= target_sentence_emb.norm(dim=-1, keepdim=True)
+                    for word in proposed_words:
+                        list_temp = text.split(" ")
+                        list_temp[int(index_word)] = word
+                        text_update = " ".join(list_temp)
+                        with torch.no_grad(), torch.cuda.amp.autocast():
+                            candidate_text = tokenizer(text_update)
+                            candidate_sentence_emb = model.encode_text(candidate_text)
+                            candidate_sentence_emb /= candidate_sentence_emb.norm(dim=-1, keepdim=True)
+                            
+                        similarity_score = target_sentence_emb @ candidate_sentence_emb.T
+                        proposed_words[word] = proposed_words[word] + eta * similarity_score
                 # -------------------------------------------------------------------------------------
                 if args.validation_score:
                     """
