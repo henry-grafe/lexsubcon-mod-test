@@ -18,7 +18,7 @@ torch.backends.cudnn.deterministic = True
 proposal = Cmasked(max_seq_length=128, do_lower_case=True, pre_trained="bert-base-uncased")
 
 
-test_examples = open("../test/coinco_test.preprocessed",'r',encoding="latin5").read().split("\n")[:-1]
+test_examples = open("dataset/LS14/test/coinco_test.preprocessed",'r',encoding="latin5").read().split("\n")[:-1]
 test_examples_ids = []
 for i in range(len(test_examples)):
     test_examples_ids.append(int(test_examples[i].split("\t")[1]))
@@ -32,7 +32,7 @@ print(len(test_examples_reordered))
 
 
 
-test_gold = open("../test/coinco_test.gold",'r',encoding="latin5").read().split("\n")[:-1]
+test_gold = open("dataset/LS14/test/coinco_test.gold",'r',encoding="latin5").read().split("\n")[:-1]
 test_gold_ids = []
 for i in range(len(test_gold)):
     test_gold_ids.append(int(test_gold[i].split("::")[0].split(' ')[-2]))

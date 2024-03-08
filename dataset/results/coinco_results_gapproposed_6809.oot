@@ -2258,3 +2258,567 @@ refill.N 15821 ::: prescription drug;prescription;prescription medicine;ethical 
 hide out.J 15858 ::: hide;hidden;shelter;conceal;den;sit;cover;cave;sleep;meet
 unnerve.V 15862 ::: faze;enervate;unsettle;upset;discompose;untune;disconcert;discomfit;unman;un
 ninny.N 15888 ::: nincompoop;poop;simpleton;simple;the;you;your;my;and;that
+disgruntled.J 70 ::: dissatisfied;di;mu;even;under;be;ex;some;at;an
+erode.V 75 ::: gnaw;gnaw at;eat at;wear away;decay;crumble;dilapidate;eat away;fret;damage
+e commerce.J 125 ::: electronic;it;ea;digital;web;self;micro;net;tech;information
+e commerce.J 4226 ::: electronic;web;it;micro;digital;self;out;net;ea;open
+e commerce.J 5138 ::: electronic;tech;web;micro;it;geo;ea;net;auto;fi
+e commerce.J 12334 ::: electronic;web;micro;net;it;tech;ea;digital;geo;social
+tender.V 306 ::: give;gift;present;offer;bid;by bid;outbid;overbid;subscribe;underbid
+wiretap.N 456 ::: tap;investigation;investigating;audio;video;camera;intercept;phone;hearing;wire
+wiretap.N 1671 ::: tap;investigation;investigating;audio;video;camera;intercept;phone;hearing;wire
+wiretap.N 11662 ::: tap;investigation;investigating;intercept;tapping;listening;video;recording;jam;interception
+wiretap.N 12114 ::: tap;investigation;investigating;camera;video;phone;news;police;surveillance;wire
+curtail.V 496 ::: restrict;curb;cut back;limit;circumscribe;confine;abridge;immobilize;immobilise;clip
+concede.V 601 ::: profess;confess;admit;acknowledge;make a clean breast of;own up;fess up;yield;grant;agree
+groundswell.N 610 ::: grounds;ground;support;back;to;counter;opinion;reason;stand;budge
+groundswell.N 11346 ::: grounds;ground;counter;back;to;reason;support;any;proof;budge
+knowledgeable.J 664 ::: knowing;learned;lettered;well educated;well read;intimate;versed;knowledge;know;learn
+knowledgeable.J 765 ::: knowing;learned;lettered;well educated;well read;intimate;versed;knowledge;know;understand
+complement.V 681 ::: balance;equilibrate;equilibrize;equilibrise;complement;compliment;excel;opposite;backup;par
+victimize.V 698 ::: victimise;wrong;cheat;rip off;chisel;deceive;lead on;delude;cozen;punish
+nonmedically.R 724 ::: non;foreign;eu;certain;un;purely;migrant;freely;other;foreigner
+nonmedically.R 3666 ::: non;foreign;certain;migrant;un;voluntarily;eu;such;other;purely
+prescriber.N 728 ::: the;that;of;and;to;as;an;new;medical;their
+prescriber.N 3670 ::: the;of;an;that;to;as;new;his;and;their
+prescriber.N 13007 ::: re;late;pro;be;ne;non;par;post;sub;anti
+seabass.N 759 ::: sea;marine;and;the;surf;of;that;it;wave;she
+seabass.N 817 ::: sea;marine;ocean;squid;the;surf;fish;that;and;blue
+seabass.N 850 ::: sea;marine;water;surf;ocean;side;shell;and;the;fin
+seabass.N 1695 ::: sea;ocean;marine;and;water;aqua;the;as;sand;shell
+seabass.N 1771 ::: sea;marine;ocean;surf;fish;of;crab;water;and;fin
+seabass.N 2189 ::: sea;crab;fish;and;salmon;the;shell;lobster;as;of
+seabass.N 2956 ::: sea;and;crab;the;shell;marine;he;fish;giant;tuna
+seabass.N 3564 ::: sea;marine;the;surf;ga;sand;semi;ha;ray;shell
+seabass.N 4018 ::: sea;marine;water;ocean;the;sand;surf;school;side;semi
+seabass.N 6129 ::: sea;marine;the;surf;of;her;fish;ocean;on;water
+seabass.N 10684 ::: sea;and;the;marine;surf;crab;of;as;in;to
+seabass.N 10707 ::: sea;marine;ocean;fish;surf;shell;fin;and;crab;of
+seabass.N 11186 ::: sea;marine;ocean;the;and;fin;of;swell;ga;giant
+seabass.N 11693 ::: sea;marine;ocean;and;as;the;surf;crab;water;blue
+seabass.N 12374 ::: sea;marine;the;crab;ocean;and;fish;shell;fin;wine
+seabass.N 14583 ::: sea;marine;surf;sand;water;giant;crab;the;ocean;semi
+noncommittal.J 859 ::: non;reply;response;blank;not;counter;utter;answer;minor;un
+mmm mm.J 860 ::: um;ah;eh;oh;hum;yep;aye;affirmative;yes;huh
+mmm mm.J 2557 ::: um;intake;ah;intriguing;ist;inch;the;ha;moan;suck
+scapegoat.N 881 ::: whipping boy;victim;the;an;to;of;that;and;as;its
+unfairly.R 885 ::: below the belt;unfair;fair;thus;discrimination;injustice;due;hence;wrongly;uneven
+contend.V 895 ::: postulate;claim;argue;debate;fence;converse;discourse;oppose;quarrel;dispute
+revolutionize.V 1026 ::: revolutionise;overturn;change;alter;modify;overthrow;subvert;bring down;inspire;indoctrinate
+billboard.N 1048 ::: hoarding;signboard;sign;billboard;poster;bumper;slogan;advertising;marketing;ad
+billboard.N 2034 ::: hoarding;signboard;sign;billboard;bumper;poster;slogan;advertising;marketing;ad
+environmentalist.N 1075 ::: conservationist;reformer;reformist;crusader;social reformer;meliorist;green;tree hugger;environmental;environmentally
+environmentalist.N 14428 ::: conservationist;reformer;reformist;crusader;social reformer;meliorist;green;tree hugger;environmental;environmentally
+dollop.N 1089 ::: small indefinite quantity;small indefinite amount;doll;tablet;gram;blink;wheel;tall;pup;gem
+dollop.N 8518 ::: small indefinite quantity;small indefinite amount;the;to;and;as;that;of;with;on
+dollop.N 15161 ::: small indefinite quantity;small indefinite amount;the;to;and;as;of;that;in;with
+caviar.N 1090 ::: caviare;roe;hard roe;beluga caviar;the;my;and;your;as;that
+caviar.N 5616 ::: caviare;roe;hard roe;beluga caviar;the;chocolate;and;par;de;wine
+overfish.V 1329 ::: over;under;by;in;from;is;the;oil;of;commercial
+overfish.V 8653 ::: over;under;by;is;the;in;of;oil;commercial;from
+unsuspecting.J 1389 ::: unsuspicious;un;non;not;unnoticed;unknown;blind;unaware;the;and
+coverall.N 1402 ::: protective garment;duster;gaberdine;gabardine;smock;dust coat;jumper;overall;boilersuit;boilers suit
+fabricate.V 1450 ::: manufacture;construct;make;mass produce;raft;cook up;make up;invent;think up;think of
+cyclical.J 1653 ::: cyclic;cycle;seasonal;dynamic;circular;steady;continuously;annual;constantly;constant
+innovate.V 1658 ::: introduce;initiate;pioneer;debut;phase in;open up;inn;em;en;prop
+innovate.V 7354 ::: introduce;initiate;pioneer;debut;phase in;open up;inn;em;en;prop
+Co conspirator.J 1698 ::: plot;sub;joint;main;pro;part;front;side;fellow;partner
+Co conspirator.J 5187 ::: sub;joint;partner;fellow;side;syndicate;part;principal;front;third
+Co conspirator.J 11495 ::: other;partner;joint;group;part;associate;sub;five;se;fellow
+Co conspirator.J 14777 ::: other;partner;joint;group;part;associate;sub;five;se;fellow
+legwork.N 1701 ::: leg;ground;rein;soft;hard;cover;chair;middle;goal;fore
+legwork.N 5190 ::: leg;soft;cover;goal;hand;hard;ground;rein;hit;smooth
+overfishing.V 1715 ::: over;under;in;are;up;as;the;de;of;is
+motivational.N 1721 ::: motivation;training;success;it;staff;survival;prep;support;time;positive
+motivational.N 11019 ::: motivation;positive;encouragement;inspirational;pep;support;success;community;retention;that
+bloodthirsty.N 1741 ::: blood;slaughter;bloody;ever;war;that;brutal;death;bitter;violence
+bloodthirsty.N 14293 ::: blood;slaughter;bloody;war;ever;death;dead;violence;out;vengeance
+swordfish.N 1769 ::: saltwater fish;xiphias gladius;scombroid;scombroid fish;sword;fin;club;dragon;spear;hook
+swordfish.N 4130 ::: saltwater fish;xiphias gladius;scombroid;scombroid fish;sword;spear;fin;thorn;shell;club
+swordfish.N 10705 ::: saltwater fish;xiphias gladius;scombroid;scombroid fish;sword;fin;spear;shell;rock;dragon
+roughy.N 1773 ::: the;new;of;and;dolphin;sea;ocean;to;fin;its
+roughy.N 10709 ::: the;new;of;to;an;and;as;that;its;se
+marlin.N 1774 ::: billfish;black marlin;makaira mazara;makaira marlina;blue marlin;makaira nigricans;striped marlin;makaira mitsukurii;white marlin;makaira albida
+marlin.N 10710 ::: billfish;black marlin;makaira mazara;makaira marlina;blue marlin;makaira nigricans;striped marlin;makaira mitsukurii;white marlin;makaira albida
+fab.N 1799 ::: the;your;of;my;our;be;is;we;an;al
+fab.N 2913 ::: fa;ba;do;pro;cal;be;da;no;nu;ra
+web.N 1876 ::: object;physical object;spider web;spiders web;tent;webbing;entanglement;trap;vane;blade
+erroneous.J 1891 ::: the;that;of;his;he;and;this;an;you;to
+miscalculate.V 1993 ::: misestimate;misjudge;calculate;cipher;cypher;compute;work out;reckon;figure;wrong
+depreciation.N 2000 ::: decrease;diminution;reduction;step down;wear and tear;financial loss;non cash expense;straight line method;straight line method of depreciation;write off
+medicalization.N 2053 ::: medical;hospital;clinical;legal;ethical;medicinal;military;new;physical;sanitary
+mobster.N 2109 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;con
+mobster.N 2618 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+mobster.N 3769 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+mobster.N 9349 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+mobster.N 12120 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+mobster.N 13263 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+mobster.N 13794 ::: gangster;criminal;felon;crook;outlaw;malefactor;apache;yakuza;yardie;mob
+vindicate.N 2163 ::: the;of;that;an;and;to;as;his;this;de
+vindicate.N 8592 ::: the;that;of;as;this;and;state;your;you;we
+seafood.N 2295 ::: food;solid food;freshwater fish;milt;soft roe;octopus;periwinkle;winkle;prawn;shrimp
+seafood.N 10021 ::: food;solid food;freshwater fish;milt;soft roe;octopus;periwinkle;winkle;prawn;shrimp
+reinstal.V 2301 ::: back;re;now;restore;restoration;rein;remade;such;reborn;in
+reinstal.V 10508 ::: en;ref;re;un;reins;reg;back;rep;the;authentic
+renew.V 2324 ::: regenerate;re create;overhaul;modernize;modernise;refresh;freshen;refurbish;renovate;freshen up
+renew.V 2325 ::: regenerate;re create;overhaul;modernize;modernise;refresh;freshen;refurbish;renovate;freshen up
+expire.V 2330 ::: run out;discontinue;die;decease;perish;go;exit;pass away;pass;kick the bucket
+expire.V 2331 ::: run out;discontinue;die;decease;perish;go;exit;pass away;pass;kick the bucket
+rig.V 2410 ::: set up;cheat;chisel;manipulate;price;fasten;fix;secure;set;equip
+obscurity.N 2430 ::: obscureness;abstruseness;reconditeness;incomprehensibility;standing;anonymity;namelessness;humbleness;unimportance;lowliness
+monstrosity.N 2439 ::: freak;monster;lusus naturae;mutant;mutation;variation;sport;leviathan;malformation;miscreation
+vein.J 2445 ::: vein;cell;blood;curve;seam;cord;gland;bulge;muscle;mercer
+blue lit.J 2483 ::: blue;double;blues;white;side;purple;green;club;red;pale
+light catch.J 2486 ::: light;heat;glow;bright;hand;pale;color;lighter;flash;air
+who know what.J 2488 ::: who;what;where;here;we;everyone;nobody;you;under;and
+rough hew.J 2491 ::: rough;ragged;crude;broad;coarse;crack;roughly;hard;cracked;grim
+gangly.R 2500 ::: the;of;and;to;as;that;in;an;with;which
+windowsill.N 2503 ::: sill;window;roof;door;glass;sides;shop;arms;front;over
+distort.V 2511 ::: falsify;garble;warp;misrepresent;belie;mangle;mutilate;murder;twist;twine
+engulf.N 2540 ::: the;of;his;and;to;that;their;an;as;new
+dial.V 2541 ::: operate;control;choose;take;select;pick out;dial;call;cal;phone
+lag.N 2555 ::: slowdown;retardation;delay;holdup;interim;meantime;meanwhile;time interval;interval;interregnum
+tablecloth.N 2560 ::: table linen;napery;tea cloth;table;tables;dinner;restaurant;room;food;bar
+prescribe.V 2589 ::: order;dictate;inflict;bring down;visit;impose;mandate;pro;prose;sub
+prescribe.V 4582 ::: order;dictate;inflict;bring down;visit;impose;mandate;pro;sub;en
+prescribe.V 8914 ::: order;dictate;inflict;bring down;visit;impose;mandate;sub;non;con
+psychotropic.J 2590 ::: psychoactive;mentally;psychological;psychology;mental;emotionally;mood;personality;behavioral;psychiatric
+psychotropic.J 4583 ::: psychoactive;mentally;mental;depression;psychological;personality;emotionally;behavioral;mood;psychiatric
+pharmacology.N 2598 ::: pharmacological medicine;materia medica;medicine;medical specialty;pharmacokinetics;posology;psychopharmacology;toxicology;path;harm
+elegantly.R 2611 ::: elegant;graceful;handsome;gracefully;gentleman;distinguished;elegance;manners;excellent;the
+mannered.J 2612 ::: manner;gentleman;term;style;manners;fashion;conversation;letter;discourse;dressed
+strobe.N 2642 ::: stroboscope;strobe light;scientific instrument;the;as;and;of;to;that;like
+strobe.N 8873 ::: stroboscope;strobe light;scientific instrument;the;and;as;to;of;on;that
+strobe.N 9036 ::: stroboscope;strobe light;scientific instrument;the;and;to;that;of;as;in
+strobe.N 12969 ::: stroboscope;strobe light;scientific instrument;the;to;and;as;of;an;that
+nonwaiver.N 2683 ::: non;no;minimum;in;on;minor;day;and;june;or
+wade.V 2688 ::: walk;puddle;wade;dip;dive;wadi;tunnel;probe;deep;cautiously
+panel.J 2698 ::: panel;cell;screen;chamber;segment;text;platform;room;reed;crack
+recant.V 2735 ::: abjure;forswear;retract;resile;disown;renounce;repudiate;the;to;of
+encrypt.V 2816 ::: code;encipher;cipher;cypher;inscribe;write in code;encode;secret;con;encryption
+eavesdropping.N 2853 ::: ea;en;inter;iron;interference;obstruction;anti;eastern;interfere;ear
+<UNK>.N 2871 ::: of;in;ca;la;the;beth;where;at;en;sign
+rib.J 2873 ::: rib;dal;tyre;hip;bar;tri;bra;brig;nut;sub
+intestine.N 2874 ::: bowel;gut;internal organ;viscus;large intestine;small intestine;gross;rot;lev;net
+unsettlingly.R 2879 ::: un;odd;inter;ill;en;unpleasant;ever;under;extra;over
+sickly.R 2886 ::: sick;skeletal;mel;rotten;thin;faint;weak;sickness;dead;freak
+pallor.N 2887 ::: lividness;lividity;luridness;paleness;pallidness;wanness;achromasia;complexion;skin color;skin colour
+pallor.N 5461 ::: lividness;lividity;luridness;paleness;pallidness;wanness;achromasia;complexion;skin color;skin colour
+heartbeat strong.J 2888 ::: too;ever;pulse;five;ten;heartbeat;once;four;still;clock
+kindred.J 2948 ::: akin;kind;love;friend;like;char;one;son;way;the
+bookkeeper.N 2980 ::: accountant;comptroller;controller;book;register;card;check;bill;store;library
+murmur.V 3079 ::: talk;speak;utter;mouth;verbalize;verbalise;coo;susurrate;mutter;grumble
+soil.V 3189 ::: dirty;begrime;grime;colly;bemire;change;alter;modify;blemish;spot
+fringe.N 3261 ::: periphery;outer boundary;boundary;edge;bound;outskirt;city district;interference fringe;optical phenomenon;social group
+crispy.N 3265 ::: crisp;tang;juicy;grill;mint;crunch;paste;spicy;beef;roast
+pancetta.N 3266 ::: pan;tin;con;can;fan;par;la;pen;bon;os
+candid.J 3293 ::: blunt;forthright;frank;free spoken;outspoken;plainspoken;point blank;straight from the shoulder;open;heart to heart
+lawmaker.N 3299 ::: lawgiver;leader;legislator;promulgator;law;bar;lawyer;government;act;fellow
+hardship.N 3314 ::: adversity;hard knocks;misfortune;bad luck;tough luck;ill luck;affliction;catastrophe;disaster;distress
+hardship.N 7212 ::: adversity;hard knocks;misfortune;bad luck;tough luck;ill luck;affliction;catastrophe;disaster;distress
+covering.N 3367 ::: natural covering;cover;natural object;bark;blanket;mantle;body covering;crust;incrustation;encrustation
+pickle.J 3410 ::: pick;picked;pepper;shake;hook;spin;catch;take;mint;bang
+savory.N 3414 ::: herb;herbaceous plant;summer savory;satureja hortensis;satureia hortensis;winter savory;satureja montana;satureia montana;micromeria juliana;savoury
+condiment.N 3415 ::: flavorer;flavourer;flavoring;flavouring;seasoner;seasoning;catsup;ketchup;cetchup;tomato ketchup
+complicity.N 3427 ::: guilt;guiltiness;the;of;an;his;to;and;that;new
+extort.V 3429 ::: take;blackmail;squeeze;rack;gouge;wring;overcharge;soak;surcharge;gazump
+spokeswoman.N 3575 ::: spokesperson;interpreter;representative;voice;spokesman;spoke;advocate;speaking;speak;advocacy
+flexibly.R 3583 ::: flex;flexible;firm;crisp;dual;fluid;flexibility;smooth;shift;strict
+invest.V 3595 ::: put;commit;place;spend;expend;drop;buy into;fund;roll over;shelter
+tweak.N 3699 ::: pinch;squeeze;squeezing;un;pop;twin;under;double;in;twist
+salade.N 3700 ::: sallet;helmet;salad;toast;roll;soup;steak;grill;rice;grille
+mousse.N 3703 ::: dessert;sweet;afters;chocolate mousse;dish;chicken mousse;fish mousse;hair mousse;hair gel;toiletry
+mousse.N 10771 ::: dessert;sweet;afters;chocolate mousse;dish;chicken mousse;fish mousse;hair mousse;hair gel;toiletry
+chocolat.N 3705 ::: cho;cha;sac;ca;franco;po;pic;ce;chi;neo
+pecan.N 3710 ::: wood;pecan tree;carya illinoensis;carya illinoinsis;nut tree;edible nut;the;la;jo;de
+pecan.N 10767 ::: wood;pecan tree;carya illinoensis;carya illinoinsis;nut tree;edible nut;the;chocolate;coco;new
+pecan.N 10774 ::: wood;pecan tree;carya illinoensis;carya illinoinsis;nut tree;edible nut;and;the;to;with
+marjolaine.N 3711 ::: mar;mel;mas;sub;la;ma;grand;mor;mat;coco
+marjolaine.N 10768 ::: mar;pi;min;mat;saint;mor;marc;mir;bu;re
+cyst.N 3724 ::: pathology;dermoid cyst;galactocele;hemorrhagic cyst;blood cyst;hematocyst;hydatid;nabothian cyst;nabothian follicle;ovarian cyst
+miraculously.R 3727 ::: miraculous;miracle;magical;supernatural;remarkably;amazingly;luckily;spectacular;tremendous;surprisingly
+socialite.N 3771 ::: important person;influential person;personage;social;socially;society;urban;political;fashion;educated
+Co found.V 3774 ::: founder;founding;she;feminist;sister;pioneer;her;first;was;herself
+Co found.V 14480 ::: founder;herself;founding;himself;executive;is;author;previously;wrote;formerly
+fester.J 3807 ::: fest;persist;stew;sour;brew;damp;sting;deep;acute;taut
+cryptographer.N 3834 ::: cryptanalyst;cryptologist;decoder;decipherer;crypt;cipher;encryption;counter;secret;key
+reliever.N 3846 ::: stand in;substitute;relief;backup;backup man;fill in;peer;equal;match;compeer
+bullpen.N 3847 ::: area;detention cell;detention centre;cell;jail cell;prison cell;bull;in;diamond;mound
+melon.N 3854 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+melon.N 5774 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+melon.N 7335 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+melon.N 9639 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+melon.N 13288 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+melon.N 14362 ::: edible fruit;melon ball;muskmelon;sweet melon;watermelon;melon vine;gourd;gourd vine;cucumber;cucumber vine
+enshrine.J 3897 ::: en;in;arc;on;ash;incorporated;of;and;imp;out
+skirt.V 3920 ::: hedge;fudge;evade;put off;circumvent;parry;elude;dodge;duck;sidestep
+pancake.N 3957 ::: battercake;flannel cake;flapcake;flapjack;griddlecake;hotcake;hot cake;cake;blini;bliny
+naan.N 3961 ::: nan;bread;breadstuff;staff of life;pa;yang;it;sin;mu;pu
+curry.N 3963 ::: dish;lamb curry;curry;sake;sauce;mustard;soup;dressing;accompaniment;salad
+overfish.J 4019 ::: over;mal;out;under;commercial;off;population;in;of;up
+nicoise.J 4022 ::: the;of;and;your;my;la;an;her;she;that
+diner.N 4127 ::: eater;feeder;cutter;carver;tablemate;dining companion;dining car;dining compartment;buffet car;passenger car
+e trade.J 4220 ::: electronic;micro;self;web;net;it;free;open;inter;hyper
+oil for food.J 4257 ::: oil;energy;electricity;fuel;import;refinery;petroleum;international;authority;ethanol
+wrangle.N 4294 ::: quarrel;row;words;run in;dustup;dispute;difference;difference of opinion;conflict;affray
+all day.J 4373 ::: all;eight;entire;one;everything;eleven;two;four;every;over
+revisionist.N 4544 ::: communist;commie;reconstruction;revision;denial;reaction;myth;critical;ref;counter
+antidepressant.N 4586 ::: antidepressant drug;medicine;medication;medicament;medicinal drug;maleate;monoamine oxidase inhibitor;maoi;nefazodone;serzone
+unkillable.J 4642 ::: un;over;electro;dangerous;dead;auto;of;are;and;out
+blanch.J 4680 ::: blanc;butter;salt;paste;bread;grille;coarse;seasoned;powder;sour
+blanch.J 13000 ::: pale;visibly;blanc;immediately;profile;grimace;white;face;recoil;scowl
+salt.V 4681 ::: season;flavor;flavour;sprinkle;splash;splosh;spice;spice up;preserve;keep
+macerate.N 4683 ::: the;of;and;as;to;that;their;an;other;its
+rinse.J 4686 ::: the;of;and;as;to;that;their;an;other;its
+turntable.N 4736 ::: platform;lazy susan;tray;record;sound;floor;tape;play;radio;music
+impenetrable.J 4740 ::: dense;heavy;imp;rep;in;ing;and;am;red;un
+nick.V 4803 ::: snick;cut;chip;change;alter;modify;copulate;mate;pair;couple
+then.N 4809 ::: point;point in time;then;time;state;late;later;former;thereafter;yet
+oilman.N 4813 ::: businessman;man of affairs;wildcatter;skilled worker;trained worker;skilled workman;rigger;oil rigger;oil;petroleum
+egoless.J 4883 ::: ego;emotion;attitude;image;expense;ambition;identity;idiot;address;money
+malnutrition.N 4972 ::: deficiency disease;avitaminosis;hypovitaminosis;kwashiorkor;marasmus;poor;starvation;hunger;ill;poverty
+malnutrition.N 7208 ::: deficiency disease;avitaminosis;hypovitaminosis;kwashiorkor;marasmus;poor;poverty;ill;mal;population
+favor trading.J 4983 ::: favor;good;blood;ink;pawn;vice;cash;hand;dollar;coin
+yearof.N 5047 ::: year;month;week;day;decade;season;chapter;summer;generation;semester
+wasover.N 5051 ::: was;were;now;is;had;it;am;finally;this;out
+no one.J 5135 ::: no;all;none;every;nobody;the;some;me;number;and
+no one.J 6373 ::: no;not;without;none;there;the;all;and;nothing;non
+off balance.J 5257 ::: off;mid;down;low;under;on;back;high;short;dead
+pew.N 5275 ::: church bench;bench;pew;seat;altar;aisle;nave;seating;church;pulpit
+pew.N 6155 ::: church bench;bench;pew;pulpit;altar;seating;congregation;church;people;chancel
+pew.N 6574 ::: church bench;bench;pew;congregation;seating;altar;aisle;din;communion;church
+pew.N 7060 ::: church bench;bench;pew;seat;aisle;row;minister;seating;church;slot
+pew.N 13630 ::: church bench;bench;pew;aisle;pulpit;seating;podium;congregation;preacher;church
+undo.V 5299 ::: change by reversal;turn;reverse;unbelt;unbraid;unbuckle;unbutton;unclip;unfasten;unfold
+antiquary.N 5321 ::: antiquarian;archaist;expert;old;antique;ancient;anti;art;ex;early
+sleazy.J 5323 ::: bum;cheap;cheesy;chintzy;crummy;punk;tinny;seamy;seedy;sordid
+black market.N 5324 ::: black;dark;crack;hard;high;freak;raw;sick;back;old
+silk.N 5344 ::: fabric;cloth;material;textile;sarcenet;sarsenet;animal fiber;animal fibre;silk;velvet
+silk.N 9748 ::: fabric;cloth;material;textile;sarcenet;sarsenet;animal fiber;animal fibre;silk;satin
+femininity.N 5389 ::: muliebrity;trait;effeminacy;effeminateness;sissiness;softness;womanishness;unmanliness;girlishness;ladylikeness
+adjective.N 5411 ::: modifier;qualifier;comparative;comparative degree;descriptive adjective;qualifying adjective;positive;positive degree;relational adjective;classifying adjective
+hoopla.N 5421 ::: ballyhoo;hype;plug;promotion;publicity;promotional material;packaging;par;cap;bo
+standpoint.N 5472 ::: point of view;viewpoint;stand;position;stance;posture;cityscape;complexion;landscape;slant
+outfielder.N 5477 ::: fielder;center fielder;centerfielder;left fielder;right fielder;fieldsman;outfielder;batter;hitter;catcher
+outfielder.N 7549 ::: fielder;center fielder;centerfielder;left fielder;right fielder;fieldsman;outfielder;baseman;catcher;amino
+helping.N 5613 ::: portion;serving;small indefinite quantity;small indefinite amount;breast;white meat;drink;drumstick;libation;medallion
+vichyssoise.N 5615 ::: soup;li;cha;monte;per;fra;ge;os;demi;pi
+vichyssoise.N 12933 ::: soup;char;saint;chateau;li;ge;de;di;rice;blanc
+hunchback.N 5617 ::: kyphosis;humpback;spinal curvature;crookback;cripple;fen;squat;drag;smug;po
+hunchback.N 11200 ::: kyphosis;humpback;spinal curvature;crookback;cripple;pu;mu;gaunt;ur;shall
+hunchback.N 13380 ::: kyphosis;humpback;spinal curvature;crookback;cripple;sha;dar;sai;rep;crank
+hunchback.N 13563 ::: kyphosis;humpback;spinal curvature;crookback;cripple;the;and;to;that;of
+hunchback.N 15779 ::: kyphosis;humpback;spinal curvature;crookback;cripple;the;of;and;that;to
+scribble.V 5621 ::: scrabble;write;scrawl;the;of;and;that;to;as;with
+fingernail.N 5623 ::: nail;thumbnail;finger;thumb;paper;pad;pen;pointer;note;stroke
+disaffected.J 5630 ::: ill affected;malcontent;rebellious;con;rebellion;semi;volatile;drunken;un;rebel
+rung.N 5637 ::: round;stave;crosspiece;rundle;spoke;fig;than;he;ha;aw
+splinter.N 5713 ::: sliver;bit;chip;flake;fleck;scrap;splinter;fragment;nick;thorn
+throaty.N 5817 ::: throat;voice;deep;tone;husky;baritone;mina;bass;soft;narrator
+airtight.N 5856 ::: air;atmosphere;oxygen;un;vacuum;atmospheric;ether;space;inside;outside
+constrict.V 5861 ::: compress;squeeze;compact;contract;press;tighten;astringe;bear down;overbear;choke
+daunting.J 5873 ::: intimidating;th;bo;de;do;da;na;to;mo;el
+woozy.N 5916 ::: buzz;woo;fu;ba;dizzy;ether;nu;wild;ai;flu
+woozy.N 14200 ::: you;ba;nu;buzz;do;me;it;ai;that;dizzy
+woozy.N 15607 ::: dizzy;ether;buzz;woo;rave;bum;ai;warp;flu;wild
+doubtless.R 5932 ::: undoubtedly;doubtlessly;doubt;sense;certainty;seem;fair;argument;sure;uncertain
+blearily.R 6008 ::: to;the;as;and;that;of;like;even;an;with
+splash.V 6088 ::: sprinkle;splosh;scatter;dot;dust;disperse;drizzle;moisten;salt;squelch
+crease.N 6089 ::: fold;plication;flexure;crimp;bend;angular shape;angularity;kink;twist;twirl
+platter.J 6151 ::: plate;tray;side;feast;toast;fork;slice;table;server;buffet
+autograph.N 6184 ::: writing;written material;piece of writing;manuscript;holograph;john hancock;signature;auto;pro;honorary
+autograph.N 13355 ::: writing;written material;piece of writing;manuscript;holograph;john hancock;signature;and;the;as
+pint.N 6277 ::: british capacity unit;imperial capacity unit;dry pint;united states dry unit;united states liquid unit;pin;tun;bran;bit;slug
+pint.N 6283 ::: british capacity unit;imperial capacity unit;dry pint;united states dry unit;united states liquid unit;pin;put;beer;bran;petrol
+pint.N 14992 ::: british capacity unit;imperial capacity unit;dry pint;united states dry unit;united states liquid unit;pin;bran;put;bag;slug
+pint.N 15909 ::: british capacity unit;imperial capacity unit;dry pint;united states dry unit;united states liquid unit;pin;slug;brandy;pound;tun
+doorframe.N 6320 ::: doorcase;framework;door;wall;wood;doorway;entry;lock;frame;room
+doorframe.N 11764 ::: doorcase;framework;door;doorway;entrance;gate;window;screen;knock;room
+soften.V 6326 ::: change intensity;muffle;mute;dull;damp;dampen;tone down;weaken;break;deaden
+chop.V 6419 ::: chop up;cut;hash;mince;move;make;create;strike;hack;axe
+dryad.N 6437 ::: wood nymph;nymph;hamadryad;dry;in;grim;dew;kali;fair;al
+dryad.N 15069 ::: wood nymph;nymph;hamadryad;bel;dry;al;vol;wild;shay;grim
+boon.N 6506 ::: blessing;good fortune;luckiness;good luck;mercy;boon;cure;magic;comfort;blessed
+fuck.N 6558 ::: fucking;screw;screwing;ass;nooky;nookie;piece of ass;piece of tail;roll in the hay;shag
+fuck.N 15348 ::: fucking;screw;screwing;ass;nooky;nookie;piece of ass;piece of tail;roll in the hay;shag
+grasshopper.N 6576 ::: hopper;orthopterous insect;orthopteron;orthopteran;long horned grasshopper;tettigoniid;short horned grasshopper;acridid;cocktail;grass
+midair.N 6580 ::: point;mid;half;arc;midst;middle;between;in;air;the
+midair.N 14235 ::: point;mid;middle;midst;half;between;during;in;inter;medium
+corpulent.N 6634 ::: the;el;of;as;their;and;street;an;when;that
+batrachian.N 6635 ::: frog;toad;toad frog;anuran;salientian;amphibian;barking frog;robber frog;hylactophryne augusti;crapaud
+smog.N 6648 ::: smogginess;air pollution;mix;twitch;bump;chips;crack;buzz;can;chip
+smog.N 7453 ::: smogginess;air pollution;the;and;no;car;my;center;but;old
+leech.V 6649 ::: bleed;phlebotomize;phlebotomise;treat;care for;see;pee;bel;el;con
+dimness.N 6651 ::: duskiness;semidarkness;subduedness;dullness;faintness;indistinctness;softness;blurriness;fogginess;fuzziness
+disbelieve.J 6659 ::: di;tri;bra;con;me;ave;de;be;my;the
+skitter.J 6711 ::: the;to;and;of;as;that;an;in;on;with
+garlicky.N 6731 ::: garlic;nose;ba;lotus;da;ginger;wheat;bran;straw;sage
+coolly.R 6740 ::: nervelessly;nonchalantly;cool;cold;with;calm;steady;chill;hard;coldly
+quarter pint.J 6796 ::: quarter;half;quarters;cent;hundred;coin;part;mid;third;guinea
+quarter pint.J 15675 ::: quarter;half;cent;quarters;coin;part;third;mid;hundred;penny
+leech.N 6800 ::: bloodsucker;hirudinean;annelid;annelid worm;segmented worm;horseleech;medicinal leech;hirudo medicinalis;parasite;sponge
+leech.N 15538 ::: bloodsucker;hirudinean;annelid;annelid worm;segmented worm;horseleech;medicinal leech;hirudo medicinalis;parasite;sponge
+leech.N 15608 ::: bloodsucker;hirudinean;annelid;annelid worm;segmented worm;horseleech;medicinal leech;hirudo medicinalis;parasite;sponge
+flail.V 6863 ::: thrash;thresh;lam;beat;beat up;work over;flap;the;and;new
+powdery.N 6943 ::: powder;flour;crunch;chalk;dust;frost;dirt;lump;particle;grit
+dam.J 6990 ::: dam;bar;tap;sha;de;er;sum;lake;ram;flow
+dam.J 13420 ::: dam;reservoir;barrage;lake;hydro;hydroelectric;control;the;miller;hydraulic
+thrash.N 7016 ::: swimming kick;thrash;wild;writhing;vice;madden;wildly;rough;arm;struggle
+throes.N 7017 ::: throe;agony;suffering;excruciation;distress;th;close;suffer;ser;hit
+trip.V 7020 ::: stumble;move;founder;trip up;travel;jaunt;commute;junketeer;junket;peregrinate
+half heart.J 7032 ::: half;trying;part;short;over;mid;just;under;back;semi
+sergeant.N 7088 ::: noncommissioned officer;noncom;enlisted officer;color sergeant;first sergeant;sergeant first class;gunnery sergeant;master sergeant;recruiting sergeant;senior master sergeant
+baserunner.N 7106 ::: base;bases;home;bat;ground;batter;hit;sacrifice;triple;club
+free.J 7122 ::: complimentary;costless;gratis;gratuitous;detached;spare;barren;destitute;devoid;innocent
+calc.N 7137 ::: cal;ca;cad;ta;al;fa;pal;to;at;ba
+insulate.V 7165 ::: change;alter;modify;soundproof;weatherstrip;isolate;discriminate;separate;single out;cloister
+falloff.N 7166 ::: slump;slack;drop off;falling off;deterioration;decline in quality;declension;worsening;fall;recession
+extradition.N 7172 ::: surrender;the;to;of;an;that;and;as;in;by
+nymph.N 7176 ::: greco roman deity;graeco roman deity;daphne;dryad;wood nymph;echo;hesperides;atlantides;hyades;oread
+blame.V 7206 ::: fault;charge;accuse;find fault;pick;knock;criticize;criticise;pick apart;impute
+embargo.N 7207 ::: trade embargo;trade stoppage;trade barrier;import barrier;the;and;of;to;as;an
+geometrical.J 7235 ::: geometric;pyramid;decorative;mythological;cross;labyrinth;different;abstract;geometry;circular
+thrive.V 7308 ::: boom;flourish;expand;grow;luxuriate;revive;prosper;fly high;change state;turn
+chapati.N 7333 ::: chapatti;flatbread;cha;ka;sha;ni;do;che;char;ba
+parboil.J 7340 ::: the;of;and;as;to;an;in;his;that;new
+bumper.N 7447 ::: glass;drinking glass;mechanical device;bumper;verge;curb;se;dodge;gravel;hood
+affidavit.N 7505 ::: legal document;legal instrument;official document;instrument;testimony;verification;the;and;that;to
+affidavit.N 7509 ::: legal document;legal instrument;official document;instrument;testimony;verification;the;and;that;to
+affidavit.N 11897 ::: legal document;legal instrument;official document;instrument;testimony;verification;the;that;and;as
+incontestably.R 7529 ::: imp;as;un;no;something;exist;an;in;and;actual
+homer.N 7571 ::: home run;base hit;safety;solo homer;solo blast;kor;volume unit;capacity unit;capacity measure;cubage unit
+homer.N 9298 ::: home run;base hit;safety;solo homer;solo blast;kor;volume unit;capacity unit;capacity measure;cubage unit
+homer.N 9524 ::: home run;base hit;safety;solo homer;solo blast;kor;volume unit;capacity unit;capacity measure;cubage unit
+springtime.N 7601 ::: spring;season;time of year;summer;fall;may;autumn;march;snap;sun
+dais.N 7611 ::: podium;pulpit;rostrum;ambo;stump;soapbox;platform;throne;table;chair
+fur.N 7614 ::: pelt;animal skin;astrakhan;bearskin;beaver;beaver fur;chinchilla;ermine;fox;lambskin
+fur.N 15399 ::: pelt;animal skin;astrakhan;bearskin;beaver;beaver fur;chinchilla;ermine;fox;lambskin
+prescriptive.J 7652 ::: normative;pro;court;par;of;prior;sub;such;cap;para
+prescriptive.J 8667 ::: normative;pro;poly;post;para;di;non;re;ce;fa
+coalesce.J 7687 ::: orb;fu;coal;solid;flame;crystal;ball;mushroom;center;form
+industry government.J 7709 ::: industry;technology;industrial;electronics;professional;business;engineering;equipment;economic;international
+luster.N 7716 ::: lustre;brilliancy;splendor;splendour;brightness;shininess;sheen;radiance;radiancy;shine
+seasoning.V 7722 ::: season;flavor;flavour;curry;resinate;salt;sauce;savor;savour;zest
+mainframe.N 7765 ::: mainframe computer;digital computer;supercomputer;central processing unit;cpu;c.p.u.;central processor;processor;electronic equipment;hardware
+haunch.N 7819 ::: body part;hindquarters;croup;croupe;rump;the;and;to;of;in
+fume.N 7858 ::: smoke;aerosol;gun smoke;smother;ash;smoking;dust;tobacco;haze;chimney
+Co author.J 7919 ::: joint;the;both;sister;jointly;her;associate;all;principal;later
+notable.N 7948 ::: luminary;leading light;guiding light;notability;celebrity;famous person;notable;prominent;famous;and
+penny size.J 7991 ::: penny;ticket;dollar;dime;thread;corner;bit;pin;coin;ace
+ripple.V 8018 ::: ruffle;riffle;cockle;undulate;flow;flux;babble;guggle;burble;bubble
+ratty.N 8023 ::: rat;bee;brat;rag;pee;ra;gut;tin;old;smell
+earwax.N 8064 ::: cerumen;wax;ear;auditory;hearing;hear;ass;am;echo;eye
+taunt.N 8108 ::: twit;taunting;aggravation;irritation;provocation;tau;tai;lame;goa;rode
+subscribe.V 8130 ::: offer;bid;tender;sign;write;rubricate;support;agree;hold;concur
+diet.N 8150 ::: fare;allergy diet;balanced diet;bland diet;ulcer diet;carbohydrate loading;carbo loading;diabetic diet;dietary supplement;gluten free diet
+spade.N 8151 ::: playing card;hand shovel;ditch spade;long handled spade;garden spade;nigger;nigga;coon;jigaboo;nigra
+halibut.N 8153 ::: flatfish;holibut;the;fresh;season;peak;new;crisp;deep;blue
+flavor.J 8154 ::: flavor;sweet;flavour;sour;sweetness;berry;polish;taste;delicious;cool
+butter.N 8155 ::: dairy product;food;solid food;brown butter;beurre noisette;clarified butter;drawn butter;meuniere butter;lemon butter;stick
+troopship.N 8189 ::: ship;troop carrier;troop transport;labor;infantry;men;army;the;expeditionary;first
+unshakable.J 8195 ::: firm;steadfast;steady;stiff;unbendable;unfaltering;unwavering;unassailable;watertight;bulletproof
+cajole.V 8277 ::: wheedle;palaver;blarney;coax;sweet talk;inveigle;persuade;browbeat;bully;swagger
+invoice.N 8294 ::: bill;account;statement;financial statement;check;chit;tab;electric bill;hotel bill;medical bill
+lazily.R 8328 ::: idly;the;sea;of;and;new;beach;al;their;to
+seaweed.J 8329 ::: sea;water;marine;wave;ocean;beach;tide;sand;ca;wine
+sheath.J 8403 ::: sheath;holster;slung;hilt;steel;tuck;sling;belt;leather;tang
+sheath.J 11317 ::: clad;coated;covered;sheath;armored;lined;wrapped;enamel;coating;mounted
+scabbard.N 8404 ::: sheath;the;el;as;of;new;his;al;he;that
+belt.J 8406 ::: belt;sheath;strapped;buckled;holster;waist;slung;hilt;harness;leash
+admonish.J 8473 ::: the;that;be;as;of;and;to;his;he;your
+seep.N 8674 ::: see;let;slip;sap;mas;reach;swamp;trickle;spread;cure
+seep.N 12169 ::: see;trickle;pee;ni;sap;drip;well;lap;let;flow
+wrinkle.N 8810 ::: furrow;crease;crinkle;seam;line;depression;impression;imprint;crows foot;crows feet
+wrinkle.N 15746 ::: furrow;crease;crinkle;seam;line;depression;impression;imprint;crows foot;crows feet
+clack.N 8937 ::: clap;noise;clack valve;clapper valve;valve;click;rattle;boom;snap;flap
+uplift.J 8958 ::: up;high;above;raised;open;upward;in;out;over;elevated
+handcuff.V 8961 ::: manacle;cuff;fetter;shackle;cell;set;hand;rope;bond;bound
+awaken.N 8978 ::: awake;wake;rise;awoke;raise;spring;summon;awakening;induce;arise
+tarragon.N 9044 ::: estragon;artemisia dracunculus;artemisia;herb;pepper;salt;sweet;tar;lime;orange
+appraise.V 9083 ::: measure;evaluate;valuate;assess;value;pass judgment;judge;censor;grade;score
+appraise.V 15883 ::: measure;evaluate;valuate;assess;value;pass judgment;judge;censor;grade;score
+appraise.V 15921 ::: measure;evaluate;valuate;assess;value;pass judgment;judge;censor;grade;score
+computer security.J 9126 ::: computer;machine;system;video;disk;web;micro;complex;popular;it
+openness.N 9133 ::: spacing;spatial arrangement;patency;nakedness;sociability;sociableness;receptiveness;receptivity;willingness;open
+snack.V 9136 ::: nosh;eat;browse;graze;snack;the;feast;eating;fork;appetite
+snotty.J 9199 ::: bigheaded;persnickety;snooty;snot nosed;stuck up;too big for ones breeches;uppish;the;like;and
+gritty.J 9205 ::: farinaceous;coarse grained;grainy;granular;granulose;mealy;game;gamy;gamey;mettlesome
+ambience.N 9206 ::: atmosphere;ambiance;condition;status;genius loci;gloom;gloominess;glumness;miasma;miasm
+conspire.V 9281 ::: cabal;complot;conjure;machinate;plot;coconspire;collude;interact;con;plotted
+exasperation.N 9339 ::: aggravation;annoyance;chafe;vexation;annoying;irritation;exacerbation;ex;exasperated;ill
+matted.J 9407 ::: flat;mat;matt;matte;grit;gray;soil;rough;tack;dirty
+matted.J 14340 ::: flat;mat;matt;matte;slick;sheet;gray;garland;flour;burt
+cataloge.J 9474 ::: catalogue;inventory;classified;document;list;roster;listed;consolidated;tagged;organized
+clout.N 9489 ::: target;mark;pull;advantage;vantage;clout nail;nail;punch;poke;lick
+psychopharmacology.N 9582 ::: pharmacology;pharmacological medicine;materia medica;psychological;psychology;mental;psychiatric;personality;psychic;depression
+prescription.N 9592 ::: direction;instruction;prescription drug;prescription medicine;ethical drug;medicine;medication;medicament;medicinal drug;refill
+felony.N 9602 ::: crime;offense;criminal offense;criminal offence;offence;law breaking;bribery;graft;burglary;capture
+cuisine.N 9643 ::: culinary art;cooking;cookery;preparation;dim sum;gastronomy;haute cuisine;nouvelle cuisine;rechauffe;cuisine
+infiltrate.V 9713 ::: percolate;sink in;permeate;filter;penetrate;join;fall in;get together;pass through;pass
+infiltrate.V 11113 ::: percolate;sink in;permeate;filter;penetrate;join;fall in;get together;pass through;pass
+usher.V 9729 ::: show;lead;take;direct;conduct;guide;marshal;pointing;showing;motion
+unimportant.J 9740 ::: insignificant;ordinary;trivial;important;anything;converse;any;irrelevant;nothing;un
+browse.V 9744 ::: shop;search;seek;look for;antique;comparison shop;window shop;crop;graze;range
+browse.V 15771 ::: shop;search;seek;look for;antique;comparison shop;window shop;crop;graze;range
+tribesman.N 9756 ::: member;fellow member;tribal;and;people;as;savage;tribe;indigenous;water
+reverberate.V 9850 ::: resound;echo;ring;sound;go;bong;consonate;reecho;prevail;persist
+stain glass.N 9853 ::: church;converted;chapel;cathedral;parish;over;glass;high;sanctuary;kirk
+compel.V 9929 ::: oblige;obligate;induce;stimulate;cause;have;get;make;clamor;coerce
+gourd.N 9984 ::: calabash;bottle;fruit;gourd vine;vine;balsam apple;momordica balsamina;balsam pear;momordica charantia;bottle gourd
+gourd.N 11025 ::: calabash;bottle;fruit;gourd vine;vine;balsam apple;momordica balsamina;balsam pear;momordica charantia;bottle gourd
+ripen.V 9985 ::: mature;change;alter;modify;maturate;grow;maturity;ripe;immature;age
+ripen.V 14456 ::: mature;change;alter;modify;maturate;grow;maturity;ripe;immature;age
+fleck.J 9994 ::: the;of;and;his;as;to;that;their;new;green
+after tax.J 10158 ::: after;post;off;before;end;in;over;following;late;under
+pleather.N 10182 ::: the;and;as;to;of;that;in;on;an;like
+snug.N 10189 ::: cubby;cubbyhole;snuggery;room;he;super;she;san;st;re
+sucker mouth.J 10305 ::: sucker;mouth;slug;trap;wet;giant;rep;gum;talon;slick
+mosaic.N 10323 ::: art;fine art;plant disease;potato mosaic;tobacco mosaic;form;shape;pattern;transducer;arial mosaic
+tunic.N 10326 ::: tunica;adventitia;membrane;tissue layer;albuginea;cloak;chiton;gymslip;kameez;kirtle
+bulge.J 10412 ::: bulge;bulky;curved;wrinkled;dilapidated;strained;huge;snout;was;cracked
+gut.J 10415 ::: gut;skin;scalp;rat;socket;stomach;brat;face;trough;belly
+ebullient.J 10432 ::: exuberant;high spirited;un;de;se;es;er;in;ne;ill
+retell.N 10518 ::: re;tell;recall;back;be;remind;remember;further;reminder;vivid
+sow.N 10522 ::: swine;the;of;de;new;and;in;an;re;her
+state of the art.J 10539 ::: state;all;art;turn;best;development;set;place;the;world
+hitech.N 10554 ::: hit;of;off;by;reach;on;re;for;it;in
+counterclockwise.N 10655 ::: counter;reverse;cross;roller;board;stick;rack;mirror;anti;chain
+counterclockwise.N 14075 ::: counter;west;cross;reverse;parallel;clockwise;north;south;forward;time
+counterclockwise.N 15305 ::: counter;reverse;clockwise;cross;parallel;west;circle;north;square;forward
+honoree.N 10698 ::: recipient;receiver;academician;laureate;honor;award;honorable;top;distinction;merit
+honoree.N 13296 ::: recipient;receiver;academician;laureate;honor;award;honorable;top;merit;contest
+meringue.N 10773 ::: topping;sept;mon;mar;pen;bass;mort;mir;se;noir
+sorbet.N 10777 ::: water ice;ice;frappe;and;the;to;with;of;on;as
+unresolved.J 10797 ::: unsolved;open;undecided;undetermined;dissonant;active;under;ongoing;currently;unclear
+caterpillar.N 10816 ::: larva;armyworm;army worm;pseudaletia unipuncta;beet armyworm;spodoptera exigua;bollworm;cabbageworm;pieris rapae;cankerworm
+caterpillar.N 10824 ::: larva;armyworm;army worm;pseudaletia unipuncta;beet armyworm;spodoptera exigua;bollworm;cabbageworm;pieris rapae;cankerworm
+opium dream.J 10818 ::: opium;drug;weed;gin;drunken;the;drunk;in;dream;pipe
+computer maintenance.N 10890 ::: computer;it;home;book;video;desk;machine;terminal;system;cad
+bylichka.N 10918 ::: by;na;vol;bo;bu;my;do;dan;rub;mo
+thats.N 10953 ::: that;no;it;but;you;the;why;yes;then;of
+botanically.R 11026 ::: botanical;genus;species;plant;genera;botanic;floral;of;chemical;botany
+toad.N 11029 ::: frog;toad frog;anuran;batrachian;salientian;amphibian;barking frog;robber frog;hylactophryne augusti;crapaud
+dissipate.V 11120 ::: disperse;dispel;break up;scatter;separate;divide;disband;spread out;part;split
+outlay.N 11160 ::: spending;disbursement;disbursal;payment;defrayal;defrayment;deficit spending;compensatory spending;pump priming;expending
+reminisce.J 11224 ::: re;told;recall;he;mi;is;of;was;to;self
+reunion.N 11227 ::: party;reunification;union;unification;uniting;conjugation;jointure;homecoming;reunion;reunite
+staffer.N 11251 ::: staff member;employee;staff;desk;aide;fellow;counsel;intern;briefing;executive
+deluge.V 11255 ::: flood;inundate;swamp;fill;fill up;make full;overwhelm;flood out;charge;saddle
+inoculation.N 11257 ::: vaccination;immunization;immunisation;in;of;for;enter;anti;into;out
+wafer.N 11289 ::: paste;library paste;cookie;cooky;biscuit;bread;breadstuff;staff of life;the;of
+wafer.N 13330 ::: paste;library paste;cookie;cooky;biscuit;bread;breadstuff;staff of life;to;by
+shuttle.V 11293 ::: travel;go;move;locomote;shuttle;trolley;transported;convey;transportation;shipped
+squash.N 11388 ::: squash vine;vine;pumpkin;pumpkin vine;autumn pumpkin;cucurbita pepo;summer squash;summer squash vine;cucurbita pepo melopepo;winter squash
+boast.V 11396 ::: tout;swash;shoot a line;brag;gas;blow;bluster;vaunt;gasconade;overstate
+cronyism.N 11480 ::: discrimination;favoritism;favouritism;the;of;that;and;their;as;new
+swap.N 11482 ::: barter;swop;trade;exchange;interchange;horse trade;horse trading;swap;shop;do
+certify.V 11500 ::: attest;manifest;demonstrate;evidence;testify;bear witness;prove;show;authenticate;condemn
+malnourishment.N 11523 ::: undernourishment;hunger;hungriness;mal;under;low;short;ill;as;poor
+conspirator.N 11532 ::: coconspirator;plotter;machinator;criminal;felon;crook;outlaw;malefactor;con;plot
+skate.J 11534 ::: skate;hockey;skating;ice;skater;play;on;roger;winter;bam
+hairless.J 11754 ::: hair;fur;haired;skin;growth;wig;stubble;shirt;beard;belt
+itch.V 11836 ::: rub;scratch;irritate;ache;smart;hurt;tickle;titillate;vellicate;tingle
+pirate.V 11916 ::: steal;commandeer;hijack;highjack;seize;carjack;skyjack;pirate;piracy;fake
+eyeless.J 11950 ::: sightless;unseeing;eye;face;eyed;aim;sight;gaze;mouth;tooth
+pneumatic.J 11958 ::: the;to;and;of;in;as;an;that;for;on
+coincide.V 12021 ::: co occur;cooccur;coexist;overlap;concur;happen;hap;go on;pass off;occur
+crease.J 12172 ::: the;my;their;el;al;demon;as;that;imp;within
+diseased.J 12187 ::: morbid;pathologic;pathological;disease;pathogen;fungus;cancer;grown;plague;infected
+sapling.V 12188 ::: sap;tree;pine;prop;plant;vine;pop;rep;tender;with
+rasp.N 12267 ::: rasping;utterance;vocalization;wood file;file;ras;voice;tone;hiss;air
+fully own.J 12345 ::: the;to;of;and;as;in;that;an;by;with
+crucifix.N 12483 ::: rood;rood tree;cross;gymnastic exercise;the;of;and;that;they;these
+bead.N 12555 ::: jewelry;jewellery;bugle;drop;pearl;sphere;dewdrop;teardrop;beading;beadwork
+candleflame.N 12566 ::: candle;match;torch;flame;fire;fever;wax;lamp;clock;tin
+plank.J 12679 ::: plank;timber;rough;lumber;wooden;warp;board;deck;log;reed
+condominium.N 12710 ::: condo;dwelling;home;domicile;abode;habitation;dwelling house;housing;lodging;living accommodations
+clove.N 12905 ::: flower bud;clove tree;syzygium aromaticum;eugenia aromaticum;eugenia caryophyllatum;spice tree;garlic clove;garlic;ail;spice
+many shoulder.J 12921 ::: many;long;several;four;much;numerous;two;few;one;large
+soup.N 12930 ::: dish;alphabet soup;bisque;borsch;borsh;borscht;borsht;borshch;bortsch;broth
+dash.V 12972 ::: dart;scoot;scud;flash;shoot;rush;hotfoot;hasten;hie;speed
+pane.N 12981 ::: pane of glass;window glass;plate glass;sheet glass;windowpane;window;paneling;panelling;panel;wall panel
+psychiatrist.N 13009 ::: head shrinker;shrink;specialist;medical specialist;alienist;analyst;psychoanalyst;psychiatrist;psychiatric;psychic
+empirically.R 13078 ::: through empirical observation;by trial and error;empirical;experimental;evidence;independent;actual;independently;longitudinal;biological
+psychotherapeutic.J 13088 ::: cathartic;psychological;mood;psychology;personality;mental;behavioral;cognitive;depression;relationship
+psychosocial.J 13090 ::: psychological;psychology;behavioral;mood;personality;behavior;depression;the;mental;cognitive
+wrench.J 13123 ::: ripping;tearing;wrenched;wren;yanking;twisting;knocking;hurling;rattling;jar
+lidded.J 13228 ::: lid;sealed;seal;sealing;filled;tub;container;lobster;tray;capped
+crabmeat.N 13284 ::: crab;shellfish;alaska king crab;alaskan king crab;king crab;alaska crab;blue crab;crab legs;dungeness crab;japanese crab
+thumb.J 13292 ::: read;thumb;reading;access;flip;search;skimmed;scroll;through;page
+fundamental.N 13309 ::: factor;fundamental frequency;first harmonic;harmonic;fundamental;basic;theoretical;technical;methodology;essential
+donut.N 13360 ::: doughnut;sinker;friedcake;raised doughnut;don;can;pan;roll;san;pepper
+donut.N 14634 ::: doughnut;sinker;friedcake;raised doughnut;don;can;bu;pepper;san;dun
+detonation.N 13406 ::: explosion;blowup;discharge;airburst;backfire;big bang;blast;blowback;fragmentation;inflation
+reek.N 13448 ::: malodor;malodour;stench;stink;fetor;foetor;mephitis;smell;odor;odour
+good know.J 13577 ::: best;most;well;first;better;famous;biggest;more;least;now
+confessional.N 13622 ::: booth;cubicle;stall;kiosk;confession;church;devotion;parish;st;chapel
+beat up.J 13624 ::: beaten;battered;old;beat;big;worn;used;rusty;weathered;dent
+testify.V 13634 ::: attest;take the stand;bear witness;declare;vouch;prove;evidence;show;inform;adduce
+anti aircraft.J 13658 ::: anti;counter;defensive;shore;defense;attack;shell;action;ground;fire
+e mail.J 13687 ::: net;self;web;inter;ben;re;post;home;mail;error
+maudlin.N 13779 ::: maud;gloom;over;wo;sad;to;shy;wild;crazy;in
+congressman.N 13886 ::: congresswoman;representative;legislator;rep;congressman;congress;house;representation;select;te
+halve.V 13913 ::: divide;fraction;the;and;as;to;of;that;in;or
+lengthwise.N 13914 ::: length;long;size;mast;cut;span;cross;longer;across;sword
+fibrous.J 13916 ::: hempen;sinewy;stringy;unchewable;the;of;and;as;po;fig
+crescent.N 13921 ::: curve;curved shape;crescent;oval;quarter;sphere;spherical;diameter;disk;keel
+telex.N 13930 ::: teletypewriter;teleprinter;teletype machine;telex machine;character printer;character at a time printer;serial printer;mail;net;hard
+immanent.N 14066 ::: in;fu;am;of;is;em;equally;er;imp;ex
+widdersh.N 14074 ::: wi;li;far;hard;wheat;ever;the;per;and;long
+widdersh.N 15304 ::: wi;north;hard;the;far;per;half;wheat;of;and
+bash.J 14105 ::: bash;bang;pedal;bump;bust;jam;pound;smash;grind;butt
+bookcase.N 14149 ::: furniture;piece of furniture;article of furniture;book;reading;library;read;study;text;board
+toolkit.N 14188 ::: tool;gear;pro;guitar;equipment;hand;instrument;rough;mike;patch
+hunchbacked.J 14296 ::: crookback;crookbacked;humped;humpbacked;gibbous;kyphotic;mu;fen;gaunt;pu
+hunchbacked.J 14317 ::: crookback;crookbacked;humped;humpbacked;gibbous;kyphotic;mu;hull;gaunt;wi
+scraggly.R 14299 ::: and;under;bu;need;in;score;ra;of;rub;figure
+alleyway.N 14307 ::: alley;back street;street;lane;behind;area;arcade;back;aisle;after
+jubilant.J 14339 ::: exultant;exulting;prideful;rejoicing;triumphal;triumphant;elated;gleeful;joyful;si
+mixture.N 14366 ::: substance;alloy;metal;colloid;composition;eutectic;freezing mixture;greek fire;gummite;lamellar mixture
+cellophane.N 14372 ::: plastic wrap;cello;straw;wrap;plastic;transparency;ribbon;slip;glass;nylon
+braise.J 14375 ::: the;of;as;to;and;an;po;that;in;their
+set up.J 14392 ::: set;stand;setup;place;tent;bar;shack;establishment;spot;table
+red light.J 14447 ::: red;bad;hot;the;street;lo;low;dangerous;dry;rick
+alley.N 14455 ::: alleyway;back street;street;bowling alley;skittle alley;lane;alley;doorway;corner;den
+quinine.N 14462 ::: antimalarial;antimalarial drug;the;of;and;po;el;as;that;to
+observance.N 14465 ::: observation;watching;look;looking;looking at;monitoring;sighting;stargazing;ceremony;ceremonial
+spear.V 14555 ::: transfix;impale;empale;spike;spear up;stick out;protrude;jut out;jut;project
+plum sized.J 14566 ::: plum;kernel;walnut;laurel;straw;plank;jug;bucket;cum;cinder
+slummy.N 14586 ::: mas;turn;burn;crack;sal;poor;sick;st;dark;do
+storefront.N 14588 ::: shopfront;front;store;shop;warehouse;business;with;by;shopping;retail
+decay.J 14590 ::: decay;dilapidated;disrepair;skeletal;rust;ancient;deterioration;derelict;weathered;grim
+fad.N 14610 ::: craze;furor;furore;cult;rage;fashion;fa;pro;culture;ra
+fluke.N 14710 ::: good luck;good fortune;luck;fortune;serendipity;barb;flue;projection;tail;trematode
+converge.V 14740 ::: meet;breast;border on;approach;gather;assemble;forgather;foregather;concentrate;unify
+pure.N 14766 ::: pure;strong;mix;mixture;free;ripe;fresh;fine;bitter;thick
+kimono.N 14792 ::: robe;kim;hi;shi;han;chat;wa;the;of;sun
+valiantly.R 14822 ::: valorously;valiant;gallant;earnest;faithful;stout;hopeless;staunch;her;heroic
+incredulously.R 14857 ::: unbelievingly;disbelievingly;open;ann;add;en;imp;arch;ask;an
+celery.N 14970 ::: cultivated celery;apium graveolens dulce;herb;herbaceous plant;vegetable;veggie;veg;pascal celery;paschal celery;the
+pixie.N 14982 ::: elf;hob;gremlin;pixy;brownie;imp;fairy;faery;faerie;fay
+inlay.N 15013 ::: filling;decoration;ornament;ornamentation;marquetry;marqueterie;parquetry;parqueterie;the;of
+lapis.N 15014 ::: lap;tar;lo;rub;tap;oil;top;tu;leg;lip
+exhaust.J 15052 ::: myself;me;my;exhaust;torture;yourself;the;labor;hard;of
+wishful.J 15088 ::: desirous;aspirant;aspiring;there;the;it;that;your;nothing;her
+think.N 15115 ::: deliberation;weighing;advisement;think;thinking;worry;freak;thought;guess;know
+brick window.J 15232 ::: brick;block;stone;rock;center;frame;squat;metal;street;cement
+alluring.J 15247 ::: beguiling;enticing;tempting;all;ass;no;al;sat;sin;mort
+alarming.J 15248 ::: alarm;alarmed;astonishing;frightening;exciting;amazing;el;awe;over;and
+half pint.J 15322 ::: half;quarter;double;part;two;un;full;buck;mid;third
+ethnically.R 15359 ::: ethnic;indigenous;german;international;native;local;ak;exotic;immigrant;regional
+reconnect.J 15395 ::: re;to;di;ref;sync;and;in;rev;did;temporarily
+slither.V 15398 ::: slide;travel;go;move;locomote;the;and;as;to;of
+confidence inspiring.J 15422 ::: confidence;courage;confident;joy;strength;nerve;voice;so;trust;belief
+drape.V 15506 ::: arrange;set up;clothe;cloak;robe;cover;spread over;st;hood;bar
+apologetically.R 15572 ::: apologetic;apologize;apology;sorry;comfort;regret;forgive;sahib;pleading;amend
+unnerved.V 15605 ::: faze;unnerve;enervate;unsettle;upset;discompose;untune;disconcert;discomfit;unman
+rave.V 15652 ::: party;rant;mouth off;jabber;spout;rabbit on;talk;speak;utter;mouth
+genie.N 15729 ::: jinni;jinnee;djinni;djinny;djinn;spirit;disembodied spirit;eblis;shaitan;shaytan
+indenture.J 15730 ::: an;en;reg;un;add;as;imp;express;odd;honest
+sorcerer.N 15731 ::: magician;wizard;necromancer;thaumaturge;thaumaturgist;occultist;enchanter;exorcist;exorciser;magus
+golem.N 15733 ::: mythical being;automaton;robot;mechanism;android;humanoid;mechanical man;card;con;grim
+quotidian.N 15740 ::: quo;non;con;prima;par;nor;the;un;contra;pro
+refill.N 15821 ::: prescription drug;prescription;prescription medicine;ethical drug;merchandise;ware;product;ref;boost;replace
+hide out.J 15858 ::: hide;hidden;shelter;conceal;den;sit;cover;cave;sleep;meet
+unnerve.V 15862 ::: faze;enervate;unsettle;upset;discompose;untune;disconcert;discomfit;unman;un
+ninny.N 15888 ::: nincompoop;poop;simpleton;simple;the;you;your;my;and;that
