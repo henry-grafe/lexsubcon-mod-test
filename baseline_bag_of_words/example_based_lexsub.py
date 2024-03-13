@@ -6,7 +6,7 @@ from . import corpus_retriever
 class ExampleBasedLS():
     def __init__(self) -> None:
         self.text_cleaner = text_cleaning.TextCleaner()
-        self.corpus_retriever = corpus_retriever.CorpusRetriever(cleaned_corpus_fp="/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned_POS_assembled.pickle")
+        self.corpus_retriever = corpus_retriever.CorpusRetriever(cleaned_corpus_fp="/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/baseline_bag_of_words/UKWAC-2_processing_ready_retrieval_ready.pickle")
     
     def score_candidates(self, context, target_word, target_id, target_pos, candidate_dict, candidate_pos_dict, strategy="actT"):
         clean_context = self.text_cleaner.clean_context(context=context, target_id=target_id)

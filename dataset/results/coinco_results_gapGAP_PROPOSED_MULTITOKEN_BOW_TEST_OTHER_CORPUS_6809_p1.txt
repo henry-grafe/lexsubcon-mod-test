@@ -1,0 +1,93 @@
+RESULT	disgruntled.J 70	unhappy
+RESULT	erode.V 75	reduce
+RESULT	e commerce.J 125	trade
+RESULT	e commerce.J 4226	trade
+RESULT	e commerce.J 5138	trade
+RESULT	e commerce.J 12334	trade
+RESULT	tender.V 306	issue
+RESULT	wiretap.N 456	conversation
+RESULT	wiretap.N 1671	conversation
+RESULT	wiretap.N 11662	record
+RESULT	wiretap.N 12114	conversation
+RESULT	curtail.V 496	restrict
+RESULT	concede.V 601	confess
+RESULT	groundswell.N 610	encouragement
+RESULT	groundswell.N 11346	encouragement
+RESULT	knowledgeable.J 664	intelligent
+RESULT	knowledgeable.J 765	intelligent
+RESULT	complement.V 681	balance
+RESULT	victimize.V 698	exploit
+RESULT	nonmedically.R 724	empirically
+RESULT	nonmedically.R 3666	empirically
+RESULT	prescriber.N 728	doctor
+RESULT	prescriber.N 3670	doctor
+RESULT	prescriber.N 13007	doctor
+RESULT	seabass.N 759	seafood
+RESULT	seabass.N 817	seafood
+RESULT	seabass.N 850	seafood
+RESULT	seabass.N 1695	seafood
+RESULT	seabass.N 1771	seafood
+RESULT	seabass.N 2189	seafood
+RESULT	seabass.N 2956	seafood
+RESULT	seabass.N 3564	seafood
+RESULT	seabass.N 4018	seafood
+RESULT	seabass.N 6129	seafood
+RESULT	seabass.N 10684	seafood
+RESULT	seabass.N 10707	seafood
+RESULT	seabass.N 11186	seafood
+RESULT	seabass.N 11693	seafood
+RESULT	seabass.N 12374	seafood
+RESULT	seabass.N 14583	seafood
+RESULT	noncommittal.J 859	vague
+RESULT	mmm mm.J 860	grunt
+RESULT	mmm mm.J 2557	grunt
+RESULT	scapegoat.N 881	sacrifice
+RESULT	unfairly.R 885	unfortunately
+RESULT	contend.V 895	win
+RESULT	revolutionize.V 1026	transform
+RESULT	billboard.N 1048	poster
+RESULT	billboard.N 2034	poster
+RESULT	environmentalist.N 1075	activist
+RESULT	environmentalist.N 14428	activist
+RESULT	dollop.N 1089	spot
+RESULT	dollop.N 8518	spot
+RESULT	dollop.N 15161	spot
+RESULT	caviar.N 1090	egg
+RESULT	caviar.N 5616	egg
+RESULT	overfish.V 1329	overharvest
+RESULT	overfish.V 8653	overharvest
+RESULT	unsuspecting.J 1389	innocent
+RESULT	coverall.N 1402	suit
+RESULT	fabricate.V 1450	develop
+RESULT	cyclical.J 1653	seasonal
+RESULT	innovate.V 1658	pioneer
+RESULT	innovate.V 7354	pioneer
+RESULT	Co conspirator.J 1698	ally
+RESULT	Co conspirator.J 5187	ally
+RESULT	Co conspirator.J 11495	ally
+RESULT	Co conspirator.J 14777	ally
+RESULT	legwork.N 1701	effort
+RESULT	legwork.N 5190	effort
+RESULT	overfishing.V 1715	disappear
+RESULT	motivational.N 1721	inspirational
+RESULT	motivational.N 11019	encouraging
+RESULT	bloodthirsty.N 1741	savage
+RESULT	bloodthirsty.N 14293	savage
+RESULT	swordfish.N 1769	marlin
+RESULT	swordfish.N 4130	seafood
+RESULT	swordfish.N 10705	marlin
+RESULT	roughy.N 1773	perch
+RESULT	roughy.N 10709	perch
+RESULT	marlin.N 1774	spearfish
+RESULT	marlin.N 10710	spearfish
+RESULT	fab.N 1799	make
+RESULT	fab.N 2913	make
+RESULT	web.N 1876	network
+RESULT	erroneous.J 1891	inaccurate
+RESULT	miscalculate.V 1993	mistake
+RESULT	depreciation.N 2000	reduction
+RESULT	medicalization.N 2053	treatment
+RESULT	mobster.N 2109	mafia
+RESULT	mobster.N 2618	mafia
+RESULT	mobster.N 3769	mafia
+RESULT	mobster.N 9349	mafia

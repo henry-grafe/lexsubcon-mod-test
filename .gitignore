@@ -16,3 +16,5 @@ checkpoint/similarity_new_bert/similarity_new_bert4/*
 baseline_bag_of_words/UKWAC_1_BS4.pickle
 baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned.pickle
 baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned_POS_assembled.pickle
+baseline_bag_of_words/UKWAC-2_processing_ready_retrieval_ready.pickle
+baseline_bag_of_words/UKWAC-2_processing_ready.xml

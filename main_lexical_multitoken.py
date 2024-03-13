@@ -18,6 +18,8 @@ from gloss_score.wordnet import Wordnet
 
 from similarity_score_new_weight.similarity_new_predict import Similarity_new
 
+from baseline_bag_of_words.example_based_lexsub import ExampleBasedLS
+
 import open_clip
 
 if __name__ == "__main__":
@@ -80,6 +82,9 @@ if __name__ == "__main__":
                         default=False)
     parser.add_argument("-clip", "--similarity_sentence_clip", type=bool,
                         help="whether we use similarity sentence score CLIP",
+                        default=False)
+    parser.add_argument("-bow", "--bow_similarity", type=bool,
+                        help="whether we use bow similarity score",
                         default=False)
     parser.add_argument("-fna", "--fna", type=str, help="name to seperate write file",
                         default='proposed')
@@ -189,7 +194,8 @@ if __name__ == "__main__":
         else:
             similirity_sentence_new.load_model(model=args.similarity_path_save)
     "======================================================================================================"
-
+    if args.bow_similarity:
+        bow_ls = ExampleBasedLS()
     count_gloss = 0
     iter_index = 0
     not_found = {}
@@ -197,11 +203,12 @@ if __name__ == "__main__":
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
             for context in reader.words_candidate[main_word][instance]:
-                print(context)
-                print(main_word)
+                #print(context)
+                #print(main_word)
                 #input("next")
                 change_word = context[0]
                 text = context[1]
+                target_pos = main_word.split('.')[-1]
                 original_text = text
                 index_word = context[2]
                 change_word = text.split(' ')[int(index_word)]
@@ -257,7 +264,16 @@ if __name__ == "__main__":
                                                                       proposed_words_temp=proposed_words, top_k=30)
                         
                         
-
+                if args.bow_similarity:
+                    proposed_words = bow_ls.score_candidates(text, change_word, index_word, target_pos.upper(), proposed_words, {}, strategy="actT")
+                    keys = list(proposed_words.keys())
+                    values = list(proposed_words.values())
+                    indexes = np.flip(np.argsort(values))
+                    proposed_words = {}
+                    for i in range(len(indexes)):
+                        proposed_words[keys[indexes[i]]] = values[indexes[i]]
+                    print(main_word, text)
+                    print(proposed_words)
                 if args.proposed_score:
                     """
                     add noise to input
