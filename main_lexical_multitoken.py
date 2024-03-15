@@ -227,6 +227,7 @@ if __name__ == "__main__":
                         word_temp = main_word.split('.')[0]
                     proposed_words = noise_gloss.created_proposed_list(word_temp, wordnet_gloss,
                                                                        main_word.split('.')[-1])
+                    proposed_words={}
                     dd[main_word.split('.')[-1]] = 0
 
                     # =============================================
