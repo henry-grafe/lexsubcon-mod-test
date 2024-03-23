@@ -18,3 +18,5 @@ baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned.pickle
 baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned_POS_assembled.pickle
 baseline_bag_of_words/UKWAC-2_processing_ready_retrieval_ready.pickle
 baseline_bag_of_words/UKWAC-2_processing_ready.xml
+
+baseline_word2vec/embeddings/*

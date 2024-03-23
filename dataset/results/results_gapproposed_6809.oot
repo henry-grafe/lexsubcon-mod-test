@@ -1,1 +1,106 @@
 side.n 301 ::: divide;surface;perspective;aspect;conversely;area;flank;instead;you;ally
+side.n 301 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 302 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 303 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 304 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 305 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 306 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 307 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 308 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 309 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 310 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+tell.v 311 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 312 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 313 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 314 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 315 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 316 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 317 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 318 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 319 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 320 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+side.n 301 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 302 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 303 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 304 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 305 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 306 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 307 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 308 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 309 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 310 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+tell.v 311 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 312 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 313 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 314 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 315 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 316 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 317 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 318 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 319 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 320 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+side.n 301 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 302 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 303 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 304 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 305 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 306 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 307 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 308 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 309 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 310 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+tell.v 311 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 312 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 313 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 314 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 315 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 316 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 317 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 318 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 319 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 320 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+side.n 301 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 302 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 303 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 304 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 305 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 306 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 307 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 308 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 309 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 310 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+tell.v 311 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 312 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 313 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 314 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 315 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 316 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 317 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 318 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 319 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 320 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+terrible.a 321 ::: awful;dire;direful;dread;dreaded;dreadful;fearful;fearsome;frightening;horrendous
+terrible.a 322 ::: awful;dire;direful;dread;dreaded;dreadful;fearful;fearsome;frightening;horrendous
+side.n 301 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 302 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 303 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 304 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 305 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 306 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 307 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 308 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 309 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+side.n 310 ::: region;part;bedside;blind side;dockside;east side;hand;north side;shipside;south side
+tell.v 311 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 312 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 313 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 314 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 315 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 316 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 317 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 318 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 319 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+tell.v 320 ::: state;say;express;verbalize;verbalise;utter;give tongue to;add;append;supply
+terrible.a 321 ::: awful;dire;direful;dread;dreaded;dreadful;fearful;fearsome;frightening;horrendous
+terrible.a 322 ::: awful;dire;direful;dread;dreaded;dreadful;fearful;fearsome;frightening;horrendous
+side.n 301 ::: defence;half;team;wing;line;forward;face;player;crowd;squad
