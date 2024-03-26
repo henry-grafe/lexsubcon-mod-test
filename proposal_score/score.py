@@ -216,7 +216,9 @@ class Cmasked:
         if noise_type == "MASKED":
             #text_a_raw[masked_id] = "[MASK]"
             text_a_raw = text_a_raw[:masked_id] + ["[MASK]"]*num_of_mask_token + text_a_raw[(masked_id+1):]
-
+        else:
+            print("ERROR : ONLY MASKED NOISE IS ALLOWED WHEN GENERATING MULTI-TOKEN CANDIDATES")
+            exit(0)
 
         masked_word = text_a_raw[masked_id]  # get the target word
         text_a_raw = ' '.join(text_a_raw)
@@ -351,7 +353,7 @@ class Cmasked:
 
 
         synonyms_id = []
-        print(f"synonyms for {word}")
+        #print(f"synonyms for {word}")
         print(synonyms)
         for word in synonyms:
             token_list = self.tokenizer.tokenize(word)
@@ -403,9 +405,10 @@ class Cmasked:
                             proposed_words_temp=None):
         
         score_dict_multitokens = {}
-        for num_of_mask_token in range(2,9):
+        for num_of_mask_token in range(2,3):
             text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
                                                                                                  noise_type, num_of_mask_token=num_of_mask_token)
+            #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
         
             if noise_type == "MASKED":
                 text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
@@ -460,11 +463,81 @@ class Cmasked:
 
             output_prediction_multimask = output_multimask[0][0][target_word_start_index_multimask:(target_word_end_index_multimask+1)]
             output_prediction_multimask = F.softmax(output_prediction_multimask, dim=1)
-            
+            #print(output_prediction_multimask.size())
             score_dict_multitokens[num_of_mask_token] = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="geometric")
             
         return score_dict_multitokens
 
+    """
+    returns a dict the same shape as self.multi_tokens_dictionaries,
+    with the score of all candidate multitokens words
+    """
+    def compute_multiwords_candidates_proposal_score_dict(self, sentences, word, word_id, noise_type, synonyms=[], top_k=30,
+                            proposed_words_temp=None):
+        
+        score_dict_two_words = {}
+    
+        text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
+                                                                                                noise_type, num_of_mask_token=2)
+        #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
+    
+        if noise_type == "MASKED":
+            text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
+                sentences, word_id,
+                noise_type)
+        
+        masked_id = target_word_start_index_multimask
+
+        if target_word_start_index_multimask == target_word_end_index_multimask and noise_type != "MASKED":
+            vocab_id = self.tokenizer.convert_tokens_to_ids(text_multimask.split(" ")[target_word_start_index_multimask])
+        else:
+            vocab_id = -1
+        ###########################
+        input_ids_multimask = features_multimask['input_ids']
+        input_mask_multimask = features_multimask['attention_mask']
+        segment_ids_multimask = features_multimask['token_type_ids']
+
+        input_ids_multimask = input_ids_multimask.to(self.device)
+        input_mask_multimask = input_mask_multimask.to(self.device)
+        segment_ids_multimask = segment_ids_multimask.to(self.device)
+
+        self.input_mask = input_mask_multimask
+        self.segment_ids = segment_ids_multimask
+
+
+        ############################
+
+        synonyms_id = []
+        for word in synonyms:
+            token_list = self.tokenizer.tokenize(word)
+            if len(token_list) == 1 and token_list[0] != '[UNK]':
+                synonyms_id.append(self.tokenizer.convert_tokens_to_ids(token_list))
+
+        if len(synonyms_id) == 0:
+            synonyms_id = None
+
+        with torch.no_grad():
+            output_multimask = self.model(input_ids=input_ids_multimask, token_type_ids=segment_ids_multimask, attention_mask=input_mask_multimask,
+                                noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id)
+        
+        possible_index = self.possible_index[:]
+        # not the same word
+        try:
+            if noise_type == "MASKED":
+                possible_index.remove(
+                    self.tokenizer.convert_tokens_to_ids(text_temp.split(" ")[target_word_start_index_multimask]))
+            else:
+                if vocab_id != -1:
+                    possible_index.remove(vocab_id)
+        except:
+            pass
+
+        output_prediction_multimask = output_multimask[0][0][target_word_start_index_multimask:(target_word_end_index_multimask+1)]
+        output_prediction_multimask = F.softmax(output_prediction_multimask, dim=1)
+        #print(output_prediction_multimask.size())
+        score_dict_two_words = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="geometric")
+        
+        return score_dict_two_words
 
     def get_index(self, list_candidates, candidate):
         if candidate in list_candidates:
