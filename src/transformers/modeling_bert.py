@@ -179,7 +179,8 @@ class BertEmbeddings(nn.Module):
 
     def forward(self, input_ids=None, word_index=None, token_type_ids=None, position_ids=None, noise_type=None,
                 inputs_embeds=None,
-                input_ids_synonyms=None, lambda_variable=0.25, target_word_ids=None):
+                input_ids_synonyms=None, lambda_variable=0.25, target_word_ids=None,
+                embeddings_to_replace_dict=None):
         if input_ids is not None:
             input_shape = input_ids.size()
         else:
@@ -196,7 +197,19 @@ class BertEmbeddings(nn.Module):
         inputs_embeds_synonyms = None
         if inputs_embeds is None:
             inputs_embeds = self.word_embeddings(input_ids)
-
+            
+            if embeddings_to_replace_dict is not None:
+                #print("We are replacing some embeddings with the weighted sum of embeddings")
+                #print(f"size of vocabulary embeddings : {self.word_embeddings.num_embeddings}")
+                for word_to_replace_index, softmax_over_vocab in embeddings_to_replace_dict.items():
+                    #print(word_to_replace_index, softmax_over_vocab, softmax_over_vocab.sum())
+                    
+                    indexes=torch.arange(self.word_embeddings.num_embeddings).to('cuda')
+                    
+                    embs = (self.word_embeddings(indexes).permute(1,0)*softmax_over_vocab).permute(1,0).sum(dim=0)
+                        
+                    inputs_embeds[0][word_to_replace_index] = embs
+            
             if noise_type.split("-")[0] == "AVERAGE":
                 print("we are in the average BERT embeddings part !")
                 embs = self.word_embeddings(target_word_ids).mean(dim=0)
@@ -235,7 +248,7 @@ class BertEmbeddings(nn.Module):
                     self.dropout_embedding.train()
                 inputs_embeds[0][word_index] = self.dropout_embedding(inputs_embeds[0][word_index])
             else:
-                print("we are in KEEP or MASK embeddings of BERT")
+                #print("we are in KEEP or MASK embeddings of BERT")
                 pass
         position_embeddings = self.position_embeddings(position_ids)
         token_type_embeddings = self.token_type_embeddings(token_type_ids)
@@ -723,7 +736,8 @@ class BertModel(BertPreTrainedModel):
             input_ids_synonyms=None,
             word_index=None,
             noise_type=None,
-            target_word_ids=None
+            target_word_ids=None,
+            embeddings_to_replace_dict=None
     ):
         r"""
     Return:
@@ -809,7 +823,8 @@ class BertModel(BertPreTrainedModel):
             input_ids=input_ids, position_ids=position_ids, token_type_ids=token_type_ids, noise_type=noise_type,
             inputs_embeds=inputs_embeds,
             input_ids_synonyms=input_ids_synonyms, word_index=word_index, 
-            target_word_ids=target_word_ids
+            target_word_ids=target_word_ids,
+            embeddings_to_replace_dict=embeddings_to_replace_dict
         )
         encoder_outputs = self.encoder(
             embedding_output,
@@ -1088,6 +1103,7 @@ class BertForMaskedLM(BertPreTrainedModel):
             input_ids_synonyms=None,
             word_index=None,
             target_word_ids=None,
+            embeddings_to_replace_dict=None,
             **kwargs
     ):
         r"""
@@ -1153,7 +1169,8 @@ class BertForMaskedLM(BertPreTrainedModel):
             output_attentions=output_attentions,
             word_index=word_index,
             noise_type=noise_type,
-            target_word_ids=target_word_ids
+            target_word_ids=target_word_ids,
+            embeddings_to_replace_dict=embeddings_to_replace_dict
         )
 
         sequence_output = outputs[0]

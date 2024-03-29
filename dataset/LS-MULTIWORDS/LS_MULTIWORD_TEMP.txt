@@ -1,0 +1,355 @@
+crop.N
+The farmer proudly surveyed his agricultural yield, a testament to his hard work and dedication to cultivating crops for the community's sustenance.
+Harvested produce, agricultural yield, cultivated crop, farm produce
+
+crop.N
+She confidently wielded her crop as she guided the horse around the arena, the equestrian implement aiding in their synchronized movements.
+Riding whip, equestrian implement, horse crop, riding accessory
+
+match.N
+The intense match between the two rivals ended in a thrilling tiebreaker, showcasing their skills in this head-to-head challenge.
+Competitive event, sporting contest, head-to-head challenge, athletic competition
+
+match.N
+The painting's vibrant colors and intricate details make it the perfect match for the room's elegant decor.
+Corresponding item, equivalent counterpart, similar entity, analogous object, corresponding pair
+
+seal.N
+The adhesive seal securely fastened the edges of the envelope, ensuring its contents remained confidential.
+Adhesive sealant, bonding material, joint sealant, caulk compound, binding agent
+
+seal.N
+The seal on the document served as a testament to its authenticity.
+Official stamp, certification mark, authentication emblem, document marker, legal insignia
+
+bank.N
+She deposited her savings into the bank.
+Monetary institution, financial organization, banking establishment, credit agency, economic institution
+
+bank.N
+The river's edge was lined with a towering bank, stretching as far as the eye could see.
+Earth embankment, raised mound, land formation, soil ridge, elevated structure
+
+bat.N
+As dusk fell, the bat emerged from its roost, gliding effortlessly through the night sky, on a silent hunt for prey.
+Flying mammal, nocturnal creature, winged mammal, aerial rodent, night flier
+
+bat.N
+She swung the bat with precision, sending the ball soaring over the outfield fence.
+Sports racket, hitting tool, ball striker, paddle instrument, hitting device
+
+club.N
+She joined the hiking club to meet like-minded individuals who shared her passion for outdoor adventures.
+Interest group, community organization, society alliance, activity coalition, hobby collective
+
+club.N
+He wielded the club with precision, its thick end poised to strike.
+Blunt weapon, impact tool, striking instrument, heavy baton, melee implement
+
+bar.N
+Let's meet at the bar for a few drinks after work.
+Drinking establishment, watering hole, tavern lounge, cocktail venue, alcohol joint
+
+bar.N
+The construction worker carefully lifted the bar to place it as a support, ensuring the stability of the structure.
+Rigid beam, solid rod, metallic shaft, wooden plank, structural element
+
+bark.N
+As the moon rose, the eerie silence was suddenly shattered by the distant bark of a lone coyote, echoing through the still night.
+Animal vocalization, canine sound, creature yelp, mammal noise, vocal cry
+
+bark.N
+The squirrel scampered up the tree, its tiny claws clinging to the rough bark as it ascended towards the safety of the branches.
+Tree covering, woody layer, plant skin, trunk casing, arboreal protection
+
+link.N
+The link between exercise and mental health is well-documented, highlighting the profound interdependent relationship between physical activity and psychological well-being.
+Connection tie, relational bond, associative link, interdependent relationship, correlated connection
+
+link.N
+The interlocking links in the chain snapped, causing the entire structure to collapse.
+Chain segment, connector loop, chain component, interlocking ring, metallic joiner
+
+plant.V
+She decided to plant the seeds in the fertile soil, ensuring they were settled in properly for optimal growth.
+sow down, place into 
+
+plant.V
+The company plans to plant the barren field with a variety of trees and shrubs to enhance biodiversity.
+Populate with, cover with, fill up with, grow over, establish growth in
+
+catch.V
+She tried to catch the flying baseball before it hit the ground, but her efforts were futile.
+seize hold of, grab onto
+
+drop.V
+She watched the autumn leaves drop from the tree, each one doing a graceful dance towards the ground.
+Let fall, release downward, slowly descent, let go
+
+drop.V
+As the sun began to drop behind the horizon, it started casting long shadows across the landscape.
+Decrease steadily, diminish gradually, reduce gradually, lower gradually, lessen progressively
+
+cut.V
+The chef deftly cut the ripe avocado, revealing its creamy flesh.
+Slice open, rip open
+
+cut.V
+She carefully cut the excess fabric from the dress with a knife.
+Remove by slicing, sever from, detach with a knife, snip off, chop away
+
+break.V
+The earthquake caused the ancient vase to break, scattering its fragments across the floor.
+Shatter apart, crack up, split apart
+
+train.V
+The experienced coach took it upon himself to train the young athletes for the upcoming championship.
+Instruct and prepare, provide experience
+
+focus.V
+She focused her thoughts toward achieving her goals.
+Direct toward, aim at, set sights on
+
+grow.V
+The young sapling began to grow once planted in the right spot.
+Expand and develop
+
+grow.V
+She diligently grew her garden, ensuring that every plant thrived under her care.
+Cultivate and nurture, raise up, tend at, care for
+
+sow.V
+She chose to sow wildflower seeds in her garden, to ensure a vibrant array of colors in the spring.
+Scatter seed, plant seed, disperse seed, broadcast seed, seed down
+
+sow.V
+She sought to sow the seeds of kindness, hoping to introduce the spirit of compassion more widely among her community.
+Introduce widely, spread around, propagate around, instill in
+
+green.J
+The farmer proudly showcased his green practices that minimized pollution and preserved soil fertility.
+Sustainable farming, organic agriculture, eco-friendly cultivation, natural farming, environmentally friendly farming
+
+blue.J
+The blue sky stretched endlessly above, mirroring the vastness of the ocean below.
+sapphire colored
+
+blue.J
+Amidst the gray clouds, her eyes reflected her blue feelings, conveying a depth of melancholy that lingered like a silent storm.
+Melancholic sounding, bad mood
+
+sweet.J
+The cake had a sweet flavor, reminiscent of sugary treats from childhood.
+sugar flavored
+
+sweet.J
+The sweet melody of the birds singing in the morning filled the air.
+Delightful sounding, lovely sounding, beautiful sounding, very enjoyable
+
+round.J
+The round table was the focal point of the room for the knights.
+round shaped, orbicular shaped
+
+fast.J
+The cheetah, known for its fast movements, dashed across the savannah with incredible speed.
+quick paced, swift paced
+
+fast.J
+The fast anchor kept the boat securely fixed in place during the storm.
+Securely fixed, tightly anchored, firmly attached, not moving
+
+black.J
+The night sky was painted in black hues, adorned with stars that sparkled like diamonds against its dark canvas.
+pitch dark
+
+black.J
+She prefers her coffee black.
+free of sugar, without additions
+
+war.N
+In times of war, the true cost extends far beyond the battlefield, impacting both nations and individuals alike.
+Armed conflict, military confrontation
+
+war.N
+The government launched a relentless war against drug abuse, deploying every effort to combat this societal scourge and bring about positive change.
+Organized struggle, organized campaign, organized effort, organized endeavor, organized crusade
+
+park.N
+Let's have a picnic in the park; it's perfect place for enjoying nature and relaxation.
+Public garden, recreational area, green space, leisure grounds, open space
+
+park.N
+The industrial park provides an allocated ground for businesses to thrive, fostering innovation and economic growth.
+Designated space, specified zone, allocated ground, demarcated land
+
+strike.N
+Employees staged a strike in the factory parking lot, demanding better conditions and wages.
+Work stoppage, labor protest, industrial action, job action
+
+strike.N
+With one swift strike, he knocked the opponent to the ground, leaving them dazed and defeated.
+Powerful blow, hard punch, hard smack, hard thump
+
+fight.V
+The soldiers were ready to fight against the enemy forces.
+wage war, duke out, go to war
+
+fight.V
+She fought against her inner demons to strive for inner peace.
+Struggle against, contend with, wrestle with
+
+jump.V
+She watched the athlete jump with remarkable grace, soaring over the bar effortlessly.
+Propel upwards, leap up, spring into, vault over, bound off
+
+crash.V
+The reckless driver didn't notice the stop sign and proceeded to crash into the barrier, causing extensive damage to both the vehicle and the surrounding area.
+Collide with, smash into, ram against, plow into, slam into
+
+crash.V
+As the old tree weakened, it began to crash down, shaking the ground with its collapse.
+Fall down, tumble over, topple down, come crashing down, come down
+
+strike.V
+The boxer managed to strike his opponent with such force that it knocked him to the ground.
+Hit forcefully, deliver a blow, land a punch, strike down, deal a blow
+
+strike.V
+Workers decided to strike in protest against unfair conditions, demanding better treatment and higher wages.
+Refuse to work, go on strike, walk off the job, down tools, stage a protest
+
+charge.V
+The cavalry decided to charge headlong into battle, bearing down upon the enemy with relentless force.
+Rush forward, storm ahead, advance rapidly, bear down, press forward
+
+charge.V
+The mechanic will charge you for the repairs done to your car.
+Demand payment, ask for money, bill for, invoice for, request payment for
+
+beat.V
+The boxer continued to beat his opponent relentlessly, landing blow after blow with ferocious strength.
+Pound repeatedly, hammer away
+
+beat.V
+She managed to beat her opponent in the chess tournament, showcasing her strategic prowess and determination.
+win against, triumph over
+
+cell.N
+In biology class, we learned that the cell, the fundamental unit of life, is like a tiny biological unit, containing cytoplasm and a nucleus enclosed in a membrane.
+Microscopic unit, biological unit, building block, fundamental unit, basic structure
+
+cell.N
+The prisoner sat alone in his cramped cell, contemplating the solitude of his confinement space as he awaited his fate.
+Prison room, confinement space, detainee chamber
+
+wave.N
+As the sun dipped below the horizon, the waves crashed against the shore.
+Ocean motion, sea movement, water oscillation, tidal motion
+
+wave.N
+The sound engineer adjusted the microphone to capture the singer's voice as it traveled through the air in a gentle wave.
+Energy pulse, pressure oscillation, pressure variation
+
+field.N
+In the field of psychology, researchers explore various realms of human behavior and cognition.
+Area of study, study domain, knowledge domain
+
+state.N
+In the heart of Europe lies a small state with a rich cultural heritage
+sovereign entity, sovereign nation
+
+key.N
+She fumbled for the key in her pocket, her fingers brushing against the familiar shape, hoping it would grant her access to the hidden room.
+Lock opener, unlocking tool, access device, latch opener
+
+extract.V
+She had to extract the splinter from her finger with great care, ensuring not to cause any more pain
+Pull out, draw out, pluck out
+
+extract.V
+She was able to extract valuable insights from the data obtained during the experiment.
+Derive from, obtain from, distill from, glean from, sift from
+
+drill.V
+She drilled the thick metal, creating a hole for the new pipe.
+Bore through, punch through, pierce through, penetrate through, bore into
+
+drill.V
+The coach drilled the team in defensive tactics ahead of the championship game.
+Train in, instruct in, teach systematically, coach in, tutor in
+
+monitor.V
+The manager needs to monitor the project closely to ensure it stays on track and meets its deadlines.
+watch over, supervise on, check on
+
+monitor.V
+He was tasked to intercept the enemy's communications and monitor their plans closely
+Listen to, eavesdrop on, tap into
+
+filter.V
+She used a fine mesh sieve to filter the impurities from the freshly squeezed juice, ensuring a smooth and pure drink.
+Strain out, separate out
+
+filter.V
+I need to filter through these job applications to find the most qualified candidates.
+sift through, sort through
+
+probe.V
+She carefully probed the mysterious artifact with her tools, aiming to examine its intricate details and uncover its secrets.
+delve into
+
+probe.V
+She decided to probe her colleague about the sudden changes in the project timeline, hoping to uncover the underlying reasons behind the delays.
+inquire into, dig into
+
+plot.V
+She meticulously plotted the course of her journey across the rugged terrain, ensuring every landmark was delineated with precision.
+Mark out, lay out
+
+plot.V
+She was caught trying to plot against her rival, devising a scheme that could have had dire consequences.
+Plan secretly, plan against, conspire against
+
+trip.N
+During our trip to the mountains, we encountered breathtaking vistas and forged unforgettable memories.
+Voyage adventure
+
+file.N
+She kept her important documents organized in a meticulously labeled file, ensuring easy access and retrieval of information.
+Document folder, paperwork stack, dossier collection, records bundle
+
+file.N
+He used the file to meticulously smooth the edges of the wood, employing his woodworking tool with precision and care.
+Metal rasp, woodworking tool, shaping implement, surface smoother, filing tool
+
+note.N
+She quickly scribbled a note on the notepad, capturing the key points of the meeting for future reference.
+Memorandum jotting, piece of information
+
+note.N
+The pianist struck a resonant note that captivated the audience.
+Musical tone, musical note, musical sound
+
+draft.N
+After hours of brainstorming, she finally completed the initial draft of her novel, eagerly anticipating feedback from her editor.
+Preliminary copy, rough version, early edition, preliminary sketch
+
+draft.N
+As she stepped into the old attic, a refreshing draft greeted her, carrying the scent of memories past.
+Air current, small wind
+
+sheet.N
+She tucked herself under the sheet, its soft fabric enveloping her in warmth and comfort, much like a bed cover would.
+Bed cover, bedding linen, bedspread fabric, mattress covering, bed linen
+
+sheet.N
+She grabbed a sheet from the printer to jot down her notes.
+Paper page, paper panel, paper leaf, paper piece, paper rectangle
+
+play.N
+Children filled the park with laughter as they engaged in various plays, turning the space into a hub of amusement.
+Recreational activity, leisure pursuit
+
+play.N
+The community theater group is putting on a captivating play this weekend, showcasing local talent and bringing the audience into the world of the characters.
+Theatrical performance, stage show
