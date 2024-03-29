@@ -108,14 +108,14 @@ if __name__ == "__main__":
     
     print("computing metrics...")
     if args.gap:
-        evaluation_metric.gap_calculation("dataset/LS14/test_refactored/coinco_test_multitokens.gold",
-                                          "baseline_word2vec/results/results_coinco_test_mul_fixed.ranked",
-                                          "dataset/results/coinco_results_multitoken_word2vecf_mult" + "_gap.txt")
-    evaluation_metric.calculation_perl("dataset/LS14/test_refactored/coinco_test_multitokens.gold",
-                                       "baseline_word2vec/results/results_coinco_test_mul.generated.best",
-                                       "baseline_word2vec/results/results_coinco_test_mul.generated.oot",
-                                       "dataset/results/coinco_results_multitoken_word2vecf_mult" + ".best",
-                                       "dataset/results/coinco_results_multitoken_word2vecf_mult" + ".oot")
+        evaluation_metric.gap_calculation("dataset/LS07/test/lst_test.gold",
+                                          "baseline_word2vec/results/first_results_file.ranked",
+                                          "dataset/results/LS07_results_word2vecf_mult" + "_gap.txt")
+    evaluation_metric.calculation_perl("dataset/LS07/test/lst_test.gold",
+                                       "baseline_word2vec/results/first_results_file.generated.best",
+                                       "baseline_word2vec/results/first_results_file.generated.oot",
+                                       "dataset/results/LS07_results_word2vecf_mult" + ".best",
+                                       "dataset/results/LS07_results_word2vecf_mult" + ".oot")
     """
     evaluation_metric.calculation_p1("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/test_refactored/coinco_test_multitokens.gold",
                                      args.output_results + "_p1.txt",
