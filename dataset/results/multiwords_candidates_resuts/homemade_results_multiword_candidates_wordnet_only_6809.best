@@ -1,0 +1,204 @@
+crop.N 1 :: harvest
+crop.N 2 :: harvest
+match.N 3 :: lucifer
+match.N 4 :: lucifer
+seal.N 5 :: sealing wax
+seal.N 6 :: sealing wax
+bank.N 7 :: slope
+bank.N 8 :: slope
+bat.N 9 :: chiropteran
+bat.N 10 :: chiropteran
+club.N 11 :: baseball club
+club.N 12 :: baseball club
+bar.N 13 :: barroom
+bar.N 14 :: barroom
+bark.N 15 :: covering
+bark.N 16 :: covering
+link.N 17 :: nexus
+link.N 18 :: nexus
+plant.V 19 :: set
+plant.V 20 :: set
+catch.V 21 :: surprise
+drop.V 22 :: move
+drop.V 23 :: move
+cut.V 24 :: separate
+cut.V 25 :: separate
+break.V 26 :: interrupt
+break.V 27 :: interrupt
+break.V 160 :: interrupt
+train.V 28 :: develop
+train.V 29 :: develop
+grow.V 30 :: turn
+grow.V 31 :: turn
+sow.V 32 :: seed
+sow.V 33 :: seed
+green.J 34 :: greenish
+green.J 35 :: greenish
+sharp.J 36 :: crisp
+sharp.J 37 :: crisp
+heavy.J 38 :: fleshy
+heavy.J 39 :: fleshy
+blue.J 40 :: bluish
+blue.J 41 :: bluish
+sweet.J 42 :: angelic
+sweet.J 43 :: angelic
+round.J 44 :: circular
+round.J 45 :: circular
+fast.J 46 :: debauched
+fast.J 47 :: debauched
+black.J 48 :: bleak
+black.J 49 :: bleak
+cold.J 50 :: stale
+cold.J 51 :: stale
+light.J 52 :: light colored
+light.J 53 :: light colored
+war.N 54 :: warfare
+war.N 55 :: warfare
+park.N 56 :: parkland
+park.N 57 :: parkland
+strike.N 58 :: work stoppage
+strike.N 59 :: work stoppage
+fight.V 60 :: contend
+fight.V 61 :: contend
+jump.V 62 :: leap
+crash.V 63 :: descend
+crash.V 64 :: descend
+strike.V 65 :: touch
+strike.V 66 :: touch
+charge.V 67 :: bear down
+charge.V 68 :: bear down
+charge.V 138 :: bear down
+charge.V 139 :: bear down
+beat.V 69 :: beat out
+beat.V 70 :: beat out
+cell.N 71 :: compartment
+cell.N 72 :: compartment
+wave.N 73 :: moving ridge
+wave.N 74 :: moving ridge
+field.N 75 :: tract
+state.N 76 :: province
+key.N 77 :: device
+extract.V 78 :: pull out
+extract.V 79 :: pull out
+drill.V 80 :: bore
+drill.V 81 :: bore
+model.V 82 :: pattern
+wave.V 83 :: beckon
+monitor.V 84 :: supervise
+monitor.V 85 :: supervise
+filter.V 86 :: filtrate
+filter.V 87 :: filtrate
+probe.V 88 :: examine
+probe.V 89 :: examine
+plot.V 90 :: plan
+plot.V 91 :: plan
+trip.N 92 :: journey
+file.N 93 :: data file
+file.N 94 :: data file
+note.N 95 :: written record
+note.N 96 :: written record
+draft.N 97 :: bill of exchange
+draft.N 98 :: bill of exchange
+sheet.N 99 :: expanse
+sheet.N 100 :: expanse
+play.N 101 :: drama
+play.N 102 :: drama
+base.N 103 :: base of operations
+base.N 104 :: base of operations
+drive.V 105 :: operate
+drive.V 106 :: operate
+ride.V 107 :: sit
+ride.V 108 :: sit
+cruise.V 109 :: travel
+cruise.V 110 :: travel
+party.N 111 :: political party
+party.N 112 :: political party
+bill.N 113 :: measure
+bill.N 114 :: measure
+left.N 115 :: position
+campaign.N 116 :: political campaign
+campaign.N 117 :: political campaign
+house.N 118 :: building
+house.N 119 :: building
+majority.N 120 :: bulk
+majority.N 121 :: bulk
+power.N 122 :: powerfulness
+poll.N 123 :: opinion poll
+term.N 124 :: word
+campaign.V 125 :: run
+campaign.V 126 :: run
+stand.V 127 :: stand up
+stand.V 128 :: stand up
+watch.V 129 :: observe
+watch.V 130 :: observe
+serve.V 131 :: function
+serve.V 132 :: function
+balance.V 133 :: equilibrate
+balance.V 134 :: equilibrate
+address.V 135 :: turn to
+address.V 136 :: turn to
+lead.V 137 :: take
+crane.N 140 :: stephen crane
+crane.N 141 :: stephen crane
+date.N 142 :: day of the month
+date.N 143 :: day of the month
+box.N 144 :: container
+ring.N 145 :: sound
+ring.N 146 :: sound
+run.N 147 :: tally
+run.N 148 :: tally
+fair.N 149 :: carnival
+bow.N 150 :: bowknot
+bow.N 151 :: bowknot
+match.V 152 :: fit
+match.V 153 :: fit
+box.V 154 :: package
+box.V 155 :: package
+run.V 156 :: travel rapidly
+run.V 157 :: travel rapidly
+clip.V 158 :: nip
+clip.V 159 :: nip
+crack.V 161 :: check
+play.V 162 :: compete
+play.V 163 :: compete
+roll.V 164 :: turn over
+roll.V 165 :: turn over
+draw.V 166 :: pull
+draw.V 167 :: pull
+table.N 168 :: tabular array
+table.N 169 :: tabular array
+clip.N 170 :: cartridge holder
+clip.N 171 :: cartridge holder
+scale.N 172 :: scale of measurement
+scale.N 173 :: scale of measurement
+board.N 174 :: committee
+board.N 175 :: committee
+point.N 176 :: component
+point.N 177 :: component
+case.N 178 :: instance
+case.N 179 :: instance
+post.N 180 :: station
+post.N 181 :: station
+line.N 182 :: formation
+line.N 183 :: formation
+plant.N 184 :: works
+plant.N 185 :: works
+block.N 186 :: artifact
+block.N 187 :: artifact
+file.V 188 :: register
+file.V 189 :: register
+change.V 190 :: alter
+change.V 191 :: alter
+draft.V 192 :: outline
+draft.V 193 :: outline
+post.V 194 :: affix
+post.V 195 :: affix
+mail.V 196 :: get off
+report.V 197 :: describe
+report.V 198 :: describe
+clock.V 199 :: time
+clock.V 200 :: time
+paper.V 201 :: cover
+paper.V 202 :: cover
+sign.V 203 :: subscribe
+sign.V 204 :: subscribe

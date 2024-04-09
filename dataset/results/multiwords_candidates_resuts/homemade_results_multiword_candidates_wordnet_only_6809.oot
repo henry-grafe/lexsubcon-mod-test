@@ -1,0 +1,204 @@
+crop.N 1 ::: harvest;output;yield;fruitage;plant;flora;plant life;cash crop;catch crop;cover crop
+crop.N 2 ::: harvest;output;yield;fruitage;plant;flora;plant life;cash crop;catch crop;cover crop
+match.N 3 ::: lucifer;friction match;lighter;light;igniter;ignitor;fusee;fuzee;kitchen match;safety match
+match.N 4 ::: lucifer;friction match;lighter;light;igniter;ignitor;fusee;fuzee;kitchen match;safety match
+seal.N 5 ::: sealing wax;fastener;fastening;holdfast;fixing;stamp;device;bulla;cachet;great seal
+seal.N 6 ::: sealing wax;fastener;fastening;holdfast;fixing;stamp;device;bulla;cachet;great seal
+bank.N 7 ::: slope;incline;side;riverbank;riverside;waterside;depository financial institution;banking concern;banking company;financial institution
+bank.N 8 ::: slope;incline;side;riverbank;riverside;waterside;depository financial institution;banking concern;banking company;financial institution
+bat.N 9 ::: chiropteran;placental;placental mammal;eutherian;eutherian mammal;carnivorous bat;microbat;fruit bat;megabat;at bat
+bat.N 10 ::: chiropteran;placental;placental mammal;eutherian;eutherian mammal;carnivorous bat;microbat;fruit bat;megabat;at bat
+club.N 11 ::: baseball club;ball club;nine;baseball team;social club;society;guild;gild;lodge;order
+club.N 12 ::: baseball club;ball club;nine;baseball team;social club;society;guild;gild;lodge;order
+bar.N 13 ::: barroom;saloon;ginmill;taproom;room;barrelhouse;honky tonk;cocktail lounge;sawdust saloon;speakeasy
+bar.N 14 ::: barroom;saloon;ginmill;taproom;room;barrelhouse;honky tonk;cocktail lounge;sawdust saloon;speakeasy
+bark.N 15 ::: covering;natural covering;cover;angostura bark;angostura;canella;canella bark;white cinnamon;cascara;cascara sagrada
+bark.N 16 ::: covering;natural covering;cover;angostura bark;angostura;canella;canella bark;white cinnamon;cascara;cascara sagrada
+link.N 17 ::: nexus;linkage;linkup;tie;tie in;fastener;fastening;holdfast;fixing;bridge
+link.N 18 ::: nexus;linkage;linkup;tie;tie in;fastener;fastening;holdfast;fixing;bridge
+plant.V 19 ::: set;put;place;pose;position;lay;afforest;forest;bed;checkrow
+plant.V 20 ::: set;put;place;pose;position;lay;afforest;forest;bed;checkrow
+catch.V 21 ::: surprise;pick up;perceive;comprehend;get;hit;grab;take hold of;seize;prehend
+drop.V 22 ::: move;displace;dump;hang;plonk down;plump down;plank down;plop;descend;fall
+drop.V 23 ::: move;displace;dump;hang;plonk down;plump down;plank down;plop;descend;fall
+cut.V 24 ::: separate;disunite;divide;part;bevel;chamfer;bisect;bore;drill;carve
+cut.V 25 ::: separate;disunite;divide;part;bevel;chamfer;bisect;bore;drill;carve
+break.V 26 ::: interrupt;end;terminate;cut short;break short;break off;freeze;suspend;hold on;stop
+break.V 27 ::: interrupt;end;terminate;cut short;break short;break off;freeze;suspend;hold on;stop
+break.V 160 ::: interrupt;end;terminate;cut short;break short;break off;freeze;suspend;hold on;stop
+train.V 28 ::: develop;prepare;educate;teach;learn;instruct;drill;housebreak;house train;retrain
+train.V 29 ::: develop;prepare;educate;teach;learn;instruct;drill;housebreak;house train;retrain
+grow.V 30 ::: turn;change;bald;increase;augment;boom;thrive;flourish;expand;burgeon
+grow.V 31 ::: turn;change;bald;increase;augment;boom;thrive;flourish;expand;burgeon
+sow.V 32 ::: seed;put;set;place;pose;position;lay;broadcast;inseminate;sow in
+sow.V 33 ::: seed;put;set;place;pose;position;lay;broadcast;inseminate;sow in
+green.J 34 ::: greenish;light green;dark green;unripe;unripened;immature;fleeceable;gullible
+green.J 35 ::: greenish;light green;dark green;unripe;unripened;immature;fleeceable;gullible
+sharp.J 36 ::: crisp;acuate;acute;needlelike;discriminating;incisive;keen;knifelike;penetrating;penetrative
+sharp.J 37 ::: crisp;acuate;acute;needlelike;discriminating;incisive;keen;knifelike;penetrating;penetrative
+heavy.J 38 ::: fleshy;overweight;clayey;cloggy;lowering;sullen;threatening;dense;impenetrable;big
+heavy.J 39 ::: fleshy;overweight;clayey;cloggy;lowering;sullen;threatening;dense;impenetrable;big
+blue.J 40 ::: bluish;blueish;gloomy;grim;depressed;dispirited;down;downcast;downhearted;down in the mouth
+blue.J 41 ::: bluish;blueish;gloomy;grim;depressed;dispirited;down;downcast;downhearted;down in the mouth
+sweet.J 42 ::: angelic;angelical;cherubic;seraphic;dulcet;honeyed;mellifluous;mellisonant;gratifying;odoriferous
+sweet.J 43 ::: angelic;angelical;cherubic;seraphic;dulcet;honeyed;mellifluous;mellisonant;gratifying;odoriferous
+round.J 44 ::: circular;orotund;rotund;pear shaped
+round.J 45 ::: circular;orotund;rotund;pear shaped
+fast.J 46 ::: debauched;degenerate;degraded;dissipated;dissolute;libertine;profligate;riotous;flying;quick
+fast.J 47 ::: debauched;degenerate;degraded;dissipated;dissolute;libertine;profligate;riotous;flying;quick
+black.J 48 ::: bleak;dim;dark;sinister;calamitous;disastrous;fatal;fateful;blackened;pitch black
+black.J 49 ::: bleak;dim;dark;sinister;calamitous;disastrous;fatal;fateful;blackened;pitch black
+cold.J 50 ::: stale;dusty;moth eaten;frigid;cold blooded;inhuman;insensate
+cold.J 51 ::: stale;dusty;moth eaten;frigid;cold blooded;inhuman;insensate
+light.J 52 ::: light colored;unaccented;weak;clean;clear;unclouded;lightsome;tripping;faint;swooning
+light.J 53 ::: light colored;unaccented;weak;clean;clear;unclouded;lightsome;tripping;faint;swooning
+war.N 54 ::: warfare;military action;action;biological warfare;bw;biological attack;biologic attack;bioattack;chemical warfare;chemical operations
+war.N 55 ::: warfare;military action;action;biological warfare;bw;biological attack;biologic attack;bioattack;chemical warfare;chemical operations
+park.N 56 ::: parkland;tract;piece of land;piece of ground;parcel of land;parcel;national park;safari park;commons;common
+park.N 57 ::: parkland;tract;piece of land;piece of ground;parcel of land;parcel;national park;safari park;commons;common
+strike.N 58 ::: work stoppage;job action;sit down;sit down strike;sympathy strike;sympathetic strike;walkout;wildcat strike;attack;onslaught
+strike.N 59 ::: work stoppage;job action;sit down;sit down strike;sympathy strike;sympathetic strike;walkout;wildcat strike;attack;onslaught
+fight.V 60 ::: contend;struggle;attack;assail;bandy;battle;combat;bear down;box;chicken fight
+fight.V 61 ::: contend;struggle;attack;assail;bandy;battle;combat;bear down;box;chicken fight
+jump.V 62 ::: leap;bound;spring;move;bounce;resile;take a hop;rebound;recoil;reverberate
+crash.V 63 ::: descend;fall;go down;come down;move;ram;collide;clash;pass;go through
+crash.V 64 ::: descend;fall;go down;come down;move;ram;collide;clash;pass;go through
+strike.V 65 ::: touch;beat;buffet;knock about;batter;butt;bunt;chop;clout;dab
+strike.V 66 ::: touch;beat;buffet;knock about;batter;butt;bunt;chop;clout;dab
+charge.V 67 ::: bear down;rush;accuse;impeach;incriminate;criminate;blame;fault;defame;slander
+charge.V 68 ::: bear down;rush;accuse;impeach;incriminate;criminate;blame;fault;defame;slander
+charge.V 138 ::: bear down;rush;accuse;impeach;incriminate;criminate;blame;fault;defame;slander
+charge.V 139 ::: bear down;rush;accuse;impeach;incriminate;criminate;blame;fault;defame;slander
+beat.V 69 ::: beat out;crush;shell;trounce;vanquish;get the better of;overcome;defeat;cheat;chouse
+beat.V 70 ::: beat out;crush;shell;trounce;vanquish;get the better of;overcome;defeat;cheat;chouse
+cell.N 71 ::: compartment;living thing;animate thing;akaryocyte;akaryote;acaryote;archespore;archesporium;arthrospore;beta cell
+cell.N 72 ::: compartment;living thing;animate thing;akaryocyte;akaryote;acaryote;archespore;archesporium;arthrospore;beta cell
+wave.N 73 ::: moving ridge;movement;motion;billow;surge;comber;lift;rise;ripple;rippling
+wave.N 74 ::: moving ridge;movement;motion;billow;surge;comber;lift;rise;ripple;rippling
+field.N 75 ::: tract;piece of land;piece of ground;parcel of land;parcel;campus;firebreak;fireguard;grainfield;grain field
+state.N 76 ::: province;administrative district;administrative division;territorial division;american state;australian state;canadian province;commonwealth;eparchy;italian region
+key.N 77 ::: device;ignition key;latchkey;passkey;passe partout;master key;master;explanation;pitch;tonality
+extract.V 78 ::: pull out;pull;pull up;take out;draw out;remove;take;take away;withdraw;demodulate
+extract.V 79 ::: pull out;pull;pull up;take out;draw out;remove;take;take away;withdraw;demodulate
+drill.V 80 ::: bore;cut;counter drill;spud;trepan;train;develop;prepare;educate;exercise
+drill.V 81 ::: bore;cut;counter drill;spud;trepan;train;develop;prepare;educate;exercise
+model.V 82 ::: pattern;imitate;copy;simulate;scale;sovietize;sovietise;mold;mould;shape
+wave.V 83 ::: beckon;gesticulate;gesture;motion;brandish;flourish;move;displace;wigwag;roll
+monitor.V 84 ::: supervise;observe;spy;stag;snoop;sleuth
+monitor.V 85 ::: supervise;observe;spy;stag;snoop;sleuth
+filter.V 86 ::: filtrate;strain;separate out;filter out;separate;percolate;sink in;permeate;penetrate;perforate
+filter.V 87 ::: filtrate;strain;separate out;filter out;separate;percolate;sink in;permeate;penetrate;perforate
+probe.V 88 ::: examine;investigate;look into;hear;try;inquire;enquire;re examine;dig into;poke into
+probe.V 89 ::: examine;investigate;look into;hear;try;inquire;enquire;re examine;dig into;poke into
+plot.V 90 ::: plan;conspire;cabal;complot;conjure;machinate;counterplot;scheme;intrigue;connive
+plot.V 91 ::: plan;conspire;cabal;complot;conjure;machinate;counterplot;scheme;intrigue;connive
+trip.N 92 ::: journey;journeying;errand;flight;junket;round trip;run;service call;trek;hallucination
+file.N 93 ::: data file;record;computer file;mug file;mug book;tickler;tickler file;single file;indian file;line
+file.N 94 ::: data file;record;computer file;mug file;mug book;tickler;tickler file;single file;indian file;line
+note.N 95 ::: written record;written account;jotting;jot;marginalia;memo;memorandum;memoranda;minute;short letter
+note.N 96 ::: written record;written account;jotting;jot;marginalia;memo;memorandum;memoranda;minute;short letter
+draft.N 97 ::: bill of exchange;order of payment;negotiable instrument;acceptance;bankers acceptance;bank draft;bankers draft;check;bank check;cheque
+draft.N 98 ::: bill of exchange;order of payment;negotiable instrument;acceptance;bankers acceptance;bank draft;bankers draft;check;bank check;cheque
+sheet.N 99 ::: expanse;piece of paper;sheet of paper;paper;foolscap;leaf;folio;revenue stamp;stamp;signature
+sheet.N 100 ::: expanse;piece of paper;sheet of paper;paper;foolscap;leaf;folio;revenue stamp;stamp;signature
+play.N 101 ::: drama;dramatic play;dramatic composition;dramatic work;grand guignol;miracle play;morality play;mystery play;passion play;playlet
+play.N 102 ::: drama;dramatic play;dramatic composition;dramatic work;grand guignol;miracle play;morality play;mystery play;passion play;playlet
+base.N 103 ::: base of operations;military installation;air base;air station;army base;firebase;navy base;rocket base;foundation;fundament
+base.N 104 ::: base of operations;military installation;air base;air station;army base;firebase;navy base;rocket base;foundation;fundament
+drive.V 105 ::: operate;control;coach;test drive;tool;motor;travel;go;move;locomote
+drive.V 106 ::: operate;control;coach;test drive;tool;motor;travel;go;move;locomote
+ride.V 107 ::: sit;travel;go;move;locomote;canter;gallop;extend;outride;override
+ride.V 108 ::: sit;travel;go;move;locomote;canter;gallop;extend;outride;override
+cruise.V 109 ::: travel;journey;go;move;locomote;stooge;search;look;voyage;sail
+cruise.V 110 ::: travel;journey;go;move;locomote;stooge;search;look;voyage;sail
+party.N 111 ::: political party;organization;organisation;american labor party;american party;know nothing party;anti masonic party;black panthers;communist party;conservative party
+party.N 112 ::: political party;organization;organisation;american labor party;american party;know nothing party;anti masonic party;black panthers;communist party;conservative party
+bill.N 113 ::: measure;legal document;legal instrument;official document;instrument;appropriation bill;bill of attainder;bottle bill;farm bill;trade bill
+bill.N 114 ::: measure;legal document;legal instrument;official document;instrument;appropriation bill;bill of attainder;bottle bill;farm bill;trade bill
+left.N 115 ::: position;place;stage left;left stage;left wing;faction;sect;left hand;hand;manus
+campaign.N 116 ::: political campaign;run;race;governors race;campaign for governor;senate campaign;senate race;cause;crusade;drive
+campaign.N 117 ::: political campaign;run;race;governors race;campaign for governor;senate campaign;senate race;cause;crusade;drive
+house.N 118 ::: building;edifice;dwelling;home;domicile;abode;habitation;dwelling house;beach house;boarding house
+house.N 119 ::: building;edifice;dwelling;home;domicile;abode;habitation;dwelling house;beach house;boarding house
+majority.N 120 ::: bulk;number;figure;absolute majority;relative quantity;legal age;age;eld
+majority.N 121 ::: bulk;number;figure;absolute majority;relative quantity;legal age;age;eld
+power.N 122 ::: powerfulness;quality;control;disposal;effectiveness;effectivity;effectualness;effectuality;free will;discretion
+poll.N 123 ::: opinion poll;public opinion poll;canvass;inquiry;enquiry;research;exit poll;straw vote;straw poll;pate
+term.N 124 ::: word;referent;time period;period of time;period;prison term;sentence;time;school term;academic term
+campaign.V 125 ::: run;race;cross file;register;rerun;stump;whistlestop;crusade;fight;press
+campaign.V 126 ::: run;race;cross file;register;rerun;stump;whistlestop;crusade;fight;press
+stand.V 127 ::: stand up;rest;line up;queue up;queue;ramp;stand back;be;remain firm;resist
+stand.V 128 ::: stand up;rest;line up;queue up;queue;ramp;stand back;be;remain firm;resist
+watch.V 129 ::: observe;rubberneck;view;see;catch;take in;witness;follow;watch over;keep an eye on
+watch.V 130 ::: observe;rubberneck;view;see;catch;take in;witness;follow;watch over;keep an eye on
+serve.V 131 ::: function;suffice;do;answer;act as;prelude;work;do work;act;caddie
+serve.V 132 ::: function;suffice;do;answer;act as;prelude;work;do work;act;caddie
+balance.V 133 ::: equilibrate;equilibrize;equilibrise;match;fit;cancel;offset;set off;compensate;counterbalance
+balance.V 134 ::: equilibrate;equilibrize;equilibrise;match;fit;cancel;offset;set off;compensate;counterbalance
+address.V 135 ::: turn to;communicate;intercommunicate;call;ask;speak;blaze away;harangue;keynote;memorialize
+address.V 136 ::: turn to;communicate;intercommunicate;call;ask;speak;blaze away;harangue;keynote;memorialize
+lead.V 137 ::: take;direct;conduct;guide;beacon;hand;mislead;misdirect;misguide;lead astray
+crane.N 140 ::: stephen crane;hart crane;harold hart crane;grus;lifting device;davit;derrick;transporter;wading bird;wader
+crane.N 141 ::: stephen crane;hart crane;harold hart crane;grus;lifting device;davit;derrick;transporter;wading bird;wader
+date.N 142 ::: day of the month;day;twenty four hours;twenty four hour period;24 hour interval;solar day;mean solar day;birthday;natal day;maturity
+date.N 143 ::: day of the month;day;twenty four hours;twenty four hour period;24 hour interval;solar day;mean solar day;birthday;natal day;maturity
+box.N 144 ::: container;ballot box;bandbox;carton;casket;jewel casket;cereal box;chest;cigar box;coffin
+ring.N 145 ::: sound;halo;annulus;doughnut;anchor ring;toroid;fairy ring;fairy circle;hoop;band
+ring.N 146 ::: sound;halo;annulus;doughnut;anchor ring;toroid;fairy ring;fairy circle;hoop;band
+run.N 147 ::: tally;score;earned run;run batted in;rbi;unearned run;test;trial;attempt;effort
+run.N 148 ::: tally;score;earned run;run batted in;rbi;unearned run;test;trial;attempt;effort
+fair.N 149 ::: carnival;funfair;show;gathering;assemblage;book fair;bookfair;exhibition;exposition;expo
+bow.N 150 ::: bowknot;knot;stick;fiddlestick;violin bow;fore;prow;stem;front;weapon
+bow.N 151 ::: bowknot;knot;stick;fiddlestick;violin bow;fore;prow;stem;front;weapon
+match.V 152 ::: fit;correspond;check;jibe;gibe;tally;agree;equal;be;adhere
+match.V 153 ::: fit;correspond;check;jibe;gibe;tally;agree;equal;be;adhere
+box.V 154 ::: package;encase;incase;case;hit;contend;fight;struggle;prizefight;shadowbox
+box.V 155 ::: package;encase;incase;case;hit;contend;fight;struggle;prizefight;shadowbox
+run.V 156 ::: travel rapidly;speed;hurry;zip;hare;jog;lope;outrun;romp;run bases
+run.V 157 ::: travel rapidly;speed;hurry;zip;hare;jog;lope;outrun;romp;run bases
+clip.V 158 ::: nip;nip off;snip;snip off;cut;trot;jog;run;attach;crop
+clip.V 159 ::: nip;nip off;snip;snip off;cut;trot;jog;run;attach;crop
+crack.V 161 ::: check;break;change;sound;go;snap;hit;break through;pass;go through
+play.V 162 ::: compete;vie;contend;ace;backstop;bandy;bid;call;bowl;catch
+play.V 163 ::: compete;vie;contend;ace;backstop;bandy;bid;call;bowl;catch
+roll.V 164 ::: turn over;turn;rim;wheel;travel;go;move;locomote;bowl;troll
+roll.V 165 ::: turn over;turn;rim;wheel;travel;go;move;locomote;bowl;troll
+draw.V 166 ::: pull;force;move;displace;abduct;adduct;attract;pull in;draw in;drag
+draw.V 167 ::: pull;force;move;displace;abduct;adduct;attract;pull in;draw in;drag
+table.N 168 ::: tabular array;array;actuarial table;statistical table;calendar;contents;table of contents;correlation table;file allocation table;periodic table
+table.N 169 ::: tabular array;array;actuarial table;statistical table;calendar;contents;table of contents;correlation table;file allocation table;periodic table
+clip.N 170 ::: cartridge holder;cartridge clip;magazine;supply chamber;pincurl clip;time;case;instance;example;fastener
+clip.N 171 ::: cartridge holder;cartridge clip;magazine;supply chamber;pincurl clip;time;case;instance;example;fastener
+scale.N 172 ::: scale of measurement;graduated table;ordered series;standard;criterion;measure;touchstone;beaufort scale;wind scale;index
+scale.N 173 ::: scale of measurement;graduated table;ordered series;standard;criterion;measure;touchstone;beaufort scale;wind scale;index
+board.N 174 ::: committee;commission;advisory board;planning board;appeal board;appeals board;board of appeals;board of selectmen;directorate;board of directors
+board.N 175 ::: committee;commission;advisory board;planning board;appeal board;appeals board;board of appeals;board of selectmen;directorate;board of directors
+point.N 176 ::: component;constituent;element;factor;ingredient;attractor;attracter;intercept;intersection;intersection point
+point.N 177 ::: component;constituent;element;factor;ingredient;attractor;attracter;intercept;intersection;intersection point
+case.N 178 ::: instance;example;happening;occurrence;occurrent;natural event;humiliation;mortification;piece;bit
+case.N 179 ::: instance;example;happening;occurrence;occurrent;natural event;humiliation;mortification;piece;bit
+post.N 180 ::: station;position;place;bridgehead;lookout;observation post;outstation;outpost;military post;military installation
+post.N 181 ::: station;position;place;bridgehead;lookout;observation post;outstation;outpost;military post;military installation
+line.N 182 ::: formation;chorus;chorus line;diagonal;linemen;lineup;rank;rivet line;row;mark
+line.N 183 ::: formation;chorus;chorus line;diagonal;linemen;lineup;rank;rivet line;row;mark
+plant.N 184 ::: works;industrial plant;building complex;complex;bottling plant;brewery;distillery;still;factory;mill
+plant.N 185 ::: works;industrial plant;building complex;complex;bottling plant;brewery;distillery;still;factory;mill
+block.N 186 ::: artifact;artefact;anvil;briquette;briquet;cake;bar;chock;wedge;chopping block
+block.N 187 ::: artifact;artefact;anvil;briquette;briquet;cake;bar;chock;wedge;chopping block
+file.V 188 ::: register;trademark;smooth;smoothen;march;process;charge;lodge;accuse;impeach
+file.V 189 ::: register;trademark;smooth;smoothen;march;process;charge;lodge;accuse;impeach
+change.V 190 ::: alter;modify;accelerate;speed;speed up;acerbate;acetylate;acetylize;acetylise;achromatize
+change.V 191 ::: alter;modify;accelerate;speed;speed up;acerbate;acetylate;acetylize;acetylise;achromatize
+draft.V 192 ::: outline;write;compose;pen;indite;enlist;muster in;enroll;inscribe;enter
+draft.V 193 ::: outline;write;compose;pen;indite;enlist;muster in;enroll;inscribe;enter
+post.V 194 ::: affix;stick on;placard;announce;denote;bill;delegate;designate;depute;assign
+post.V 195 ::: affix;stick on;placard;announce;denote;bill;delegate;designate;depute;assign
+mail.V 196 ::: get off;send;send out;pouch;post;transfer;airmail;express mail;express;register
+report.V 197 ::: describe;account;inform;announce;denote;check in;sign in;check out;clock out;punch out
+report.V 198 ::: describe;account;inform;announce;denote;check in;sign in;check out;clock out;punch out
+clock.V 199 ::: time;quantify;measure;mistime
+clock.V 200 ::: time;quantify;measure;mistime
+paper.V 201 ::: cover;wallpaper
+paper.V 202 ::: cover;wallpaper
+sign.V 203 ::: subscribe;write;rubricate;ratify;validate;formalize;formalise;contract;undertake;autograph
+sign.V 204 ::: subscribe;write;rubricate;ratify;validate;formalize;formalise;contract;undertake;autograph

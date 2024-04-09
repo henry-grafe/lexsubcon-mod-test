@@ -1,0 +1,204 @@
+crop.N	1	20	the farmer proudly surveyed the fruit of his work , a testament to his hard work and dedication to cultivating crops for the community 's sustenance .
+crop.N	2	4	she confidently wielded her crop as she guided the horse around the arena , aiding in their synchronized movements .
+match.N	3	2	the intense match between the two rivals ended in a thrilling tiebreaker , showcasing their skills in this head-to-head challenge .
+match.N	4	12	the painting 's vibrant colors and intricate details make it the perfect match for the room 's elegant decor .
+seal.N	5	2	the adhesive seal securely fastened the edges of the envelope , ensuring its contents remained confidential .
+seal.N	6	1	the seal on the document served as a testament to its authenticity .
+bank.N	7	6	she deposited her savings into the bank , a monetary institution known for safeguarding wealth and facilitating financial transactions .
+bank.N	8	9	the river 's edge was lined with a towering bank , resembling an earth embankment , stretching as far as the eye could see .
+bat.N	9	5	as dusk fell , the bat emerged from its roost , gliding effortlessly through the night sky , on a silent hunt for prey .
+bat.N	10	3	she swung the bat with precision , sending the ball soaring over the outfield fence .
+club.N	11	4	she joined the hiking club to meet like-minded individuals who shared her passion for outdoor adventures .
+club.N	12	3	he wielded the club with precision , its thick end poised to strike , resembling a blunt weapon in the hands of a skilled warrior .
+bar.N	13	5	let 's meet at the bar for a few drinks after work .
+bar.N	14	6	the construction worker carefully lifted the bar to place it as a support , ensuring the stability of the structure .
+bark.N	15	14	as the moon rose , the eerie silence was suddenly shattered by the distant bark of a lone coyote , echoing through the still night .
+bark.N	16	14	the squirrel scampered up the tree , its tiny claws clinging to the rough bark as it ascended towards the safety of the branches .
+link.N	17	1	the link between exercise and mental health is well-documented , highlighting the profound interdependent relationship between physical activity and psychological well-being .
+link.N	18	2	the interlocking links in the chain snapped , causing the entire structure to collapse .
+plant.V	19	3	she decided to plant the seeds in the fertile soil , ensuring they were settled in properly for optimal growth .
+plant.V	20	4	the company plans to plant the barren field with a variety of trees and shrubs to enhance biodiversity . alternatively , populate with , cover with , fill up with , grow over , or establish growth in could serve as substitutes in this context .
+catch.V	21	3	she tried to catch the flying baseball before it hit the ground , but her efforts were futile .
+drop.V	22	5	she watched the autumn leaves drop from the tree , each one released downward in a graceful dance towards the ground .
+drop.V	23	5	as the sun began to drop behind the horizon , its light decreased steadily , casting long shadows across the landscape .
+cut.V	24	3	the chef deftly cut the ripe avocado , revealing its creamy flesh .
+cut.V	25	2	she carefully cut the excess fabric from the dress with a knife .
+break.V	26	7	the earthquake caused the ancient vase to break apart , scattering its fragments across the floor .
+break.V	27	13	despite the rain , the children 's game of tag continued without a break , until a loud clap of thunder abruptly interrupted their laughter and sent them scrambling for shelter .
+train.V	28	8	the experienced coach took it upon himself to train the young athletes , instructing and preparing them meticulously for the upcoming championship .
+train.V	29	1	she trained her thoughts on success , focusing her energy and determination toward achieving her goals .
+grow.V	30	5	the young sapling began to grow , expanding and developing its branches , as it matured into a flourishing tree .
+grow.V	31	2	she diligently grew her garden , ensuring that every plant thrived under her care .
+sow.V	32	3	she chose to sow wildflower seeds in her garden , scattering them carefully to ensure a vibrant array of colors in the spring .
+sow.V	33	3	she sought to sow the seeds of kindness , hoping to introduce widely the spirit of compassion among her community .
+green.J	34	1	the green hills stretched as far as the eye could see , painting a picturesque landscape before us .
+green.J	35	5	the farmer proudly showcased his green practices , demonstrating a commitment to sustainable farming that minimized pollution and preserved soil fertility .
+sharp.J	36	4	the chef wielded a sharp knife , its keen edge slicing effortlessly through the ripe tomatoes .
+sharp.J	37	2	with his sharp wit and acute understanding , he quickly deciphered the intricate problem before anyone else could , proving himself to be clever-witted and perceptive beyond measure
+heavy.J	38	5	the bulky box was too heavy for her to lift , requiring assistance from her colleagues .
+heavy.J	39	1	the heavy rain poured down relentlessly , soaking everything in its path .
+blue.J	40	1	the blue sky stretched endlessly above , mirroring the vastness of the ocean below .
+blue.J	41	9	amidst the gray clouds , her eyes reflected her blue feelings , conveying a depth of melancholy that lingered like a silent storm .
+sweet.J	42	4	the cake had a sweet flavor , reminiscent of sugary treats from childhood .
+sweet.J	43	1	the sweet melody of the birds singing in the morning filled the air with delight , charm , and enjoyment .
+round.J	44	1	the round table was the focal point of the room , its circular shape facilitating conversation among all participants .
+round.J	45	8	the circle formed by their unbroken bond remained round , embodying a completeness that was both comforting and empowering .
+fast.J	46	6	the cheetah , known for its fast movements , dashed across the savannah with incredible speed .
+fast.J	47	1	the fast anchor kept the boat securely fixed in place during the storm .
+black.J	48	6	the night sky was painted in black hues , adorned with stars that sparkled like diamonds against its dark canvas .
+black.J	49	4	she prefers her coffee black , unsweetened and straight , without any cream or sugar .
+cold.J	50	1	the cold wind cut through her jacket , sending shivers down her spine .
+cold.J	51	11	despite his charming demeanor , beneath it all , he remained cold , distant , and indifferent towards forming meaningful connections .
+light.J	52	7	she carried the package effortlessly , its light contents barely registering in her hand .
+light.J	53	5	the comedy show promised a light atmosphere , filled with amusing anecdotes and lighthearted humor .
+war.N	54	3	in times of war , the true cost of war extends far beyond the battlefield , impacting both nations and individuals alike .
+war.N	55	5	the government launched a relentless war against drug abuse , deploying every effort to combat this societal scourge and bring about positive change .
+park.N	56	7	let 's have a picnic in the park ; it 's a serene recreational area perfect for enjoying nature and relaxation .
+park.N	57	2	the industrial park provided an allocated ground for businesses to thrive , fostering innovation and economic growth within its demarcated land .
+strike.N	58	3	employees staged a strike in the factory parking lot , demanding better conditions and wages .
+strike.N	59	3	with one swift strike , he knocked the opponent to the ground , leaving them dazed and defeated .
+fight.V	60	5	the soldiers were ready to fight against the enemy forces .
+fight.V	61	1	she fought against her inner demons to strive for inner peace .
+jump.V	62	4	she watched the athlete jump with remarkable grace , soaring over the bar effortlessly .
+crash.V	63	12	the reckless driver did n't notice the stop sign and proceeded to crash into the barrier , causing extensive damage to both the vehicle and the surrounding area .
+crash.V	64	9	as the old tree weakened , it began to crash down , shaking the ground with its collapse .
+strike.V	65	4	the boxer managed to strike his opponent with such force that it knocked him to the ground .
+strike.V	66	3	workers decided to strike in protest against unfair working conditions , demanding better treatment and higher wages .
+charge.V	67	4	the cavalry decided to charge headlong into battle , bearing down upon the enemy with relentless force .
+charge.V	68	3	the mechanic will charge you for the repairs done to your car .
+beat.V	69	4	the boxer continued to beat his opponent relentlessly , landing blow after blow with ferocious strength .
+beat.V	70	3	she managed to beat her opponent in the chess tournament , showcasing her strategic prowess and determination .
+cell.N	71	8	in biology class , we learned that the cell , the fundamental unit of life , is like a tiny biological unit , containing cytoplasm and a nucleus enclosed in a membrane .
+cell.N	72	7	the prisoner sat alone in his cramped cell , contemplating the solitude of his confinement space as he awaited his fate .
+wave.N	73	18	as the sun dipped below the horizon , the waves crashed against the shore , forming a mesmerizing wave that danced gracefully in the moonlight .
+wave.N	74	21	the sound engineer adjusted the microphone to capture the singer 's voice as it traveled through the air in a gentle wave .
+field.N	75	2	in the field of psychology , researchers explore various realms of human behavior and cognition .
+state.N	76	8	in the heart of europe lies a small state with a rich cultural heritage
+key.N	77	4	she fumbled for the key in her pocket , her fingers brushing against the familiar shape of the key , hoping it would grant her access to the hidden room .
+extract.V	78	3	she had to extract the splinter from her finger with great care , ensuring not to cause any more pain
+extract.V	79	4	she was able to extract valuable insights from the data extracted during the experiment .
+drill.V	80	4	she used the electric drill to bore through the thick metal , creating a hole for the new pipe .
+drill.V	81	2	the coach drilled the team in defensive tactics ahead of the championship game .
+model.V	82	4	the team collaborated to model the effects of climate change , meticulously replicating various scenarios to better understand its potential impact
+wave.V	83	1	she waved to her friend across the crowded room , signaling with a smile as a substitute gesture of greeting .
+monitor.V	84	4	the manager needs to monitor the project closely to ensure it stays on track and meets its deadlines .
+monitor.V	85	10	he was tasked to intercept the enemy 's communications and monitor their plans closely
+filter.V	86	7	she used a fine mesh sieve to filter the impurities from the freshly squeezed juice , ensuring a smooth and pure drink .
+filter.V	87	3	i need to filter through these job applications to find the most qualified candidates .
+probe.V	88	2	she carefully probed the mysterious artifact with her tools , aiming to examine its intricate details and uncover its secrets .
+probe.V	89	3	she decided to probe her colleague about the sudden changes in the project timeline , hoping to uncover the underlying reasons behind the delays .
+plot.V	90	2	she meticulously plotted the course of her journey across the rugged terrain , ensuring every landmark was delineated with precision .
+plot.V	91	5	she was caught trying to plot against her rival , devising a scheme that could have had dire consequences .
+trip.N	92	2	during our trip to the mountains , we encountered breathtaking vistas and forged unforgettable memories .
+file.N	93	10	she kept her important documents organized in a meticulously labeled file , ensuring easy access and retrieval of information .
+file.N	94	3	he used the file to meticulously smooth the edges of the wood , employing his woodworking tool with precision and care .
+note.N	95	4	she quickly scribbled a note on the notepad , capturing the key points of the meeting for future reference .
+note.N	96	5	the pianist struck a resonant note that captivated the audience .
+draft.N	97	10	after hours of brainstorming , she finally completed the initial draft of her novel , eagerly anticipating feedback from her editor .
+draft.N	98	10	as she stepped into the old attic , a refreshing draft greeted her , carrying the scent of memories past .
+sheet.N	99	5	she tucked herself under the sheet , its soft fabric enveloping her in warmth and comfort , much like a bed cover would .
+sheet.N	100	3	she grabbed a sheet from the printer to jot down her notes , ensuring she had enough paper for her meeting .
+play.N	101	11	children filled the park with laughter as they engaged in various plays , turning the space into a hub of amusement .
+play.N	102	9	the community theater group is putting on a captivating play this weekend , showcasing local talent and bringing the audience into the world of the characters .
+base.N	103	7	the house was built on a solid base , ensuring its stability and durability over time .
+base.N	104	17	the building of the company , located in the heart of the city , serves as the base from which all strategic decisions are made .
+drive.V	105	3	she loves to drive through winding country roads , feeling the wind in her hair and the freedom of the open road .
+drive.V	106	5	the coach 's fervent encouragement drove the team to victory , with unwavering determination .
+ride.V	107	6	she enjoyed the thrill as she rode the horse through the forest trails , feeling the wind rush past her .
+ride.V	108	11	as the sun dipped below the horizon , they decided to ride home on their bicycles , relishing the gentle breeze against their skin and the rhythmic pedal strokes guiding them along the familiar path .
+cruise.V	109	3	they decided to cruise along the coastline , enjoying the serene waters and picturesque views .
+cruise.V	110	3	the project is cruising towards completion .
+party.N	111	4	the newly formed political party aims to advocate for marginalized communities and influence governmental policy .
+party.N	112	1	the party buzzed with laughter , music , and joyous conversation , embodying the essence of the community .
+bill.N	113	5	the parliamentarians deliberated over the bill , contemplating its potential impact on the nation 's legal framework .
+bill.N	114	12	after indulging in a delightful dinner , the waiter brought over the bill , detailing our expenses for the evening .
+left.N	115	10	amidst the fervent debate , the decision to embrace the left brought a wave of enthusiasm .
+campaign.N	116	2	the presidential campaign rallied citizens around its message of change , orchestrating a strategic series of actions to secure victory .
+campaign.N	117	5	the general meticulously crafted the campaign , ensuring every aspect was meticulously coordinated .
+house.N	118	2	in the house of representatives , discussions over the proposed bill became heated , reflecting the diverse perspectives .
+house.N	119	2	the cozy house nestled in the woods provided refuge for the weary travelers .
+majority.N	120	7	in the town council vote , the majority of members favored the new infrastructure plan .
+majority.N	121	2	upon reaching majority , individuals gain the autonomy to make their own decisions and bear the full weight of their rights and responsibilities .
+power.N	122	3	the regime 's power over the nation was palpable , shaping policies and decisions with an iron grip .
+poll.N	123	2	the recent poll revealed a shift in public sentiment towards the proposed policy changes .
+term.N	124	7	in academic discourse , selecting the precise term to convey complex ideas is crucial for clarity and precision in communication .
+campaign.V	125	2	she tirelessly campaigned for her environmental agenda , rallying supporters and taking actions towards a greener future .
+campaign.V	126	4	the army planned to campaign deep into enemy territory to secure vital supply routes .
+stand.V	127	3	she decided to stand against the proposal .
+stand.V	128	9	despite the chaos around her , she chose to stand strong in the face of adversity , demonstrating unwavering determination and resilience .
+watch.V	129	1	she watched the children play in the park , ensuring their safety with attentive observation .
+watch.V	130	11	as the night grew darker , the sentries were tasked to watch for danger lurking in the shadows , their senses heightened and their focus unwavering .
+serve.V	131	4	she dedicated herself to serve her community , with diligence and compassion .
+serve.V	132	7	during the dinner party , she diligently served her guests , ensuring everyone 's needs were met with grace and efficiency .
+balance.V	133	2	she carefully balanced the stack of books on her head as she walked
+balance.V	134	4	she had to carefully balance her work commitments with her personal life , ensuring neither took over the other .
+address.V	135	3	she needed to address the issue before it escalated further .
+address.V	136	6	he stepped onto the stage to address the crowd , delivering a powerful message that resonated with everyone present .
+lead.V	137	8	despite facing initial setbacks , she managed to lead the team to victory .
+charge.V	138	4	the prosecutor decided to charge the suspect , marking the beginning of a legal battle .
+charge.V	139	1	she charged her suitcase with souvenirs from the trip , ensuring every inch was utilized .
+crane.N	140	10	the construction site echoed with the rhythmic hum of the crane , effortlessly hoisting massive beams into place with precision and grace .
+crane.N	141	6	she watched in awe as the crane gracefully swooped down , its long neck stretching elegantly as it landed by the water 's edge .
+date.N	142	3	on the appointed date , they gathered to celebrate their anniversary , marking the occasion with joy and reminiscence .
+date.N	143	7	she savored the succulent sweetness of the date , relishing its rich flavor and smooth texture .
+box.N	144	7	she carefully packed her belongings into the box , ensuring everything fit snugly before sealing it shut .
+ring.N	145	5	she proudly displayed the sparkling ring on her finger , a symbol of their everlasting love and commitment .
+ring.N	146	1	the ring of the bell echoed through the empty hall .
+run.N	147	19	during our marathon meeting , we experienced a continuous flow of productive discussions , making it a highly successful run .
+run.N	148	3	during her morning run , sarah spotted a deer gracefully leaping across the path , adding a sense of exhilaration to her daily routine .
+fair.N	149	3	the town 's fair was abuzz with laughter and excitement , drawing crowds from all around for a day of communal celebration .
+bow.N	150	8	with his skilled hands , he crafted a bow from sturdy wood , fashioning it into a deadly weapon .
+bow.N	151	4	she admired the intricate bow on the gift box , noting how the double-loop tie added an extra touch of elegance to the presentation .
+match.V	152	7	the dance instructor instructed the students to match with partners who shared similar skill levels , ensuring everyone could enjoy the lesson .
+match.V	153	2	her actions match her words , demonstrating a consistency and integrity that is admirable .
+box.V	154	7	as tensions rose , they decided to box out their differences rather than resorting to heated arguments .
+box.V	155	2	she carefully boxed the delicate china to ensure it would n't break during transit .
+run.V	156	3	she had to run through the crowded streets to catch the last bus home .
+run.V	157	2	she skillfully runs the family business , ensuring its smooth operation and growth .
+clip.V	158	3	she had to clip the overgrown bushes before they took over the garden , ensuring they remained neat and tidy .
+clip.V	159	2	she carefully clipped the photograph to the corkboard , ensuring it would n't fall .
+break.V	160	6	the thunderous impact made the glass break , sending a shiver down my spine as i watched it go into a thousand pieces .
+crack.V	161	3	she managed to crack the cryptic message , revealing the hidden clues within .
+play.V	162	3	she loves to play in the park , laughing and running with her friends .
+play.V	163	3	she loves to play on her guitar , filling the room with beautiful melodies .
+roll.V	164	4	the ball began to roll down the hill , gaining speed with each revolution .
+roll.V	165	2	she deftly rolled the dough into perfect cylinders , ready to be baked into delicious cookies .
+draw.V	166	3	she decided to draw a detailed map of the forest , outlining every trail and landmark with precision .
+draw.V	167	3	she had to draw the heavy box across the room , feeling the strain in her muscles .
+table.N	168	4	she leaned against the table , lost in thought about her upcoming presentation .
+table.N	169	6	the annual report presents a comprehensive table showcasing the company 's financial performance , facilitating easy analysis and comparison .
+clip.N	170	4	the engineer grabbed a clip from the toolbox to fasten the cables securely in place .
+clip.N	171	4	i found a fascinating clip from the documentary that perfectly captures the essence of the subject matter .
+scale.N	172	3	the snake 's scales shimmered in the sunlight , forming a protective plate that blended seamlessly with its surroundings .
+scale.N	173	14	the success of the project will be determined by how effectively we utilize the scale provided , ensuring accurate measurement and assessment throughout .
+board.N	174	7	the carpenter measured the dimensions of the board before cutting it to fit precisely into the flooring , ensuring a seamless installation .
+board.N	175	1	the board convened to discuss the company 's future direction and strategic decisions .
+point.N	176	2	at the point of the pencil , the artist carefully captured every detail with precision .
+point.N	177	3	she marked the point where the treasure was buried on the map , ensuring it was easily identifiable .
+case.N	178	3	in this particular case , each individual occurrence presents a unique situation that requires careful consideration .
+case.N	179	9	she packed her most cherished possessions in a sturdy case before embarking on her journey .
+post.N	180	4	she leaned against the post at the edge of the field , taking in the vast expanse of the countryside beyond as she watched the sun set .
+post.N	181	4	she secured a prestigious post at the company , embodying a significant part in the organization 's operations .
+line.N	182	6	the artist carefully drew a precise line along the canvas , ensuring each stroke contributed to the masterpiece 's intricate design .
+line.N	183	5	she waited anxiously for the line to connect , eager to hear his voice on the other end .
+plant.N	184	7	in the lush garden , the vibrant plant thrived , adding a touch of natural beauty to the landscape .
+plant.N	185	1	the plant located on the outskirts of town is renowned for its efficient processes and innovative technology .
+block.N	186	7	the ancient temple was constructed from massive blocks of stone , meticulously carved and assembled to create a structure of profound beauty and significance .
+block.N	187	5	each corner of the city block is offering its own unique charm .
+file.V	188	2	she meticulously filed all the paperwork , ensuring every document was in its place .
+file.V	189	3	she had to file her visa application before the deadline .
+change.V	190	3	she decided to change her approach to respond best to the new challenges ahead .
+change.V	191	3	she decided to change her dress for a more formal one before the event .
+draft.V	192	3	i need to draft a proposal for the new project by tomorrow .
+draft.V	193	4	the government decided to draft young men into the army to bolster its forces .
+post.V	194	9	after carefully making her painting , she decided to post it on the community bulletin board for all to admire .
+post.V	195	3	she decided to post him as the team leader for the upcoming project , entrusting him with significant responsibilities .
+mail.V	196	3	she decided to mail the invitations for her birthday party , ensuring they reached everyone on time .
+report.V	197	2	she will report her findings at the conference tomorrow , summarizing the results of her research .
+report.V	198	3	she decided to report the incident to the management , feeling it was important to care about the safety hazards in the workplace .
+clock.V	199	4	as she continued to clock her progress on the project , she grew increasingly confident in meeting the deadline .
+clock.V	200	1	he clocked his opponent with a swift blow to the jaw , sending them staggering back .
+paper.V	201	3	she decided to paper the gift with colorful patterns , ensuring its presentation was as delightful as its contents .
+paper.V	202	3	he needs to paper his application for the grant by tomorrow .
+sign.V	203	3	she had to sign the contract before the deadline , affirming her agreement with the terms outlined .
+sign.V	204	1	she signed her approval with a subtle gesture , expressing her agreement without uttering a word .

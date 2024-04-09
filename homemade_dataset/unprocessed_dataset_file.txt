@@ -1,0 +1,815 @@
+crop.N
+The farmer proudly surveyed the fruit of his work, a testament to his hard work and dedication to cultivating crops for the community's sustenance.
+Harvested produce, agricultural yield, cultivated crop, foodstuff, farm produce
+
+crop.N
+She confidently wielded her crop as she guided the horse around the arena, aiding in their synchronized movements.
+Riding whip, horsewhip, equestrian implement, horse crop, riding accessory
+
+match.N
+The intense match between the two rivals ended in a thrilling tiebreaker, showcasing their skills in this head-to-head challenge.
+Competitive event, sporting contest, head-to-head challenge, matchup, athletic competition
+
+match.N
+The painting's vibrant colors and intricate details make it the perfect match for the room's elegant decor.
+Corresponding item, equivalent counterpart, similar entity, analogous object, corresponding pair
+
+seal.N
+The adhesive seal securely fastened the edges of the envelope, ensuring its contents remained confidential.
+Adhesive sealant, bonding material, joint sealant, caulk compound, binding agent
+
+seal.N
+The seal on the document served as a testament to its authenticity.
+Official stamp, certification mark, authentication emblem, document marker, legal insignia
+
+bank.N
+She deposited her savings into the bank, a monetary institution known for safeguarding wealth and facilitating financial transactions.
+Monetary institution, financial organization, banking establishment, credit agency, economic institution
+
+bank.N
+The river's edge was lined with a towering bank, resembling an earth embankment, stretching as far as the eye could see.
+Earth embankment, raised mound, land formation, soil ridge, elevated structure
+
+bat.N
+As dusk fell, the bat emerged from its roost, gliding effortlessly through the night sky, on a silent hunt for prey.
+Flying mammal, nocturnal creature, winged mammal, aerial rodent, night flier
+
+bat.N
+She swung the bat with precision, sending the ball soaring over the outfield fence.
+Sports racket, hitting tool, ball striker, paddle instrument, hitting device
+
+club.N
+She joined the hiking club to meet like-minded individuals who shared her passion for outdoor adventures.
+Interest group, community organization, society alliance, activity coalition, hobby collective
+
+club.N
+He wielded the club with precision, its thick end poised to strike, resembling a blunt weapon in the hands of a skilled warrior.
+Blunt weapon, impact tool, striking instrument, heavy baton, melee implement
+
+bar.N
+Let's meet at the bar for a few drinks after work.
+Drinking establishment, watering hole, tavern lounge, cocktail venue, alcohol joint
+
+bar.N
+The construction worker carefully lifted the bar to place it as a support, ensuring the stability of the structure.
+Rigid beam, solid rod, metallic shaft, wooden plank, structural element
+
+bark.N
+As the moon rose, the eerie silence was suddenly shattered by the distant bark of a lone coyote, echoing through the still night.
+Animal vocalization, canine sound, creature yelp, mammal noise, vocal cry
+
+bark.N
+The squirrel scampered up the tree, its tiny claws clinging to the rough bark as it ascended towards the safety of the branches.
+Tree covering, woody layer, plant skin, trunk casing, arboreal protection
+
+link.N
+The link between exercise and mental health is well-documented, highlighting the profound interdependent relationship between physical activity and psychological well-being.
+Connection tie, relational bond, associative link, interdependent relationship, correlated connection
+
+link.N
+The interlocking links in the chain snapped, causing the entire structure to collapse.
+Chain segment, connector loop, chain component, interlocking ring, metallic joiner
+
+plant.V
+She decided to plant the seeds in the fertile soil, ensuring they were settled in properly for optimal growth.
+Settle in, embed, sow down, place into, cultivate
+
+plant.V
+The company plans to plant the barren field with a variety of trees and shrubs to enhance biodiversity. Alternatively, populate with, cover with, fill up with, grow over, or establish growth in could serve as substitutes in this context.
+Populate with, cover with, fill up with, grow over, establish growth in
+
+catch.V
+She tried to catch the flying baseball before it hit the ground, but her efforts were futile.
+Snag, ensnare, capture, seize hold of, grab onto
+
+drop.V
+She watched the autumn leaves drop from the tree, each one released downward in a graceful dance towards the ground.
+Let fall, release downward, allow descent, let go, release
+
+drop.V
+As the sun began to drop behind the horizon, its light decreased steadily, casting long shadows across the landscape.
+Decrease steadily, diminish gradually, reduce gradually, lower gradually, lessen progressively
+
+cut.V
+The chef deftly cut the ripe avocado, revealing its creamy flesh.
+Slice open, gash, incise, slash, carve
+
+cut.V
+She carefully cut the excess fabric from the dress with a knife.
+Remove by slicing, sever from, detach with a knife, snip off, chop away
+
+break.V
+The earthquake caused the ancient vase to break apart, scattering its fragments across the floor.
+Shatter apart, fracture, smash, crack, split
+
+break.V
+Despite the rain, the children's game of tag continued without a break, until a loud clap of thunder abruptly interrupted their laughter and sent them scrambling for shelter.
+Interrupt abruptly, disrupt, stop suddenly, halt, discontinue
+
+train.V
+The experienced coach took it upon himself to train the young athletes, instructing and preparing them meticulously for the upcoming championship.
+Instruct and prepare, educate, tutor, coach, mentor, provide experience
+
+train.V
+She trained her thoughts on success, focusing her energy and determination toward achieving her goals.
+Direct toward, focus on, aim at, point toward, set sights on
+
+grow.V
+The young sapling began to grow, expanding and developing its branches, as it matured into a flourishing tree.
+Expand and develop, mature, blossom, flourish, thrive
+
+grow.V
+She diligently grew her garden, ensuring that every plant thrived under her care.
+Cultivate and nurture, raise up, tend at, foster
+
+sow.V
+She chose to sow wildflower seeds in her garden, scattering them carefully to ensure a vibrant array of colors in the spring.
+Scatter seed, plant seed, disperse seed, broadcast seed, seed down
+
+sow.V
+She sought to sow the seeds of kindness, hoping to introduce widely the spirit of compassion among her community.
+Introduce widely, spread, disseminate, propagate, instill
+
+green.J
+The green hills stretched as far as the eye could see, painting a picturesque landscape before us.
+Relating to the color between blue and yellow in the spectrum. Substitutes: Verdant, leafy, emerald, grassy, jade
+
+green.J
+The farmer proudly showcased his green practices, demonstrating a commitment to sustainable farming that minimized pollution and preserved soil fertility.
+Sustainable farming, organic agriculture, eco-friendly cultivation, natural farming, environmentally friendly farming
+
+sharp.J
+The chef wielded a sharp knife, its keen edge slicing effortlessly through the ripe tomatoes.
+Pointed, keen, serrated, honed, edged
+
+sharp.J
+With his sharp wit and acute understanding, he quickly deciphered the intricate problem before anyone else could, proving himself to be clever-witted and perceptive beyond measure
+Clever-witted, acute, incisive, perceptive, shrewd-minded
+
+heavy.J
+The bulky box was too heavy for her to lift, requiring assistance from her colleagues.
+Weighty, bulky, substantial, ponderous, hefty
+
+heavy.J
+The heavy rain poured down relentlessly, soaking everything in its path.
+Downpouring, pouring, torrential, copious, abundant
+
+blue.J
+The blue sky stretched endlessly above, mirroring the vastness of the ocean below.
+Azure, cerulean, cobalt, sapphire colored, indigo
+
+blue.J
+Amidst the gray clouds, her eyes reflected her blue feelings, conveying a depth of melancholy that lingered like a silent storm.
+Melancholic, sorrowful, depressed, despondent, gloomy
+
+sweet.J
+The cake had a sweet flavor, reminiscent of sugary treats from childhood.
+Sugary, saccharine, honeyed, syrupy, nectarous, sugar flavored
+
+sweet.J
+The sweet melody of the birds singing in the morning filled the air with delight, charm, and enjoyment.
+Delightful, charming, endearing, lovely, enjoyable
+
+round.J
+The round table was the focal point of the room, its circular shape facilitating conversation among all participants.
+round shaped, orbicular shaped, rounded
+
+round.J
+The circle formed by their unbroken bond remained round, embodying a completeness that was both comforting and empowering.
+Full-bodied, complete, unbroken, intact, thorough
+
+fast.J
+The cheetah, known for its fast movements, dashed across the savannah with incredible speed.
+Swift, rapid, quick paced, speedy, brisk
+
+fast.J
+The fast anchor kept the boat securely fixed in place during the storm.
+Securely fixed, tightly anchored, firmly attached, steadfast, immovable
+
+black.J
+The night sky was painted in black hues, adorned with stars that sparkled like diamonds against its dark canvas.
+Ebony, jet, coal, pitch-black, obsidian, pitch dark
+
+black.J
+She prefers her coffee black, unsweetened and straight, without any cream or sugar.
+Unsweetened, plain, straight, unadulterated, pure, sugar free, free of sugar
+
+cold.J
+The cold wind cut through her jacket, sending shivers down her spine.
+Chilly, frigid, icy, glacial, freezing
+
+cold.J
+Despite his charming demeanor, beneath it all, he remained cold, distant, and indifferent towards forming meaningful connections.
+Aloof, distant, indifferent, unfeeling, reserved
+
+light.J
+She carried the package effortlessly, its light contents barely registering in her hand.
+Lightweight, airy, featherlight, buoyant, insubstantial
+
+light.J
+The comedy show promised a light atmosphere, filled with amusing anecdotes and lighthearted humor.
+Amusing, entertaining, diverting, fun-filled, lighthearted
+
+war.N
+In times of war, the true cost of war extends far beyond the battlefield, impacting both nations and individuals alike.
+Armed conflict, military confrontation, warfare, battle, combat
+
+war.N
+The government launched a relentless war against drug abuse, deploying every effort to combat this societal scourge and bring about positive change.
+Struggle, campaign, effort, endeavor, crusade
+
+park.N
+Let's have a picnic in the park; it's a serene recreational area perfect for enjoying nature and relaxation.
+Public garden, recreational area, green space, leisure grounds, open space
+
+park.N
+The industrial park provided an allocated ground for businesses to thrive, fostering innovation and economic growth within its demarcated land.
+Designated space, specified zone, allocated ground, demarcated land
+
+strike.N
+Employees staged a strike in the factory parking lot, demanding better conditions and wages.
+Work stoppage, labor protest, walkout, industrial action, job action
+
+strike.N
+With one swift strike, he knocked the opponent to the ground, leaving them dazed and defeated.
+Powerful blow, hard punch, hard smack, hard thump
+
+fight.V
+The soldiers were ready to fight against the enemy forces.
+Engage in, combat, wage war, duke it out, go to war
+
+fight.V
+She fought against her inner demons to strive for inner peace.
+Struggle against, contend with, battle for, strive for, wrestle with
+
+jump.V
+She watched the athlete jump with remarkable grace, soaring over the bar effortlessly.
+Propel upwards, leap up, spring into, vault over, bound off
+
+crash.V
+The reckless driver didn't notice the stop sign and proceeded to crash into the barrier, causing extensive damage to both the vehicle and the surrounding area.
+Collide with, smash into, ram against, plow into, slam into
+
+crash.V
+As the old tree weakened, it began to crash down, shaking the ground with its collapse.
+Fall down, collapse, tumble over, topple down, come crashing down
+
+strike.V
+The boxer managed to strike his opponent with such force that it knocked him to the ground.
+Hit forcefully, deliver a blow, land a punch, strike down, deal a blow
+
+strike.V
+Workers decided to strike in protest against unfair working conditions, demanding better treatment and higher wages.
+Refuse to work, go on strike, walk off the job, down tools, stage a protest
+
+charge.V
+The cavalry decided to charge headlong into battle, bearing down upon the enemy with relentless force.
+Rush forward, storm ahead, advance rapidly, bear down, press forward
+
+charge.V
+The mechanic will charge you for the repairs done to your car.
+Demand payment, ask for money, bill for, invoice for, request payment for
+
+beat.V
+The boxer continued to beat his opponent relentlessly, landing blow after blow with ferocious strength.
+Pound repeatedly, hammer away
+
+beat.V
+She managed to beat her opponent in the chess tournament, showcasing her strategic prowess and determination.
+Defeat in, win against, triumph over, outdo, overcome in
+
+cell.N
+In biology class, we learned that the cell, the fundamental unit of life, is like a tiny biological unit, containing cytoplasm and a nucleus enclosed in a membrane.
+Microscopic unit, biological unit, building block, fundamental unit, basic structure
+
+cell.N
+The prisoner sat alone in his cramped cell, contemplating the solitude of his confinement space as he awaited his fate.
+Prison room, confinement space, detainee chamber
+
+wave.N
+As the sun dipped below the horizon, the waves crashed against the shore, forming a mesmerizing wave that danced gracefully in the moonlight.
+Ocean motion, sea movement, water oscillation, tidal motion
+
+wave.N
+The sound engineer adjusted the microphone to capture the singer's voice as it traveled through the air in a gentle wave.
+Energy pulse, pressure oscillation, pressure variation
+
+field.N
+In the field of psychology, researchers explore various realms of human behavior and cognition.
+Area of study, study domain, knowledge domain
+
+state.N
+In the heart of Europe lies a small state with a rich cultural heritage
+sovereign entity, sovereign nation
+
+key.N
+She fumbled for the key in her pocket, her fingers brushing against the familiar shape of the key, hoping it would grant her access to the hidden room.
+Lock opener, unlocking tool, access device, latch opener
+
+extract.V
+She had to extract the splinter from her finger with great care, ensuring not to cause any more pain
+Pull out, draw out, pluck out
+
+extract.V
+She was able to extract valuable insights from the data extracted during the experiment.
+Derive from, obtain from, distill from, glean from, sift from
+
+drill.V
+She used the electric drill to bore through the thick metal, creating a hole for the new pipe.
+Bore through, punch through, pierce, penetrate, bore into
+
+drill.V
+The coach drilled the team in defensive tactics ahead of the championship game.
+Train in, instruct in, teach systematically, coach in, tutor in
+
+model.V
+The team collaborated to model the effects of climate change, meticulously replicating various scenarios to better understand its potential impact
+mathematically represent, simulate on computer, put in equations
+
+wave.V
+She waved to her friend across the crowded room, signaling with a smile as a substitute gesture of greeting.
+Greet with, signal with, beckon with, gesture with, motion with
+
+monitor.V
+The manager needs to monitor the project closely to ensure it stays on track and meets its deadlines.
+watch over, supervise on, check on
+
+monitor.V
+He was tasked to intercept the enemy's communications and monitor their plans closely
+Listen to, eavesdrop on, tap into
+
+filter.V
+She used a fine mesh sieve to filter the impurities from the freshly squeezed juice, ensuring a smooth and pure drink.
+Strain out, separate out
+
+filter.V
+I need to filter through these job applications to find the most qualified candidates.
+sift through, sort through
+
+probe.V
+She carefully probed the mysterious artifact with her tools, aiming to examine its intricate details and uncover its secrets.
+delve into
+
+probe.V
+She decided to probe her colleague about the sudden changes in the project timeline, hoping to uncover the underlying reasons behind the delays.
+inquire into, dig into
+
+plot.V
+She meticulously plotted the course of her journey across the rugged terrain, ensuring every landmark was delineated with precision.
+Mark out, lay out
+
+plot.V
+She was caught trying to plot against her rival, devising a scheme that could have had dire consequences.
+Plan secretly, plan against, conspire against
+
+trip.N
+During our trip to the mountains, we encountered breathtaking vistas and forged unforgettable memories.
+Voyage adventure
+
+file.N
+She kept her important documents organized in a meticulously labeled file, ensuring easy access and retrieval of information.
+Document folder, paperwork stack, dossier collection, records bundle
+
+file.N
+He used the file to meticulously smooth the edges of the wood, employing his woodworking tool with precision and care.
+Metal rasp, woodworking tool, shaping implement, surface smoother, filing tool
+
+note.N
+She quickly scribbled a note on the notepad, capturing the key points of the meeting for future reference.
+Memorandum jotting
+
+note.N
+The pianist struck a resonant note that captivated the audience.
+Musical tone, musical note, musical sound
+
+draft.N
+After hours of brainstorming, she finally completed the initial draft of her novel, eagerly anticipating feedback from her editor.
+Preliminary copy, rough version, early edition, initial draft, preliminary sketch
+
+draft.N
+As she stepped into the old attic, a refreshing draft greeted her, carrying the scent of memories past.
+Air current
+
+sheet.N
+She tucked herself under the sheet, its soft fabric enveloping her in warmth and comfort, much like a bed cover would.
+Bed cover, bedding linen, bedspread fabric, mattress covering, bed linen
+
+sheet.N
+She grabbed a sheet from the printer to jot down her notes, ensuring she had enough paper for her meeting.
+Paper page, paper panel, paper leaf, paper piece, paper rectangle
+
+play.N
+Children filled the park with laughter as they engaged in various plays, turning the space into a hub of amusement.
+Recreational activity, leisure pursuit
+
+play.N
+The community theater group is putting on a captivating play this weekend, showcasing local talent and bringing the audience into the world of the characters.
+Theatrical performance, stage show
+
+base.N
+The house was built on a solid base, ensuring its stability and durability over time.
+Foundation layer, supporting surface, ground level
+
+base.N
+The building of the company, located in the heart of the city, serves as the base from which all strategic decisions are made.
+Operations center, home base, central hub, main station
+
+drive.V
+She loves to drive through winding country roads, feeling the wind in her hair and the freedom of the open road.
+Motor along, travel by car
+
+drive.V
+The coach's fervent encouragement drove the team to victory, with unwavering determination.
+Propel forward, spur on, move swiftly, rush along
+
+ride.V
+She enjoyed the thrill as she rode the horse through the forest trails, feeling the wind rush past her.
+saddle up, sit astride, horseback ride
+
+ride.V
+As the sun dipped below the horizon, they decided to ride home on their bicycles, relishing the gentle breeze against their skin and the rhythmic pedal strokes guiding them along the familiar path.
+Travel by, journey by, take a ride, be transported, hitch a ride
+
+cruise.V
+They decided to cruise along the coastline, enjoying the serene waters and picturesque views.
+Sail leisurely, travel in leisure, go on a cruise, navigate smoothly
+
+cruise.V
+The project is cruising towards completion.
+Advance towards, go on, sail along
+
+party.N
+The newly formed political party aims to advocate for marginalized communities and influence governmental policy.
+Political faction, interest group, advocacy organization, political movement, campaign coalition
+
+party.N
+The party buzzed with laughter, music, and joyous conversation, embodying the essence of the community.
+Social event
+
+bill.N
+The parliamentarians deliberated over the bill, contemplating its potential impact on the nation's legal framework.
+Legislative proposal, draft legislation, statutory measure, policy initiative, parliamentary motion
+
+bill.N
+After indulging in a delightful dinner, the waiter brought over the bill, detailing our expenses for the evening.
+Due amount
+
+left.N
+Amidst the fervent debate, the decision to embrace the left brought a wave of enthusiasm.
+Leftist movement, socialist agenda, egalitarian politics
+
+campaign.N
+The presidential campaign rallied citizens around its message of change, orchestrating a strategic series of actions to secure victory.
+Political effort, advocacy campaign, election drive, public initiative, grassroots mobilization
+
+campaign.N
+The general meticulously crafted the campaign, ensuring every aspect was meticulously coordinated.
+Strategic operation, warfare endeavor, combat mission, battle plan
+
+house.N
+In the house of representatives, discussions over the proposed bill became heated, reflecting the diverse perspectives.
+Legislative chamber, parliamentary assembly, congressional branch, governing body, lawmaking institution
+
+house.N
+The cozy house nestled in the woods provided refuge for the weary travelers.
+Rest place, residence place, sleeping place
+
+majority.N
+In the town council vote, the majority of members favored the new infrastructure plan.
+Larger share, predominant group, prevailing faction, greater portion
+
+majority.N
+Upon reaching majority, individuals gain the autonomy to make their own decisions and bear the full weight of their rights and responsibilities.
+Legal adulthood, full legal capacity, mature age, adult status
+
+power.N
+The regime's power over the nation was palpable, shaping policies and decisions with an iron grip.
+Political dominance, ruling authority, state control, regime influence
+
+poll.N
+The recent poll revealed a shift in public sentiment towards the proposed policy changes.
+Opinion survey, public opinion poll, voter sampling, opinion research, electoral survey
+
+term.N
+In academic discourse, selecting the precise term to convey complex ideas is crucial for clarity and precision in communication.
+Vocabulary word, linguistic item
+
+campaign.V
+She tirelessly campaigned for her environmental agenda, rallying supporters and taking actions towards a greener future.
+Advocate for, canvass for, lobby for, mobilize support
+
+campaign.V
+The army planned to campaign deep into enemy territory to secure vital supply routes.
+Wage war, conduct operations, mount an offensive, carry out maneuvers, initiate military action
+
+stand.V
+She decided to stand against the proposal.
+Take a stance, adopt a position, express a viewpoint, assert a position, take position
+
+stand.V
+Despite the chaos around her, she chose to stand strong in the face of adversity, demonstrating unwavering determination and resilience.
+Remain in place, stay put, hold ground, keep still
+
+watch.V
+She watched the children play in the park, ensuring their safety with attentive observation.
+Keep an eye on, observe closely, keep watch over, keep eye
+
+watch.V
+As the night grew darker, the sentries were tasked to watch for danger lurking in the shadows, their senses heightened and their focus unwavering.
+Be vigilant, stay alert, be on guard, keep a lookout, watch for danger
+
+serve.V
+She dedicated herself to serve her community, with diligence and compassion.
+Attend to, carry out, fulfill needs
+
+serve.V
+During the dinner party, she diligently served her guests, ensuring everyone's needs were met with grace and efficiency.
+Wait on, cater to, provide for, offer hospitality, act as server
+
+balance.V
+She carefully balanced the stack of books on her head as she walked
+Keep steady, maintain equilibrium, prevent from falling
+
+balance.V
+She had to carefully balance her work commitments with her personal life, ensuring neither took over the other.
+Offset against, counterbalance, compare, weigh against, assess against
+
+address.V
+She needed to address the issue before it escalated further.
+Tackle on, deal with, take action, set sight on
+
+address.V
+He stepped onto the stage to address the crowd, delivering a powerful message that resonated with everyone present.
+Deliver a speech, give a talk, make a presentation, speak to, lecture about
+
+lead.V
+Despite facing initial setbacks, she managed to lead the team to victory.
+Be in front, be ahead, be in the lead, set the pace
+
+charge.V
+The prosecutor decided to charge the suspect, marking the beginning of a legal battle.
+Accuse of, legally prosecute
+
+charge.V
+She charged her suitcase with souvenirs from the trip, ensuring every inch was utilized.
+Fill up, load up, pack up, cram up, stuff up
+
+crane.N
+The construction site echoed with the rhythmic hum of the crane, effortlessly hoisting massive beams into place with precision and grace.
+Heavy machinery, lifting apparatus, mechanical lifter, industrial hoist, construction equipment
+
+crane.N
+She watched in awe as the crane gracefully swooped down, its long neck stretching elegantly as it landed by the water's edge.
+Long-necked bird, wading bird, tall waterfowl, avian stilt, aquatic heron
+
+date.N
+On the appointed date, they gathered to celebrate their anniversary, marking the occasion with joy and reminiscence.
+Calendar day, specific time, appointed day, marked occasion, scheduled event
+
+date.N
+She savored the succulent sweetness of the date, relishing its rich flavor and smooth texture.
+Palm fruit, sugary fruit, dried delicacy, fruit product
+
+box.N
+She carefully packed her belongings into the box, ensuring everything fit snugly before sealing it shut.
+Rectangular container, square crate, enclosed package, cubic chest, boxed vessel
+
+ring.N
+She proudly displayed the sparkling ring on her finger, a symbol of their everlasting love and commitment.
+Finger band, precious loop, metal circle, jewelry adornment
+
+ring.N
+The ring of the bell echoed through the empty hall.
+Resonating sound, chiming tone, vibrating resonance, audible vibration, metallic clang
+
+run.N
+During our marathon meeting, we experienced a continuous flow of productive discussions, making it a highly successful run.
+Ongoing session, persistent streak
+
+run.N
+During her morning run, Sarah spotted a deer gracefully leaping across the path, adding a sense of exhilaration to her daily routine.
+Jogging dash, quick jog
+
+fair.N
+The town's fair was abuzz with laughter and excitement, drawing crowds from all around for a day of communal celebration.
+Amusement carnival, public festival, communal celebration, outdoor exhibition, community gathering
+
+bow.N
+With his skilled hands, he crafted a bow from sturdy wood, fashioning it into a deadly weapon.
+Arrow launcher, archer weapon, stringed instrument, curved shooter, projectile bow
+
+bow.N
+She admired the intricate bow on the gift box, noting how the double-loop tie added an extra touch of elegance to the presentation.
+Shoelace knot, decorative bow, double loop, tied ribbon, knotted lace
+
+match.V
+The dance instructor instructed the students to match with partners who shared similar skill levels, ensuring everyone could enjoy the lesson.
+Pair up, couple off, align with, join together, correspond with
+
+match.V
+Her actions match her words, demonstrating a consistency and integrity that is admirable.
+Correspond to, equate to, accord with
+
+box.V
+As tensions rose, they decided to box out their differences rather than resorting to heated arguments.
+Engage in fisticuffs, duke it out, throw punches
+
+box.V
+She carefully boxed the delicate china to ensure it wouldn't break during transit.
+Enclose within, package up
+
+run.V
+She had to run through the crowded streets to catch the last bus home.
+Move briskly, hurry along
+
+run.V
+She skillfully runs the family business, ensuring its smooth operation and growth.
+Manage operations, supervise operations
+
+clip.V
+She had to clip the overgrown bushes before they took over the garden, ensuring they remained neat and tidy.
+Trim back, snip branches
+
+clip.V
+She carefully clipped the photograph to the corkboard, ensuring it wouldn't fall.
+Attach securely, pin down
+
+break.V
+The thunderous impact made the glass break, sending a shiver down my spine as I watched it go into a thousand pieces.
+Break apart, fracture apart, split apart, shatter apart, snap up
+
+crack.V
+She managed to crack the cryptic message, revealing the hidden clues within.
+Solve puzzle, figure out, break encryption
+
+play.V
+She loves to play in the park, laughing and running with her friends.
+Engage in fun, participate in games, amuse oneself, entertain oneself
+
+play.V
+She loves to play on her guitar, filling the room with beautiful melodies.
+Perform music, make music, play instrument
+
+roll.V
+The ball began to roll down the hill, gaining speed with each revolution.
+Turn over, topple down
+
+roll.V
+She deftly rolled the dough into perfect cylinders, ready to be baked into delicious cookies.
+Shape into cylinder, form into tube, make cylindrical
+
+draw.V
+She decided to draw a detailed map of the forest, outlining every trail and landmark with precision.
+Sketch out, put on paper, put down
+
+draw.V
+She had to draw the heavy box across the room, feeling the strain in her muscles.
+Pull along, drag around, haul up
+
+table.N
+She leaned against the table, lost in thought about her upcoming presentation.
+Writing surface, work desk, dining furniture, flat-surfaced desk
+
+table.N
+The annual report presents a comprehensive table showcasing the company's financial performance, facilitating easy analysis and comparison.
+Data arrangement, information display, tabular organization, columnar layout
+
+clip.N
+The engineer grabbed a clip from the toolbox to fasten the cables securely in place.
+Clamping mechanism, fastening device, holding tool, securing clamp
+
+clip.N
+I found a fascinating clip from the documentary that perfectly captures the essence of the subject matter.
+Video excerpt, film segment, broadcast snippet, footage clip
+
+scale.N
+The snake's scales shimmered in the sunlight, forming a protective plate that blended seamlessly with its surroundings.
+Skin covering, protective plate, epidermal layer, dermal armor
+
+scale.N
+The success of the project will be determined by how effectively we utilize the scale provided, ensuring accurate measurement and assessment throughout.
+Measurement spectrum, rating system, grading range, comparative scale
+
+board.N
+The carpenter measured the dimensions of the board before cutting it to fit precisely into the flooring, ensuring a seamless installation.
+Hardwood plank, building material, floor panel, construction board
+
+board.N
+The board convened to discuss the company's future direction and strategic decisions.
+Decision-making assembly, governing body, executive committee, management panel
+
+point.N
+At the point of the pencil, the artist carefully captured every detail with precision.
+Sharp tip, pointed end, tapered extremity, acute edge
+
+point.N
+She marked the point where the treasure was buried on the map, ensuring it was easily identifiable.
+Specific location, designated spot, particular place, exact position
+
+case.N
+In this particular case, each individual occurrence presents a unique situation that requires careful consideration.
+Instance example, particular scenario, individual occurrence, unique situation
+
+case.N
+She packed her most cherished possessions in a sturdy case before embarking on her journey.
+Protective container, storage case, carrying case, transport box, container box
+
+post.N
+She leaned against the post at the edge of the field, taking in the vast expanse of the countryside beyond as she watched the sun set.
+Upright pole, vertical stake, marker post, support beam, wooden pillar
+
+post.N
+She secured a prestigious post at the company, embodying a significant part in the organization's operations.
+Employment position, job assignment, work role, temporary duty, position of duty
+
+line.N
+The artist carefully drew a precise line along the canvas, ensuring each stroke contributed to the masterpiece's intricate design.
+Narrow stripe, thin mark, pencil line
+
+line.N
+She waited anxiously for the line to connect, eager to hear his voice on the other end.
+Telephone link, phone connection, communication line, call connection, telephone wire
+
+plant.N
+In the lush garden, the vibrant plant thrived, adding a touch of natural beauty to the landscape.
+Living organism, botanical life
+
+plant.N
+The plant located on the outskirts of town is renowned for its efficient processes and innovative technology.
+Manufacturing facility, production plant, industrial site, processing center, workshop facility
+
+block.N
+The ancient temple was constructed from massive blocks of stone, meticulously carved and assembled to create a structure of profound beauty and significance.
+Solid piece, large brick, stone slab, rock slab, solid mass
+
+block.N
+Each corner of the city block is offering its own unique charm.
+Urban district, city block, street area, neighborhood block, city section
+
+file.V
+She meticulously filed all the paperwork, ensuring every document was in its place.
+Organize papers, sort documents, arrange files, categorize records, systematize paperwork
+
+file.V
+She had to file her visa application before the deadline.
+Submit paperwork, present documentation, lodge papers, file a claim, register forms
+
+change.V
+She decided to change her approach to respond best to the new challenges ahead.
+Alter course, modify stance, adjust position, vary direction
+
+change.V
+She decided to change her dress for a more formal one before the event.
+Swap items, trade items, exchange objects, substitute products, switch belongings
+
+draft.V
+I need to draft a proposal for the new project by tomorrow.
+Write sketch, sketch out, preliminarily write
+
+draft.V
+The government decided to draft young men into the army to bolster its forces.
+Conscript an individual, enlist for service, call up for duty, mobilize for deployment, recruit for the military, forcibly recruit
+
+post.V
+After carefully making her painting, she decided to post it on the community bulletin board for all to admire.
+Display prominently, affix publicly, exhibit conspicuously, publish openly, present visibly
+
+post.V
+She decided to post him as the team leader for the upcoming project, entrusting him with significant responsibilities.
+Assign a task, designate a duty, allocate responsibility, appoint to a position, delegate role
+
+mail.V
+She decided to mail the invitations for her birthday party, ensuring they reached everyone on time.
+Send correspondence, post letter, send letter
+
+report.V
+She will report her findings at the conference tomorrow, summarizing the results of her research.
+Provide narrative, deliver statement, offer description, present an overview, furnish details
+
+report.V
+She decided to report the incident to the management, feeling it was important to care about the safety hazards in the workplace.
+Lodge complaint, register issue, file grievance, raise objection, voice concern
+
+clock.V
+As she continued to clock her progress on the project, she grew increasingly confident in meeting the deadline.
+Time with a clock, measure hours, record time, watch the clock, track hours
+
+clock.V
+He clocked his opponent with a swift blow to the jaw, sending them staggering back.
+Strike forcefully, hit hard, punch firmly, thump vigorously, wallop emphatically
+
+paper.V
+She decided to paper the gift with colorful patterns, ensuring its presentation was as delightful as its contents.
+Wrap with paper, cover with parchment, encase in cardboard, coat with wrapping, envelop in tissue
+
+paper.V
+He needs to paper his application for the grant by tomorrow.
+Submit paperwork, file documents, present forms, lodge application, deliver request
+
+sign.V
+She had to sign the contract before the deadline, affirming her agreement with the terms outlined.
+Endorse with name, initial a document, mark with autograph, inscribe with signature
+
+sign.V
+She signed her approval with a subtle gesture, expressing her agreement without uttering a word.
+Gesture meaningfully, signal gesturally, indicate with signs, convey gesturally, communicate visually, communicate gesturally

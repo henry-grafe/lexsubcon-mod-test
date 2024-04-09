@@ -243,7 +243,7 @@ if __name__ == "__main__":
                                 # 91- do not have wordnet synonyms in LS14
                                 noise_type = "GAUSSIAN"
 
-                        #proposed_words = proposal.compute_multiwords_candidates_proposal_score_dict_autoregressive_generation(original_text, change_word, int(index_word),
+                        #proposed_words = proposal.compute_multiwords_candidates_proposal_score_dict(original_text, change_word, int(index_word),
                         #                                              noise_type=args.noise_type, synonyms=synonyms,
                         #                                              proposed_words_temp=proposed_words, top_k=30)
 
