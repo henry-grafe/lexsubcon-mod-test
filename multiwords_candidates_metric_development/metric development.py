@@ -130,7 +130,7 @@ def compute_discounted_gain(stripped_gold_list, stripped_generated_list, power=1
                     #print(f"factor is thus equal to {1./(j_rank_position+1 - n_higher_freq_before_in_ranking):.02f}")
                     local_total += 1./(j_rank_position+1 - n_higher_freq_before_in_ranking)**power
                     
-                    print(current_gold_id, current_substitute, j_rank_position)
+                    #print(current_gold_id, current_substitute, j_rank_position)
                     #print(1./(j_rank_position+1 - n_lower_freq_before_in_ranking))
                     freq_lower_in_ranking.append(stripped_gold_list[i_line][1][gold_word_index][1])
         local_total = local_total / float(len(stripped_gold_list[i_line][1]))
@@ -138,16 +138,64 @@ def compute_discounted_gain(stripped_gold_list, stripped_generated_list, power=1
     #print(f"of the {len(stripped_gold_list)} gold examples that have some multi word substitutes, {gold_that_have_a_generated_counterpart} had candidates generated for them")
     return total / float(len(stripped_gold_list))
 
+def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_list, power=1):
+    total = 0
+    gold_that_have_a_generated_counterpart = 0
+    for i_line in range(len(stripped_gold_list)):
+        current_gold_id = stripped_gold_list[i_line][0]
+
+        total_freq = 0
+        gold_words = []
+        
+        for j_substitute in range(len(stripped_gold_list[i_line][1])):
+            total_freq += stripped_gold_list[i_line][1][j_substitute][1]
+            gold_words.append(stripped_gold_list[i_line][1][j_substitute][0])
+        freq_lower_in_ranking = []
+        retained_generated_index = -1
+        
+        for i_line_generated in range(len(stripped_generated_list)):
+            id = stripped_generated_list[i_line_generated][0]
+            if id == current_gold_id:
+                retained_generated_index = i_line_generated
+        local_total = 0
+        if retained_generated_index != -1:
+            gold_that_have_a_generated_counterpart += 1
+            multiplier = 1.
+            first_gold_found = False
+            for j_rank_position in range(len(stripped_generated_list[retained_generated_index][1])):
+                current_substitute = stripped_generated_list[retained_generated_index][1][j_rank_position]
+                gold_word_index = -1
+                for k_gold in range(len(stripped_gold_list[i_line][1])):
+                    if current_substitute == stripped_gold_list[i_line][1][k_gold][0]:
+                        #print(f"MATCH found, as gold item {current_gold_id}, in generated item {stripped_generated_list[retained_generated_index][0]} : \"{stripped_gold_list[i_line][1][k_gold][0]}\" at rank position {j_rank_position}")
+                        gold_word_index = k_gold
+                if gold_word_index != -1:
+                    first_gold_found = True
+                    #print(f"for this match, number of elements higher in the ranking with a higher or equal freq : {n_higher_freq_before_in_ranking}")
+                    #print(f"factor is thus equal to {1./(j_rank_position+1 - n_higher_freq_before_in_ranking):.02f}")
+                    local_total += multiplier*1./(j_rank_position+1)**power
+                    
+                    #print(current_gold_id, current_substitute, j_rank_position)
+                    #print(multiplier*1./(j_rank_position+1)**power)
+                if first_gold_found:
+                    multiplier=0.
+        local_total = local_total / float(len(stripped_gold_list[i_line][1]))
+        total += local_total
+    #print(f"of the {len(stripped_gold_list)} gold examples that have some multi word substitutes, {gold_that_have_a_generated_counterpart} had candidates generated for them")
+    return total / float(len(stripped_gold_list))
+
 
 #generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
-generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_wordnet_only_6809_probabilites.txt")
+generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
 #gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/test/coinco_test.gold")
 gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/homemade_dataset/homemade_dataset.gold")
 stripped_gold_list = strip_gold_list(gold_list=gold_list)
 
 
 stripped_generated_ranking = strip_generated_list(generated_list=generated_ranking)
-print(compute_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1))
+print(f"SMRAR = {100*compute_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1):.02f} %")
+print(f"SMRBAR = {100*compute_best_answer_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1):.02f} %")
+
 """
 power = 10**np.linspace(-4,2,50)
 value = np.zeros(50)

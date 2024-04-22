@@ -131,12 +131,12 @@ if __name__ == "__main__":
     if args.gap:
         reader.create_candidates(args.golden_file_cadidates)
     else:
-        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
+        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="SpanBERT/spanbert-large-cased")
         proposal.get_possible_words()
         proposal.get_possible_multitoken_words()
         proposal_flag = False
     if proposal_flag and args.proposed_score:
-        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
+        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="SpanBERT/spanbert-large-cased")
         proposal.get_possible_words()
         proposal.get_possible_multitoken_words()
 
@@ -243,9 +243,9 @@ if __name__ == "__main__":
                                 # 91- do not have wordnet synonyms in LS14
                                 noise_type = "GAUSSIAN"
 
-                        #proposed_words = proposal.compute_multiwords_candidates_proposal_score_dict(original_text, change_word, int(index_word),
-                        #                                              noise_type=args.noise_type, synonyms=synonyms,
-                        #                                              proposed_words_temp=proposed_words, top_k=30)
+                        proposed_words = proposal.compute_multiwords_candidates_proposal_score_dict_autoregressive_generation(original_text, change_word, int(index_word),
+                                                                      noise_type=args.noise_type, synonyms=synonyms,
+                                                                      proposed_words_temp=proposed_words, top_k=30)
 
                         #proposed_words_onetoken = proposal.proposed_candidates(original_text, change_word, int(index_word),
                         #                                              noise_type=args.noise_type, synonyms=synonyms,

@@ -606,16 +606,18 @@ class Cmasked:
                                     noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id, 
                                     embeddings_to_replace_dict=autoregressive_input_dict)
                 
-                output_prediction_current_mask = output_multimask[0][0][target_word_start_index_multimask + i]
-                output_prediction_current_mask_softmax = F.softmax(output_prediction_current_mask, dim=0)
-                autoregressive_input_dict[target_word_start_index_multimask + i] = output_prediction_current_mask_softmax
-                
-                #output_prediction_current_mask = output_multimask[0][0][target_word_start_index_multimask+i,possible_index]
+                # weighted sum of all tokens
+                #output_prediction_current_mask = output_multimask[0][0][target_word_start_index_multimask + i]
                 #output_prediction_current_mask_softmax = F.softmax(output_prediction_current_mask, dim=0)
+                #autoregressive_input_dict[target_word_start_index_multimask + i] = output_prediction_current_mask_softmax
+                
+                # weighted sum of tokens that make up a word only
+                output_prediction_current_mask = output_multimask[0][0][target_word_start_index_multimask+i,possible_index]
+                output_prediction_current_mask_softmax = F.softmax(output_prediction_current_mask, dim=0)
                 #print(f"size of the restrained softmax : {output_prediction_current_mask_softmax.size()}")
-                #output_prediction_softmax_for_dict = torch.zeros(30522).to('cuda')
-                #output_prediction_softmax_for_dict[possible_index]=output_prediction_current_mask_softmax
-                #autoregressive_input_dict[target_word_start_index_multimask + i] = output_prediction_softmax_for_dict
+                output_prediction_softmax_for_dict = torch.zeros(30522).to('cuda')
+                output_prediction_softmax_for_dict[possible_index]=output_prediction_current_mask_softmax
+                autoregressive_input_dict[target_word_start_index_multimask + i] = output_prediction_softmax_for_dict
                 
         # not the same word
         try:
