@@ -38,6 +38,32 @@ class Reader_lexical:
                 self.words_candidate[main_word][instance].append([word, sentence, word_index])
                 line = fp.readline()
         return
+    
+    def create_feature_include_id(self, file_train):
+        # side.n	303	11	if you want to find someone who can compose the biblical side , write us .
+        #
+        with open(file_train, encoding='latin1') as fp:
+            line = fp.readline()
+            i = 0
+            while line:
+                context = line.split("\t")
+                main_word = context[0]
+                if main_word.split('.')[0] == "":
+                    word = "."
+                else:
+                    word = main_word.split('.')[0]
+                instance = context[1]
+                word_index = context[2]
+                sentence = self._clean_text(context[3].replace("\n", ""))
+                # sentence = unicode(sentence, errors='replace')
+                # sentence = context[3].replace("\n", "").replace(" , ",", ").replace(" . ",". ").replace(" ? ","? ").replace(" ; ","; ").replace(" : ",": ")
+                if main_word not in self.words_candidate:
+                    self.words_candidate[main_word] = {}
+                if instance not in self.words_candidate[main_word]:
+                    self.words_candidate[main_word][instance] = []
+                self.words_candidate[main_word][instance].append([word, sentence, word_index])
+                line = fp.readline()
+        return
 
     def _clean_text(self, text):
         """Performs invalid character removal and whitespace cleanup on text."""

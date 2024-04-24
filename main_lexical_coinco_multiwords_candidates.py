@@ -131,12 +131,12 @@ if __name__ == "__main__":
     if args.gap:
         reader.create_candidates(args.golden_file_cadidates)
     else:
-        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="SpanBERT/spanbert-large-cased")
+        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
         proposal.get_possible_words()
         proposal.get_possible_multitoken_words()
         proposal_flag = False
     if proposal_flag and args.proposed_score:
-        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="SpanBERT/spanbert-large-cased")
+        proposal = Cmasked(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
         proposal.get_possible_words()
         proposal.get_possible_multitoken_words()
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
             for context in reader.words_candidate[main_word][instance]:
-
+                
                 change_word = context[0]
                 text = context[1]
                 original_text = text

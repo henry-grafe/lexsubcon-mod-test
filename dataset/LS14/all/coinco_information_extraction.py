@@ -17,26 +17,26 @@ def find_word_indices_in_context(context, word):
         return (index-1, index-1+len(word))
     
     
+def create_coinco_dataset_dict(filename="/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/all/coinco.xml"):
+    data = open(filename,'r', encoding='utf-8').read()
+    bs_data = BeautifulSoup(data, 'xml')
+    del data
+    sents = bs_data.find_all("sent")
 
-data = open("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/all/coinco.xml",'r', encoding='utf-8').read()
-bs_data = BeautifulSoup(data, 'xml')
-del data
-sents = bs_data.find_all("sent")
+    dataset = {}
 
-dataset = {}
+    for i_sent in range(len(sents)):
+        sent = sents[i_sent]
+        context = sent.find("targetsentence").text[5:-5]
+        tokens = sent.find_all("token")
+        for j_token in range(len(tokens)):
+            token = tokens[j_token]
+            id = token['id']
+            if id != 'XXX':
+                id = int(id)
+                dataset[id] = {"context":context, "word":token['wordform'], "lemma":token["lemma"]}
+                start_index, end_index = find_word_indices_in_context(context, dataset[id]["word"])
+                dataset[id]["indices"] = [start_index, end_index]
+    
+    return dataset
 
-for i_sent in range(len(sents)):
-    sent = sents[i_sent]
-    context = sent.find("targetsentence").text[5:-5]
-    print(context)
-    tokens = sent.find_all("token")
-    for j_token in range(len(tokens)):
-        token = tokens[j_token]
-        id = token['id']
-        if id != 'XXX':
-            id = int(id)
-            dataset[id] = {"context":context, "word":token['wordform'], "lemma":token["lemma"]}
-            start_index, end_index = find_word_indices_in_context(context, dataset[id]["word"])
-            dataset[id]["indices"] = [start_index, end_index]
-            print(dataset[id])
-    input("next")
