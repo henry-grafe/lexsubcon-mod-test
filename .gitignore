@@ -13,6 +13,7 @@ checkpoint/similarity_new_bert/modules.json
 checkpoint/similarity_new_bert/similarity_new_bert4.tar.xz
 checkpoint/similarity_new_bert/similarity_new_bert4/*
 checkpoint/jjzha_spanbert/pytorch_model.bin
+checkpoint/jjzha_spanbert/pytorch_model.bin
 
 baseline_bag_of_words/UKWAC_1_BS4.pickle
 baseline_bag_of_words/UKWAC_1_BS4_text_data_cleaned.pickle
