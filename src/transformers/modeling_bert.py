@@ -247,6 +247,30 @@ class BertEmbeddings(nn.Module):
                 if not self.dropout_embedding.training:
                     self.dropout_embedding.train()
                 inputs_embeds[0][word_index] = self.dropout_embedding(inputs_embeds[0][word_index])
+            
+            elif noise_type =="MULTIMASK-GLOSS":
+                print("we are in MULTIMASK-GLOSS embeddings of BERT")
+                print(input_ids_synonyms)
+                if input_ids_synonyms is not None:
+                    if len(input_ids_synonyms) > 0:
+                        for index_id in range(0, len(input_ids_synonyms)):
+                            if inputs_embeds_synonyms is None:
+                                inputs_embeds_synonyms = torch.sum(
+                                    self.word_embeddings(torch.tensor(input_ids_synonyms[index_id]).to(device)),
+                                    dim=0) / len(input_ids_synonyms[index_id])
+                            else:
+                                inputs_embeds_synonyms = inputs_embeds_synonyms + torch.sum(
+                                    self.word_embeddings(torch.tensor(input_ids_synonyms[index_id]).to(device)),
+                                    dim=0) / len(input_ids_synonyms[index_id])
+
+                        sum_synonym = inputs_embeds_synonyms / len(input_ids_synonyms)
+
+                        temp = lambda_variable * inputs_embeds[0][word_index] + (1 - lambda_variable) * sum_synonym
+                        inputs_embeds[0][word_index] = temp.squeeze(0)
+                        inputs_embeds[0][word_index+1] = temp.squeeze(0)
+                    else:
+                        print("synonyms not found")
+                        exit(5)
             else:
                 #print("we are in KEEP or MASK embeddings of BERT")
                 pass

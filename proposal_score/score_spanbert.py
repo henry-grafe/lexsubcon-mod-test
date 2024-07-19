@@ -535,7 +535,8 @@ class Cmasked:
 
         if len(synonyms_id) == 0:
             synonyms_id = None
-
+            print("No synonyms found for the target word, switching to MASKED")
+        
         with torch.no_grad():
             output_multimask = self.model(input_ids=input_ids_multimask, token_type_ids=segment_ids_multimask, attention_mask=input_mask_multimask,
                                 noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id)
@@ -543,7 +544,7 @@ class Cmasked:
         possible_index = self.possible_index[:]
         # not the same word
         try:
-            if noise_type == "MASKED":
+            if noise_type in ["MASKED", "MULTIMASK-GLOSS"]:
                 possible_index.remove(
                     self.tokenizer.convert_tokens_to_ids(word))
             else:
@@ -582,7 +583,7 @@ class Cmasked:
                                                                                                 noise_type, num_of_mask_token=2)
         #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
     
-        if noise_type == "MASKED":
+        if noise_type == "MASKED" :
             text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
                 sentences, word_id,
                 noise_type)

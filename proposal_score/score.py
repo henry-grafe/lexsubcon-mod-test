@@ -213,11 +213,11 @@ class Cmasked:
         masked_id = int(masked_id)
         text_a_raw = line.split(' ')  # text_a untokenized
 
-        if noise_type == "MASKED":
+        if noise_type in ["MASKED","MULTIMASK-GLOSS"]:
             #text_a_raw[masked_id] = "[MASK]"
             text_a_raw = text_a_raw[:masked_id] + ["[MASK]"]*num_of_mask_token + text_a_raw[(masked_id+1):]
         else:
-            print("ERROR : ONLY MASKED NOISE IS ALLOWED WHEN GENERATING MULTI-TOKEN CANDIDATES")
+            print("ERROR : ONLY MASKED or MULTIMASK-GLOSS NOISE IS ALLOWED WHEN GENERATING MULTI-TOKEN CANDIDATES")
             exit(0)
 
         masked_word = text_a_raw[masked_id]  # get the target word
@@ -369,6 +369,8 @@ class Cmasked:
                                 target_word_ids=target_word_ids)
         
         possible_index = self.possible_index[:]
+        print(len(possible_index))
+        input("next")
         # not the same word
         try:
             if noise_type == "MASKED":
@@ -481,7 +483,7 @@ class Cmasked:
                                                                                                 noise_type, num_of_mask_token=2)
         #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
     
-        if noise_type == "MASKED":
+        if noise_type in ["MASKED", "MULTIMASK-GLOSS"]:
             text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
                 sentences, word_id,
                 noise_type)
@@ -515,6 +517,7 @@ class Cmasked:
 
         if len(synonyms_id) == 0:
             synonyms_id = None
+            print("No synonyms found for the target word, switching to MASKED")
 
         with torch.no_grad():
             output_multimask = self.model(input_ids=input_ids_multimask, token_type_ids=segment_ids_multimask, attention_mask=input_mask_multimask,
@@ -523,7 +526,7 @@ class Cmasked:
         possible_index = self.possible_index[:]
         # not the same word
         try:
-            if noise_type == "MASKED":
+            if noise_type in ["MASKED", "MULTIMASK-GLOSS"]:
                 possible_index.remove(
                     self.tokenizer.convert_tokens_to_ids(text_temp.split(" ")[target_word_start_index_multimask]))
             else:
@@ -562,7 +565,7 @@ class Cmasked:
                                                                                                 noise_type, num_of_mask_token=2)
         #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
     
-        if noise_type == "MASKED":
+        if noise_type in ["MASKED","MULTIMASK-GLOSS"]:
             text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
                 sentences, word_id,
                 noise_type)
@@ -596,12 +599,19 @@ class Cmasked:
 
         if len(synonyms_id) == 0:
             synonyms_id = None
+            print("No synonyms found for the target word, switching to MASKED")
         
         possible_index = self.possible_index[:]
-        
+        original_noise_type=noise_type
+        original_masked_id = masked_id
         with torch.no_grad():
             autoregressive_input_dict={}
             for i in range(2):
+                
+                if original_noise_type=="MULTIMASK-GLOSS":
+                    noise_type="PURE-GLOSS"
+                    masked_id=original_masked_id+i
+                
                 output_multimask = self.model(input_ids=input_ids_multimask, token_type_ids=segment_ids_multimask, attention_mask=input_mask_multimask,
                                     noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id, 
                                     embeddings_to_replace_dict=autoregressive_input_dict)
@@ -618,10 +628,11 @@ class Cmasked:
                 #output_prediction_softmax_for_dict = torch.zeros(30522).to('cuda')
                 #output_prediction_softmax_for_dict[possible_index]=output_prediction_current_mask_softmax
                 #autoregressive_input_dict[target_word_start_index_multimask + i] = output_prediction_softmax_for_dict
-                
+        masked_id = original_masked_id
+        noise_type = original_noise_type    
         # not the same word
         try:
-            if noise_type == "MASKED":
+            if noise_type in ["MASKED","MULTIMASK-GLOSS"]:
                 possible_index.remove(
                     self.tokenizer.convert_tokens_to_ids(text_temp.split(" ")[target_word_start_index_multimask]))
             else:

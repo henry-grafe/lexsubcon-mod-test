@@ -242,6 +242,19 @@ if __name__ == "__main__":
                             if len(synonyms) == 0:
                                 # 91- do not have wordnet synonyms in LS14
                                 noise_type = "GAUSSIAN"
+                        
+                        if len(synonyms) == 0:
+                            if main_word.split('.')[0] == "":
+                                word_temp = "."
+                            else:
+                                word_temp = main_word.split('.')[0]
+                            synonyms = noise_gloss.adding_noise(word_temp,
+                                                                wordnet_gloss,
+                                                                main_word.split('.')[-1])
+                            try:
+                                synonyms.remove(main_word.split('.')[0])
+                            except:
+                                pass
 
                         proposed_words = proposal.compute_multiwords_candidates_proposal_score_dict_autoregressive_generation(original_text, change_word, int(index_word),
                                                                       noise_type=args.noise_type, synonyms=synonyms,

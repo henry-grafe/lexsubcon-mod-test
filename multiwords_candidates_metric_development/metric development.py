@@ -186,9 +186,9 @@ def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_l
 
 
 #generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
-generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_no_wordnet_non_autoregressive_softmax_jjzha_spanbert_cased_use_dict_6809_probabilites.txt")
-#gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/test/coinco_test.gold")
-gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/homemade_dataset/homemade_dataset.gold")
+generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates_no_wordnet_autoregressive_full_softmax_bert_uncased_MULTIMASK_GLOSS_6809_probabilites.txt")
+gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/test/coinco_test.gold")
+#gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/homemade_dataset/homemade_dataset.gold")
 stripped_gold_list = strip_gold_list(gold_list=gold_list)
 
 
