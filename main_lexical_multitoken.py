@@ -20,7 +20,7 @@ from similarity_score_new_weight.similarity_new_predict import Similarity_new
 
 from baseline_bag_of_words.example_based_lexsub import ExampleBasedLS
 
-import open_clip
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -158,6 +158,7 @@ if __name__ == "__main__":
         validation = ValidationScore(args.max_seq_length, args.do_lower_case, pre_trained="bert-large-uncased")
     
     if args.similarity_sentence_clip:
+        import open_clip
         model, _, preprocess = open_clip.create_model_and_transforms('ViT-B-32', pretrained='laion2b_s34b_b79k')
         tokenizer = open_clip.get_tokenizer('ViT-B-32')
     

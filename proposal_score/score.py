@@ -370,7 +370,7 @@ class Cmasked:
         
         possible_index = self.possible_index[:]
         print(len(possible_index))
-        input("next")
+        #input("next")
         # not the same word
         try:
             if noise_type == "MASKED":
