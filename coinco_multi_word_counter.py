@@ -100,3 +100,13 @@ plt.title("Score Distribution of the Ground Truth Substitutes, Multi-Word only")
 
 plt.show()
 
+targets = np.zeros(204, dtype='<U13')
+substitutes_lengths = np.zeros(204,dtype='int')
+for id in list(gold_dict.keys()):
+    substitutes = gold_dict[id]["substitutes"]
+    substitutes_lengths[id-1] = len(substitutes)
+    target_word = gold_dict[id]["target_word"] + "." + gold_dict[id]["target_pos"]
+    targets[id-1] = target_word
+print(targets)
+print(len(np.unique(targets)))
+print(substitutes_lengths.mean())

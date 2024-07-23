@@ -121,9 +121,9 @@ def compute_metrics_arrays(gold_dict, result_dict):
 
 strategy_name_1="PRUNE-KEEP"
 strategy_name_2="KEEP"
-gold_dict = get_gold_dict("coinco_test_reordered.gold")
-result_dict_1 = get_result_dict("dataset/results/coinco_results_gapmultiword_GLOSS__6809_probabilites.txt")
-result_dict_2 = get_result_dict("dataset/results/coinco_results_gapmultiword_PURE-GLOSS__6809_probabilites.txt")
+gold_dict = get_gold_dict("dataset/LS14/test_refactored/coinco_test_multitokens_singleword.gold")
+result_dict_1 = get_result_dict("dataset/results/coinco_results_gapmultitoken_singleword_PURE-GLOSS_6809_probabilites.txt")
+result_dict_2 = get_result_dict("dataset/results/coinco_results_gapmultitoken_singleword_AVERAGE_GLOSS_6809_probabilites.txt")
 
 metrics_1 = compute_metrics_arrays(gold_dict, result_dict_1)
 metrics_2 = compute_metrics_arrays(gold_dict, result_dict_2)
@@ -140,6 +140,11 @@ mean_std_metrics_2 = compute_accuracy_and_std(metrics_2)
 
 print(mean_std_metrics_1)
 print(mean_std_metrics_2)
+for name, tup in mean_std_metrics_1.items():
+    print(name, f'{100*tup[0]:.03f}', f'{100*tup[1]:.03f}')
+for name, tup in mean_std_metrics_2.items():
+    print(name, f'{100*tup[0]:.03f}', f'{100*tup[1]:.03f}')
+    
 
 ttest = ttest_rel(metrics_1["best-m"], metrics_2["best-m"])
 print(ttest)
