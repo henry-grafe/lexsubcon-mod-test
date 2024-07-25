@@ -98,6 +98,7 @@ def strip_generated_list(generated_list, word_numbers_to_keep=[2,3,4,5,6]):
 def compute_discounted_gain(stripped_gold_list, stripped_generated_list, power=1):
     total = 0
     gold_that_have_a_generated_counterpart = 0
+    total_array = []
     for i_line in range(len(stripped_gold_list)):
         current_gold_id = stripped_gold_list[i_line][0]
 
@@ -135,12 +136,14 @@ def compute_discounted_gain(stripped_gold_list, stripped_generated_list, power=1
                     freq_lower_in_ranking.append(stripped_gold_list[i_line][1][gold_word_index][1])
         local_total = local_total / float(len(stripped_gold_list[i_line][1]))
         total += local_total
+        total_array.append(local_total)
     #print(f"of the {len(stripped_gold_list)} gold examples that have some multi word substitutes, {gold_that_have_a_generated_counterpart} had candidates generated for them")
-    return total / float(len(stripped_gold_list))
+    return total / float(len(stripped_gold_list)), np.array(total_array)
 
 def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_list, power=1):
     total = 0
     gold_that_have_a_generated_counterpart = 0
+    total_array = []
     for i_line in range(len(stripped_gold_list)):
         current_gold_id = stripped_gold_list[i_line][0]
 
@@ -181,20 +184,26 @@ def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_l
                     multiplier=0.
         local_total = local_total #/ float(len(stripped_gold_list[i_line][1]))
         total += local_total
+        total_array.append(local_total)
     #print(f"of the {len(stripped_gold_list)} gold examples that have some multi word substitutes, {gold_that_have_a_generated_counterpart} had candidates generated for them")
-    return total / float(len(stripped_gold_list))
+    return total / float(len(stripped_gold_list)), np.array(total_array)
 
 
-#generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
-generated_ranking = obtain_generated_ranking_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates_no_wordnet_autoregressive_full_softmax_bert_uncased_MULTIMASK_GLOSS_6809_probabilites.txt")
-gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/dataset/LS14/test/coinco_test.gold")
-#gold_list = obtain_gold_substitutes_list("/home/user/Documents/KULeuven/Master Thesis/lexsubcon-mod-test/homemade_dataset/homemade_dataset.gold")
+generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_no_wordnet_non_autoregressive_softmax_spanbert_cased_6809_probabilites.txt")
+#generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
+#gold_list = obtain_gold_substitutes_list("dataset/LS14/test/coinco_test.gold")
+gold_list = obtain_gold_substitutes_list("homemade_dataset/homemade_dataset.gold")
 stripped_gold_list = strip_gold_list(gold_list=gold_list)
 
 
 stripped_generated_ranking = strip_generated_list(generated_list=generated_ranking)
-print(f"SMRAR = {100*compute_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1):.02f} %")
-print(f"SMRBAR = {100*compute_best_answer_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1):.02f} %")
+SMRAR, SMRAR_array = compute_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1)
+SMRBAR, SMRBAR_array = compute_best_answer_discounted_gain(stripped_gold_list=stripped_gold_list, stripped_generated_list=stripped_generated_ranking, power=1)
+SMRAR_std = SMRAR_array.std()/np.sqrt(len(SMRAR_array))
+SMRBAR_std = SMRBAR_array.std()/np.sqrt(len(SMRBAR_array))
+print(f"SMRAR = {100*SMRAR:.04f} % +- {100*SMRAR_std:.04f} %")
+print(f"SMRBAR = {100*SMRBAR:.04f} % +- {100*SMRBAR_std:.04f} %")
+
 
 """
 power = 10**np.linspace(-4,2,50)

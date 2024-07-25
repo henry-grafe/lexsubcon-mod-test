@@ -66,10 +66,11 @@ def compute_metrics_arrays(gold_dict, result_dict):
             best_total.append((gold_substitutes[best_guess])/sum(list(gold_substitutes.values())))
         else:
             best_total.append(0.)
-        if best_guess in modes_list:
-            best_mode_total.append(1.)
-        else:
-            best_mode_total.append(0.)
+        if len(modes_list)==1:
+            if best_guess in modes_list:
+                best_mode_total.append(1.)
+            else:
+                best_mode_total.append(0.)
     """
     print(f"best measure : {100*sum(best_total)/N:.02f} %, mode : {100*sum(best_mode_total)/N:.02f} %")
     best_total = np.array(best_total)
@@ -96,7 +97,8 @@ def compute_metrics_arrays(gold_dict, result_dict):
                 oot_guess_witness = True
                 oot_mode_total += 1.
         oot_total_array.append(oot_total)
-        oot_mode_total_array.append(oot_mode_total)
+        if len(modes_list) == 1:
+            oot_mode_total_array.append(oot_mode_total)
 
     """
     print(f"oot measure : {100*sum(oot_total_array)/N:.02f} %, mode : {100*sum(oot_mode_total_array)/N:.02f} %")
@@ -121,9 +123,9 @@ def compute_metrics_arrays(gold_dict, result_dict):
 
 strategy_name_1="PRUNE-KEEP"
 strategy_name_2="KEEP"
-gold_dict = get_gold_dict("dataset/LS14/test_refactored/coinco_test_multitokens_singleword.gold")
-result_dict_1 = get_result_dict("dataset/results/coinco_results_gapmultitoken_singleword_PURE-GLOSS_6809_probabilites.txt")
-result_dict_2 = get_result_dict("dataset/results/coinco_results_gapmultitoken_singleword_AVERAGE_GLOSS_6809_probabilites.txt")
+gold_dict = get_gold_dict("dataset/LS14/test_refactored/coinco_test_multiwords.gold")
+result_dict_1 = get_result_dict("dataset/results/coinco_results_gapmultiword_PRUNE-GLOSS_6809_probabilites.txt")
+result_dict_2 = get_result_dict("dataset/results/coinco_results_gapmultiword_GLOSS_6809_probabilites.txt")
 
 metrics_1 = compute_metrics_arrays(gold_dict, result_dict_1)
 metrics_2 = compute_metrics_arrays(gold_dict, result_dict_2)
@@ -146,5 +148,5 @@ for name, tup in mean_std_metrics_2.items():
     print(name, f'{100*tup[0]:.03f}', f'{100*tup[1]:.03f}')
     
 
-ttest = ttest_rel(metrics_1["best-m"], metrics_2["best-m"])
+ttest = ttest_rel(metrics_1["p1"], metrics_2["p1"])
 print(ttest)
