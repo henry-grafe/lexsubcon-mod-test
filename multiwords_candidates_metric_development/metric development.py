@@ -189,7 +189,7 @@ def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_l
     return total / float(len(stripped_gold_list)), np.array(total_array)
 
 
-generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_no_wordnet_non_autoregressive_softmax_spanbert_cased_6809_probabilites.txt")
+generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_no_wordnet_autoregressive_full_softmax_bert_uncased_MULTIMASK_GLOSS_6809_probabilites.txt")
 #generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
 #gold_list = obtain_gold_substitutes_list("dataset/LS14/test/coinco_test.gold")
 gold_list = obtain_gold_substitutes_list("homemade_dataset/homemade_dataset.gold")
