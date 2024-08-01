@@ -40,15 +40,7 @@ for passage in tqdm(root):
 
 print("vocabulary determined !")
 print(f"vocabulary size is {len(vocab)}")
+print(f"character vocabulary size is {len(vocab_characters)}")
 
 pickle.dump(obj=vocab,file=open("C:\\Users\\NICOLAS\\Documents\\KULeuven\\master_thesis\\datasets\\UKWAC\\UKWAC-2.xml\\UKWAC-2_vocabulary.pickle",'wb'))
 pickle.dump(obj=vocab_characters,file=open("C:\\Users\\NICOLAS\\Documents\\KULeuven\\master_thesis\\datasets\\UKWAC\\UKWAC-2.xml\\UKWAC-2_vocabulary_characters.pickle",'wb'))
-
-print(vocab_characters)
-chars = list(vocab_characters.keys())
-counts = list(vocab_characters.values())
-indexes = np.flip(np.sort(np.array(counts)))
-
-
-for i in range(1000):
-    print(f"{i}, {chars[indexes[i]]}, {counts[indexes[i]]}")
