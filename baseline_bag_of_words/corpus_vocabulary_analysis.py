@@ -10,3 +10,4 @@ indexes = np.flip(np.argsort(np.array(counts)))
 
 for i in range(1000):
     print(f"{i}, {chars[indexes[i]]}, {counts[indexes[i]]}")
+
