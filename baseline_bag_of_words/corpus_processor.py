@@ -14,7 +14,9 @@ args = parser.parse_args()
 data = open(args.corpus_xml_fp,'r', encoding='latin5').read()
 bs_data = BeautifulSoup(data, 'xml')
 del data
-
+new_filepath = "..\\datasets\\UKWAC\\UKWAC-1.xml\\UKWAC-1_bs_data.pickle"
+pickle.dump(bs_data, open(new_filepath,"wb"))
+exit(0)
 # Create a set of stop words 
 stop_words = set(stopwords.words('english')) 
 stop_words = stop_words.union({".",",",":",";","?","!","#","\"","\'","(",")","@card@","I","-","\'s","n\'t","","...","[","]","@ord@","There","|","To","/",""})
@@ -75,5 +77,5 @@ for i in tqdm(range(len(texts))):
                 
 new_filepath = args.corpus_xml_fp
 new_filepath = new_filepath.split(".")
-new_filepath = new_filepath[0] + "_retrieval_ready.pickle"
+new_filepath = "..\\datasets\\UKWAC\\UKWAC-1.xml\\UKWAC-1_retrieval_ready.pickle"
 pickle.dump(texts, open(new_filepath,"wb"))
