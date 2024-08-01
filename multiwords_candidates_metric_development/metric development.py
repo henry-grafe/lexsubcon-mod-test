@@ -123,7 +123,7 @@ def compute_discounted_gain(stripped_gold_list, stripped_generated_list, power=1
                 gold_word_index = -1
                 for k_gold in range(len(stripped_gold_list[i_line][1])):
                     if current_substitute == stripped_gold_list[i_line][1][k_gold][0]:
-                        #print(f"MATCH found, as gold item {current_gold_id}, in generated item {stripped_generated_list[retained_generated_index][0]} : \"{stripped_gold_list[i_line][1][k_gold][0]}\" at rank position {j_rank_position}")
+                        print(f"MATCH found, as gold item {current_gold_id}, in generated item {stripped_generated_list[retained_generated_index][0]} : \"{stripped_gold_list[i_line][1][k_gold][0]}\" at rank position {j_rank_position}")
                         gold_word_index = k_gold
                 if gold_word_index != -1:
                     n_higher_freq_before_in_ranking = np.sum(np.array(freq_lower_in_ranking) >= stripped_gold_list[i_line][1][gold_word_index][1])
@@ -170,7 +170,7 @@ def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_l
                 gold_word_index = -1
                 for k_gold in range(len(stripped_gold_list[i_line][1])):
                     if current_substitute == stripped_gold_list[i_line][1][k_gold][0]:
-                        #print(f"MATCH found, as gold item {current_gold_id}, in generated item {stripped_generated_list[retained_generated_index][0]} : \"{stripped_gold_list[i_line][1][k_gold][0]}\" at rank position {j_rank_position}")
+                        print(f"MATCH found, as gold item {current_gold_id}, in generated item {stripped_generated_list[retained_generated_index][0]} : \"{stripped_gold_list[i_line][1][k_gold][0]}\" at rank position {j_rank_position}")
                         gold_word_index = k_gold
                 if gold_word_index != -1:
                     first_gold_found = True
@@ -189,7 +189,7 @@ def compute_best_answer_discounted_gain(stripped_gold_list, stripped_generated_l
     return total / float(len(stripped_gold_list)), np.array(total_array)
 
 
-generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/homemade_results_multiword_candidates_no_wordnet_autoregressive_full_softmax_bert_uncased_MULTIMASK_GLOSS_6809_probabilites.txt")
+generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__homemade_wordnet_only_improved__6809_probabilites.txt")
 #generated_ranking = obtain_generated_ranking_list("dataset/results/multiwords_candidates_resuts/coinco_results_multiword_candidates__wordnet_only__6809_probabilites.txt")
 #gold_list = obtain_gold_substitutes_list("dataset/LS14/test/coinco_test.gold")
 gold_list = obtain_gold_substitutes_list("homemade_dataset/homemade_dataset.gold")

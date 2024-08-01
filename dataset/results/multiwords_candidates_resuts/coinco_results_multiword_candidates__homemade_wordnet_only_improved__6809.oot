@@ -1,0 +1,204 @@
+crop.N 1 ::: plant life;cash crop;catch crop;cover crop;field crop;root crop;end product
+crop.N 2 ::: plant life;cash crop;catch crop;cover crop;field crop;root crop;end product
+match.N 3 ::: friction match;kitchen match;safety match;book matches;slow match;boxing match;chess match;cricket match;diving event;field event
+match.N 4 ::: friction match;kitchen match;safety match;book matches;slow match;boxing match;chess match;cricket match;diving event;field event
+seal.N 5 ::: sealing wax;great seal;rubber stamp;navy seal;navy man;sailor boy;seal of approval;break seal;piston ring;pinniped mammal
+seal.N 6 ::: sealing wax;great seal;rubber stamp;navy seal;navy man;sailor boy;seal of approval;break seal;piston ring;pinniped mammal
+bank.N 7 ::: depository financial institution;banking concern;banking company;financial institution;financial organization;financial organisation;agent bank;commercial bank;full service bank;credit union
+bank.N 8 ::: depository financial institution;banking concern;banking company;financial institution;financial organization;financial organisation;agent bank;commercial bank;full service bank;credit union
+bat.N 9 ::: placental mammal;eutherian mammal;carnivorous bat;fruit bat;at bat;squash racket;squash racquet;cricket bat;cricket equipment;baseball bat
+bat.N 10 ::: placental mammal;eutherian mammal;carnivorous bat;fruit bat;at bat;squash racket;squash racquet;cricket bat;cricket equipment;baseball bat
+club.N 11 ::: baseball club;ball club;baseball team;social club;chess club;country club;glee club;golf club;hunt club;investors club
+club.N 12 ::: baseball club;ball club;baseball team;social club;chess club;country club;glee club;golf club;hunt club;investors club
+bar.N 13 ::: honky tonk;cocktail lounge;sawdust saloon;cash bar;oyster bar;salad bar;snack bar;snack counter;soda fountain;sushi bar
+bar.N 14 ::: honky tonk;cocktail lounge;sawdust saloon;cash bar;oyster bar;salad bar;snack bar;snack counter;soda fountain;sushi bar
+bark.N 15 ::: natural covering;angostura bark;canella bark;white cinnamon;cascara sagrada;chittam bark;chittem bark;cascarilla bark;eleuthera bark;sweetwood bark
+bark.N 16 ::: natural covering;angostura bark;canella bark;white cinnamon;cascara sagrada;chittam bark;chittem bark;cascarilla bark;eleuthera bark;sweetwood bark
+link.N 17 ::: tie in;linear unit;linear measure;program line;inter group communication;communication channel;radio link;communication system;walkie talkie;walky talky
+link.N 18 ::: tie in;linear unit;linear measure;program line;inter group communication;communication channel;radio link;communication system;walkie talkie;walky talky
+plant.V 19 ::: pass on;pass along;put across
+plant.V 20 ::: pass on;pass along;put across
+catch.V 21 ::: pick up;take hold of;pull in;draw in;hunt down;track down;get on;catch up with;hold in;take in
+drop.V 22 ::: plonk down;plump down;plank down;go down;come down;flump down;fall off;drop down;change posture;drop open
+drop.V 23 ::: plonk down;plump down;plank down;go down;come down;flump down;fall off;drop down;change posture;drop open
+cut.V 24 ::: chip at;cut up;cut off;break off;chop up;cut across;cut away;strike down;cut down;nip off
+cut.V 25 ::: chip at;cut up;cut off;break off;chop up;cut across;cut away;strike down;cut down;nip off
+break.V 26 ::: cut short;break short;break off;hold on;split up;fall apart;come apart;change integrity;break up;break open
+break.V 27 ::: cut short;break short;break off;hold on;split up;fall apart;come apart;change integrity;break up;break open
+break.V 160 ::: cut short;break short;break off;hold on;split up;fall apart;come apart;change integrity;break up;break open
+train.V 28 ::: house train;toilet train;make grow;fine tune;take aim;draw a bead on;work out;hold in
+train.V 29 ::: house train;toilet train;make grow;fine tune;take aim;draw a bead on;work out;hold in
+grow.V 30 ::: spread out;grow over;go up;burgeon forth;make grow;find oneself;grow up;spring up;come forth;well up
+grow.V 31 ::: spread out;grow over;go up;burgeon forth;make grow;find oneself;grow up;spring up;come forth;well up
+sow.V 32 ::: sow in;pass around
+sow.V 33 ::: sow in;pass around
+green.J 34 ::: light green;dark green
+green.J 35 ::: light green;dark green
+sharp.J 36 ::: sharp worded
+sharp.J 37 ::: sharp worded
+heavy.J 38 ::: weighed down;with child
+heavy.J 39 ::: weighed down;with child
+blue.J 40 ::: down in the mouth;low spirited;blue blooded
+blue.J 41 ::: down in the mouth;low spirited;blue blooded
+sweet.J 42 ::: sweet scented;sweet smelling;sweet flavored
+sweet.J 43 ::: sweet scented;sweet smelling;sweet flavored
+round.J 44 ::: pear shaped
+round.J 45 ::: pear shaped
+fast.J 46 ::: 
+fast.J 47 ::: 
+black.J 48 ::: pitch black;pitch dark;black market
+black.J 49 ::: pitch black;pitch dark;black market
+cold.J 50 ::: moth eaten;cold blooded
+cold.J 51 ::: moth eaten;cold blooded
+light.J 52 ::: light colored;light headed;low cal;calorie free
+light.J 53 ::: light colored;light headed;low cal;calorie free
+war.N 54 ::: military action;biological warfare;biological attack;biologic attack;chemical warfare;chemical operations;civil war;hot war;information warfare;international jihad
+war.N 55 ::: military action;biological warfare;biological attack;biologic attack;chemical warfare;chemical operations;civil war;hot war;information warfare;international jihad
+park.N 56 ::: piece of land;piece of ground;parcel of land;national park;safari park;amusement park;pleasure ground;village green;sports stadium;mungo park
+park.N 57 ::: piece of land;piece of ground;parcel of land;national park;safari park;amusement park;pleasure ground;village green;sports stadium;mungo park
+strike.N 58 ::: work stoppage;job action;sit down;sit down strike;sympathy strike;sympathetic strike;wildcat strike;first strike;preventive strike;preventive attack
+strike.N 59 ::: work stoppage;job action;sit down;sit down strike;sympathy strike;sympathetic strike;wildcat strike;first strike;preventive strike;preventive attack
+fight.V 60 ::: bear down;chicken fight;fight back;fight down;join battle;get back;fight off;drive back;hold out;stand firm
+fight.V 61 ::: bear down;chicken fight;fight back;fight down;join battle;get back;fight off;drive back;hold out;stand firm
+jump.V 62 ::: take a hop;hop skip;ski jump;rear back;set on;leap out;jump out;stand out;stick out;climb up
+crash.V 63 ::: go down;come down;go through;go across;break up;break apart;lodge in;barge in;gate crash;go bad
+crash.V 64 ::: go down;come down;go through;go across;break up;break apart;lodge in;barge in;gate crash;go bad
+strike.V 65 ::: knock about;knock down;cut down;push down;pull down;strike hard;hit home;strike home;strike a chord;strike a note
+strike.V 66 ::: knock about;knock down;cut down;push down;pull down;strike hard;hit home;strike home;strike a chord;strike a note
+charge.V 67 ::: bear down;shoot down;pelt along;rush along;cannonball along;bucket along;belt along;step on it;weight down;lie down
+charge.V 68 ::: bear down;shoot down;pelt along;rush along;cannonball along;bucket along;belt along;step on it;weight down;lie down
+charge.V 138 ::: bear down;shoot down;pelt along;rush along;cannonball along;bucket along;belt along;step on it;weight down;lie down
+charge.V 139 ::: bear down;shoot down;pelt along;rush along;cannonball along;bucket along;belt along;step on it;weight down;lie down
+beat.V 69 ::: beat out;get the better of;get the best;have the best;get the jump;get over;spread eagle;walk over;mop up;rack up
+beat.V 70 ::: beat out;get the better of;get the best;have the best;get the jump;get over;spread eagle;walk over;mop up;rack up
+cell.N 71 ::: living thing;animate thing;beta cell;daughter cell;embryonic cell;formative cell;flagellated cell;kupffers cell;leydig cell;leydigs cell
+cell.N 72 ::: living thing;animate thing;beta cell;daughter cell;embryonic cell;formative cell;flagellated cell;kupffers cell;leydig cell;leydigs cell
+wave.N 73 ::: moving ridge;rolling wave;crestless wave;tidal wave;white horse;gravity wave;gravitation wave;shock wave;blast wave;sine wave
+wave.N 74 ::: moving ridge;rolling wave;crestless wave;tidal wave;white horse;gravity wave;gravitation wave;shock wave;blast wave;sine wave
+field.N 75 ::: piece of land;piece of ground;parcel of land;grain field;paddy field;rice paddy;field of battle;field of honor;subject area;subject field
+state.N 76 ::: administrative district;administrative division;territorial division;american state;australian state;canadian province;italian region;soviet socialist republic;eternal damnation;dead letter
+key.N 77 ::: ignition key;passe partout;master key;musical notation;major key;major mode;minor key;minor mode;tonic key;home key
+extract.V 78 ::: pull out;pull up;take out;draw out;take away;wring out;squeeze out;press out;pick out;work out
+extract.V 79 ::: pull out;pull up;take out;draw out;take away;wring out;squeeze out;press out;pick out;work out
+drill.V 80 ::: counter drill;hammer in;drill in;ram down;beat in
+drill.V 81 ::: counter drill;hammer in;drill in;ram down;beat in
+model.V 82 ::: re create;mock up
+wave.V 83 ::: kink up
+monitor.V 84 ::: 
+monitor.V 85 ::: 
+filter.V 86 ::: separate out;filter out;sink in
+filter.V 87 ::: separate out;filter out;sink in
+probe.V 88 ::: look into;re examine;dig into;poke into
+probe.V 89 ::: look into;re examine;dig into;poke into
+plot.V 90 ::: 
+plot.V 91 ::: 
+trip.N 92 ::: round trip;service call;head trip;trip up;foul up;boo boo
+file.N 93 ::: data file;computer file;mug file;mug book;tickler file;single file;indian file;snake dance;file cabinet;filing cabinet
+file.N 94 ::: data file;computer file;mug file;mug book;tickler file;single file;indian file;snake dance;file cabinet;filing cabinet
+note.N 95 ::: written record;written account;short letter;personal letter;musical note;musical notation;blue note;eighth note;grace note;half note
+note.N 96 ::: written record;written account;short letter;personal letter;musical note;musical notation;blue note;eighth note;grace note;half note
+draft.N 97 ::: bill of exchange;order of payment;negotiable instrument;bankers acceptance;bank draft;bankers draft;bank check;dividend warrant;foreign bill;foreign draft
+draft.N 98 ::: bill of exchange;order of payment;negotiable instrument;bankers acceptance;bank draft;bankers draft;bank check;dividend warrant;foreign bill;foreign draft
+sheet.N 99 ::: piece of paper;sheet of paper;revenue stamp;slip of paper;style sheet;tear sheet;bed sheet;bed linen;fitted sheet;contour sheet
+sheet.N 100 ::: piece of paper;sheet of paper;revenue stamp;slip of paper;style sheet;tear sheet;bed sheet;bed linen;fitted sheet;contour sheet
+play.N 101 ::: dramatic play;dramatic composition;dramatic work;grand guignol;miracle play;morality play;mystery play;passion play;satyr play;theater of the absurd
+play.N 102 ::: dramatic play;dramatic composition;dramatic work;grand guignol;miracle play;morality play;mystery play;passion play;satyr play;theater of the absurd
+base.N 103 ::: base of operations;military installation;air base;air station;army base;navy base;rocket base;raft foundation;baseball equipment;first base
+base.N 104 ::: base of operations;military installation;air base;air station;army base;navy base;rocket base;raft foundation;baseball equipment;first base
+drive.V 105 ::: test drive;drive around;force back;push back;beat back;do work;pass over;get over;get across;cut through
+drive.V 106 ::: test drive;drive around;force back;push back;beat back;do work;pass over;get over;get across;cut through
+ride.V 107 ::: ride herd;ride horseback;tool around;go on;go along;depend on;devolve on;depend upon;turn on;hinge on
+ride.V 108 ::: ride herd;ride horseback;tool around;go on;go along;depend on;devolve on;depend upon;turn on;hinge on
+cruise.V 109 ::: 
+cruise.V 110 ::: 
+party.N 111 ::: political party;american labor party;american party;know nothing party;anti masonic party;black panthers;communist party;conservative party;constitutional union party;democratic republican party
+party.N 112 ::: political party;american labor party;american party;know nothing party;anti masonic party;black panthers;communist party;conservative party;constitutional union party;democratic republican party
+bill.N 113 ::: legal document;legal instrument;official document;appropriation bill;bill of attainder;bottle bill;farm bill;trade bill;financial statement;electric bill
+bill.N 114 ::: legal document;legal instrument;official document;appropriation bill;bill of attainder;bottle bill;farm bill;trade bill;financial statement;electric bill
+left.N 115 ::: stage left;left stage;left wing;left hand;left field;piece of land;piece of ground;parcel of land
+campaign.N 116 ::: political campaign;governors race;campaign for governor;senate campaign;senate race;advertising campaign;ad campaign;ad blitz;anti war movement;charm campaign
+campaign.N 117 ::: political campaign;governors race;campaign for governor;senate campaign;senate race;advertising campaign;ad campaign;ad blitz;anti war movement;charm campaign
+house.N 118 ::: dwelling house;beach house;boarding house;fraternity house;frat house;country house;detached house;single dwelling;dolls house;duplex house
+house.N 119 ::: dwelling house;beach house;boarding house;fraternity house;frat house;country house;detached house;single dwelling;dolls house;duplex house
+majority.N 120 ::: absolute majority;relative quantity;legal age
+majority.N 121 ::: absolute majority;relative quantity;legal age
+power.N 122 ::: free will;legal power;physical phenomenon;electrical power;electric power;mental ability;creative thinking;mental faculty;know how;superior skill
+poll.N 123 ::: opinion poll;public opinion poll;exit poll;straw vote;straw poll;top side;upper side;poll parrot
+term.N 124 ::: time period;period of time;prison term;school term;academic term;academic session;term of office;grammatical constituent;major term;middle term
+campaign.V 125 ::: cross file;take the field
+campaign.V 126 ::: cross file;take the field
+stand.V 127 ::: stand up;line up;queue up;stand back;remain firm;hold out;stand firm;stick out;put up;live with
+stand.V 128 ::: stand up;line up;queue up;stand back;remain firm;hold out;stand firm;stick out;put up;live with
+watch.V 129 ::: take in;watch over;keep an eye on;check up on;look into;check out;suss out;check over;go over;check into
+watch.V 130 ::: take in;watch over;keep an eye on;check up on;look into;check out;suss out;check over;go over;check into
+serve.V 131 ::: act as;do work;set up;serve up;dish out;dish up;serve well;attend to;wait on;swear out
+serve.V 132 ::: act as;do work;set up;serve up;dish out;dish up;serve well;attend to;wait on;swear out
+balance.V 133 ::: set off;make up;even out;even off;even up
+balance.V 134 ::: set off;make up;even out;even off;even up
+address.V 135 ::: turn to;blaze away;re address;talk about;come up to;come up;line up
+address.V 136 ::: turn to;blaze away;re address;talk about;come up to;come up;line up
+lead.V 137 ::: lead astray;bring about;give rise;draw away;go far;go deep;take hold;take charge;take control;make pass
+crane.N 140 ::: stephen crane;hart crane;harold hart crane;lifting device;wading bird;whooping crane;grus americana
+crane.N 141 ::: stephen crane;hart crane;harold hart crane;lifting device;wading bird;whooping crane;grus americana
+date.N 142 ::: day of the month;twenty four hours;twenty four hour period;24 hour interval;solar day;mean solar day;natal day;maturity date;due date;blind date
+date.N 143 ::: day of the month;twenty four hours;twenty four hour period;24 hour interval;solar day;mean solar day;natal day;maturity date;due date;blind date
+box.N 144 ::: ballot box;jewel casket;cereal box;cigar box;letter box;pencil box;pencil case;play box;poor box;alms box
+ring.N 145 ::: anchor ring;fairy ring;fairy circle;snap ring;curtain ring;key ring;napkin ring;nose ring;towel ring;closed chain
+ring.N 146 ::: anchor ring;fairy ring;fairy circle;snap ring;curtain ring;key ring;napkin ring;nose ring;towel ring;closed chain
+run.N 147 ::: earned run;run batted in;unearned run;clinical trial;clinical test;double blind;field trial;try on;trying on;mot test
+run.N 148 ::: earned run;run batted in;unearned run;clinical trial;clinical test;double blind;field trial;try on;trying on;mot test
+fair.N 149 ::: book fair;cut rate sale;sales event;craft fair
+bow.N 150 ::: violin bow;weapon system;cupids bow;curved shape;curtain call;down bow;up bow
+bow.N 151 ::: violin bow;weapon system;cupids bow;curved shape;curtain call;down bow;up bow
+match.V 152 ::: bear out;fit in;conform to;bring together;cope with;get by;make out;make do;play off
+match.V 153 ::: bear out;fit in;conform to;bring together;cope with;get by;make out;make do;play off
+box.V 154 ::: 
+box.V 155 ::: 
+run.V 156 ::: travel rapidly;run bases;turn tail;run away;hightail it;head for the hills;take to the woods;fly the coop;break away;go forth
+run.V 157 ::: travel rapidly;run bases;turn tail;run away;hightail it;head for the hills;take to the woods;fly the coop;break away;go forth
+clip.V 158 ::: nip off;snip off;cut back;thin out;cut short
+clip.V 159 ::: nip off;snip off;cut back;thin out;cut short
+crack.V 161 ::: break through;go through;go across;split up;fall apart;come apart;break in;crack up;crock up;break up
+play.V 162 ::: face off;bully off;line up;play out;put out;tee off;teeter totter;play along;sound off;strike up
+play.V 163 ::: face off;bully off;line up;play out;put out;tee off;teeter totter;play along;sound off;strike up
+roll.V 164 ::: turn over;roll out;jazz around;sound out;change shape;change form;roll up
+roll.V 165 ::: turn over;roll out;jazz around;sound out;change shape;change form;roll up
+draw.V 166 ::: pull in;draw in;pull off;pick off;pull back;create by mental act;create mentally;pull out;get out;take out
+draw.V 167 ::: pull in;draw in;pull off;pick off;pull back;create by mental act;create mentally;pull out;get out;take out
+table.N 168 ::: tabular array;actuarial table;statistical table;table of contents;correlation table;file allocation table;periodic table;piece of furniture;article of furniture;communion table
+table.N 169 ::: tabular array;actuarial table;statistical table;table of contents;correlation table;file allocation table;periodic table;piece of furniture;article of furniture;communion table
+clip.N 170 ::: cartridge holder;cartridge clip;supply chamber;pincurl clip;bicycle clip;trouser clip;bulldog clip;alligator clip;hair slide;paper clip
+clip.N 171 ::: cartridge holder;cartridge clip;supply chamber;pincurl clip;bicycle clip;trouser clip;bulldog clip;alligator clip;hair slide;paper clip
+scale.N 172 ::: scale of measurement;graduated table;ordered series;beaufort scale;wind scale;logarithmic scale;mercalli scale;mohs scale;moment magnitude scale;richter scale
+scale.N 173 ::: scale of measurement;graduated table;ordered series;beaufort scale;wind scale;logarithmic scale;mercalli scale;mohs scale;moment magnitude scale;richter scale
+board.N 174 ::: advisory board;planning board;appeal board;appeals board;board of appeals;board of selectmen;board of directors;draft board;federal reserve board;governing board
+board.N 175 ::: advisory board;planning board;appeal board;appeals board;board of appeals;board of selectmen;board of directors;draft board;federal reserve board;governing board
+point.N 176 ::: intersection point;point of intersection;blind spot;optic disc;optic disk;celestial point;focal point;geographic point;geographical point;ground zero
+point.N 177 ::: intersection point;point of intersection;blind spot;optic disc;optic disk;celestial point;focal point;geographic point;geographical point;ground zero
+case.N 178 ::: natural event;legal proceeding;civil suit;class action;class action suit;criminal suit;paternity suit;bastardy proceeding;cigarette case;powder compact
+case.N 179 ::: natural event;legal proceeding;civil suit;class action;class action suit;criminal suit;paternity suit;bastardy proceeding;cigarette case;powder compact
+post.N 180 ::: observation post;military post;military installation;line of work;hot seat;public office;feudal lordship;vice presidency;carrick bitt;corner post
+post.N 181 ::: observation post;military post;military installation;line of work;hot seat;public office;feudal lordship;vice presidency;carrick bitt;corner post
+line.N 182 ::: chorus line;rivet line;bar line;cross hair;cross wire;dotted line;isometric line;ledger line;leger line;spectrum line
+line.N 183 ::: chorus line;rivet line;bar line;cross hair;cross wire;dotted line;isometric line;ledger line;leger line;spectrum line
+plant.N 184 ::: industrial plant;building complex;bottling plant;manufacturing plant;packing plant;recycling plant;sewage disposal plant;disposal plant;plant life;air plant
+plant.N 185 ::: industrial plant;building complex;bottling plant;manufacturing plant;packing plant;recycling plant;sewage disposal plant;disposal plant;plant life;air plant
+block.N 186 ::: chopping block;square block;metal bar;block of metal;inking pad;stamp pad;starting block;swage block;city block;living accommodations
+block.N 187 ::: chopping block;square block;metal bar;block of metal;inking pad;stamp pad;starting block;swage block;city block;living accommodations
+file.V 188 ::: file away;put down
+file.V 189 ::: file away;put down
+change.V 190 ::: speed up;bear upon;bear on;touch on;wake up;break up;break down;lighten up;cause to sleep;change intensity
+change.V 191 ::: speed up;bear upon;bear on;touch on;wake up;break up;break down;lighten up;cause to sleep;change intensity
+draft.V 192 ::: muster in
+draft.V 193 ::: muster in
+post.V 194 ::: stick on;put down;ride horseback;put up;put in;set up;express mail
+post.V 195 ::: stick on;put down;ride horseback;put up;put in;set up;express mail
+mail.V 196 ::: get off;send out;express mail
+report.V 197 ::: check in;sign in;check out;clock out;punch out;clock off;sound off
+report.V 198 ::: check in;sign in;check out;clock out;punch out;clock off;sound off
+clock.V 199 ::: 
+clock.V 200 ::: 
+paper.V 201 ::: 
+paper.V 202 ::: 
+sign.V 203 ::: sign on;sign up;contract out
+sign.V 204 ::: sign on;sign up;contract out

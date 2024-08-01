@@ -188,6 +188,13 @@ if __name__ == "__main__":
     count_gloss = 0
     iter_index = 0
     not_found = {}
+    def keep_only_multiwords(dic):
+        new_dic = {}
+        for word, score in dic.items():
+            if len(word.split(' ')) > 1:
+                new_dic[word] = score
+        return new_dic
+    
     for main_word in tqdm(reader.words_candidate):
         for instance in reader.words_candidate[main_word]:
             for context in reader.words_candidate[main_word][instance]:
@@ -213,12 +220,13 @@ if __name__ == "__main__":
                     if args.use_wordnet_for_candidates:
                         proposed_words = noise_gloss.created_proposed_list(main_word.split('.')[0], wordnet_gloss,
                                                                            main_word.split('.')[-1])
+                        proposed_words = keep_only_multiwords(proposed_words)
                     else:
                         print("not using wordnet candidates")
                         proposed_words = {}
 
                     # =============================================
-                    if len(proposed_words) > 30:
+                    if len(proposed_words) >= 0:
                         pass
 
                     else:
