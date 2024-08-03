@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import os
 
-UKWAC_dir = "C:/Users/NICOLAS/Documents/KULeuven/master_thesis/datasets/UKWAC/"
+UKWAC_dir = "/home/user/Documents/KULeuven/Master Thesis/datasets/UKWAC"
 
 for i in range(25):
     filepath = os.path.join(UKWAC_dir, "UKWAC-"+str(i+1)+"_processing_ready.xml")
@@ -37,8 +37,8 @@ for i in range(25):
                     vocab[word]+=1
                 else:
                     vocab[word]=1
-                for i in range(len(word)):
-                    char = str(word[i])
+                for j in range(len(word)):
+                    char = str(word[j])
                     if char in vocab_characters:
                         vocab_characters[char]+=1
                     else:

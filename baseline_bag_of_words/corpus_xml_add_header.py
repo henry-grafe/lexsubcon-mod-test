@@ -1,8 +1,8 @@
 import os
 from tqdm import tqdm
-UKWAC_dir = "C:/Users/NICOLAS/Documents/KULeuven/master_thesis/datasets/UKWAC/"
+UKWAC_dir = "/home/user/Documents/KULeuven/Master Thesis/datasets/UKWAC"
 
-for i in tqdm(range(4,25)):
+for i in tqdm(range(5)):
     filepath = os.path.join(UKWAC_dir, "UKWAC-"+str(i+1)+".xml")
 
     f = open(filepath,'r',encoding='latin5')
