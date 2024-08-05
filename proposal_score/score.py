@@ -415,10 +415,7 @@ class Cmasked:
                             proposed_words_temp=None):
         
         score_dict_multitokens = {}
-<<<<<<< HEAD
-=======
         target_word_for_here = word
->>>>>>> f68167961c5db5fd546bf3b7d47e7b6f986d256d
         for num_of_mask_token in range(2,3):
             text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
                                                                                                  noise_type, num_of_mask_token=num_of_mask_token)
@@ -481,7 +478,7 @@ class Cmasked:
             output_prediction_multimask = output_multimask[0][0][target_word_start_index_multimask:(target_word_end_index_multimask+1)]
             output_prediction_multimask = F.softmax(output_prediction_multimask, dim=1)
             #print(output_prediction_multimask.size())
-            score_dict_multitokens[num_of_mask_token] = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="arithmetic")
+            score_dict_multitokens[num_of_mask_token] = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="geometric")
             
         return score_dict_multitokens
 
