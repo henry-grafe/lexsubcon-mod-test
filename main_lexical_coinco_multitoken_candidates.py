@@ -222,7 +222,7 @@ if __name__ == "__main__":
                         pass
 
                     else:
-                        if args.noise_type == "GLOSS":
+                        if args.noise_type in ["GLOSS", "MULTIMASK-GLOSS"]:
                             """
                             find the probable gloss of each word
                             """
