@@ -311,13 +311,21 @@ class Cmasked:
         words_dict = self.multi_tokens_dictionaries[num_mask_tokens]
         max_score = 0
         max_word="null"
-        for word in words_dict:
-            word_ids = words_dict[word]
-            score_dict[word] = 0.
-            for i in range(num_mask_tokens):
-                score_dict[word] += np.log(output_predictions_softmax[i][word_ids[i]])
-            score_dict[word] = np.exp(score_dict[word]/float(i))
-        
+        if method == "geometric":
+            for word in words_dict:
+                word_ids = words_dict[word]
+                score_dict[word] = 0.
+                for i in range(num_mask_tokens):
+                    score_dict[word] += np.log(output_predictions_softmax[i][word_ids[i]])
+                score_dict[word] = np.exp(score_dict[word]/float(i))
+        if method == "arithmetic":
+            for word in words_dict:
+                word_ids = words_dict[word]
+                score_dict[word] = 0.
+                for i in range(num_mask_tokens):
+                    score_dict[word] += output_predictions_softmax[i][word_ids[i]]
+                score_dict[word] = score_dict[word]/float(i)
+                
         return score_dict
 
     def proposed_candidates(self, sentences, word, word_id, noise_type, synonyms=[], top_k=30,
@@ -407,7 +415,7 @@ class Cmasked:
                             proposed_words_temp=None):
         
         score_dict_multitokens = {}
-        for num_of_mask_token in range(2,5):
+        for num_of_mask_token in range(2,3):
             text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
                                                                                                  noise_type, num_of_mask_token=num_of_mask_token)
             #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
@@ -466,7 +474,7 @@ class Cmasked:
             output_prediction_multimask = output_multimask[0][0][target_word_start_index_multimask:(target_word_end_index_multimask+1)]
             output_prediction_multimask = F.softmax(output_prediction_multimask, dim=1)
             #print(output_prediction_multimask.size())
-            score_dict_multitokens[num_of_mask_token] = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="geometric")
+            score_dict_multitokens[num_of_mask_token] = self.compute_multitoken_dict_score(output_prediction_multimask.detach().cpu().numpy(), method="arithmetic")
             
         return score_dict_multitokens
 
