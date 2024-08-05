@@ -407,12 +407,12 @@ class Cmasked:
                             proposed_words_temp=None):
         
         score_dict_multitokens = {}
-        for num_of_mask_token in range(2,3):
+        for num_of_mask_token in range(2,5):
             text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
                                                                                                  noise_type, num_of_mask_token=num_of_mask_token)
             #print(text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask)
         
-            if noise_type == "MASKED":
+            if noise_type in ["MASKED", "MULTIMASK-GLOSS"]:
                 text_temp, target_word_start_index_temp, target_word_end_index_temp, features_temp = self.pre_processed_text_temp(
                     sentences, word_id,
                     noise_type)
@@ -454,7 +454,7 @@ class Cmasked:
             possible_index = self.possible_index[:]
             # not the same word
             try:
-                if noise_type == "MASKED":
+                if noise_type in ["MASKED", "MULTIMASK-GLOSS"]:
                     possible_index.remove(
                         self.tokenizer.convert_tokens_to_ids(text_temp.split(" ")[target_word_start_index_multimask]))
                 else:
