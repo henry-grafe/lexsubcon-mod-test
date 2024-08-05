@@ -407,7 +407,7 @@ class Cmasked:
                             proposed_words_temp=None):
         
         score_dict_multitokens = {}
-        target_word = word
+        target_word_for_here = word
         for num_of_mask_token in range(2,3):
             text_multimask, target_word_start_index_multimask, target_word_end_index_multimask, features_multimask = self.pre_processed_text_multitoken(sentences, word_id,
                                                                                                  noise_type, num_of_mask_token=num_of_mask_token)
@@ -447,9 +447,10 @@ class Cmasked:
 
             if len(synonyms_id) == 0:
                 synonyms_id = None
-                print(f"{target_word} : no synonyms found for target word !")
+                print(f"{target_word_for_here} : no synonyms found for target word !")
+                print(synonyms)
             else:
-                print(f"{target_word} : synonyms found : {synonyms_id}")
+                print(f"{target_word_for_here} : synonyms found : {synonyms_id}")
             with torch.no_grad():
                 output_multimask = self.model(input_ids=input_ids_multimask, token_type_ids=segment_ids_multimask, attention_mask=input_mask_multimask,
                                     noise_type=noise_type, word_index=masked_id, input_ids_synonyms=synonyms_id)
